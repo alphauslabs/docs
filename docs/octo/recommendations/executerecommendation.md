@@ -123,7 +123,14 @@ Currently, Octo supports the following recommendations below. More recommendatio
     |  Stop RDS DB instance                             | Cost Optimization Hub   | Stop     |
     |  Low Utilization instance Amazon EC2 Instances    | Trusted Advisor         | Stop     |
     |  Rightsize EC2 instance                           | Cost Explorer           | Rightsize|
+    |  Terminate EC2 instance                           | Cost Explorer           | Delete   |
     |  Rightsize RDS DB instance                        | Cost Optimization Hub   | Rightsize|
     |  Rightsize ECS service                            | Cost Optimization Hub   | Rightsize|
     |  Rightsize Lambda function                        | Cost Optimization Hub   | Rightsize|
     |  Rightsize EC2 Auto Scaling group                 | Cost Optimization Hub   | Rightsize|
+    |  Rightsize RDS DB instance storage                | Cost Optimization Hub   | Rightsize|
+    |  Upgrade EC2 Auto Scaling group                   | Cost Optimization Hub   | Upgrade  |
+    |  Upgrade EC2 instance                             | Cost Optimiazation Hub  | Upgrade  |
+    |  Upgrade RDS DB instance                          | Cost Optimization Hub   | Upgrade  |
+    |  Upgrade RDS DB instance storage                  | Cost Optimization Hub   | Upgrade  |
+    
