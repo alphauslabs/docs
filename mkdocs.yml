@@ -53,6 +53,7 @@ nav:
       - "octo/costgroup.md"
       - "octo/channel-management.md"
       - "octo/alerts-management.md"
+      - "octo/aicost.md"
       - "Recommendation":
           - "octo/recommendations/about.md"
           - "AWS Generated Recommendations":
