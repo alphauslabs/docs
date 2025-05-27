@@ -51,6 +51,7 @@ nav:
       - "octo/samlsso.md"
       - "octo/costallocation.md"
       - "octo/costgroup.md"
+      - "octo/container-cost.md"
       - "octo/channel-management.md"
       - "octo/alerts-management.md"
       - "Recommendation":
