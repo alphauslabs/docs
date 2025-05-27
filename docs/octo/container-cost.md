@@ -91,7 +91,7 @@ After enabling SCAD and allowing time for the data to populate in your Cost and 
 
 ---
 
-## 🔍 What You’ll See
+## What You’ll See
 
 When viewing a **Container Cost group**, you’ll access a dedicated **Insights** tab that displays container-level cost and usage data.
       ![Container Cost Group - Main View](https://lh3.googleusercontent.com/d/12_w9eLmabi8hPc8MWYESYfthnXUSi9a2)
