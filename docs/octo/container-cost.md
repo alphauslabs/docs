@@ -123,4 +123,3 @@ For **EKS workloads**, you can group costs and usage by:
 ![EKS Cost](https://lh3.googleusercontent.com/d/1RnraONKN3Lj7cIgHeIRbTnVV3g9IwIuy)
 ![EKS Usage](https://lh3.googleusercontent.com/d/1Kc342yQhCQc-cIb9KguboNFJoCFnwIwp)
 
-These insights help you uncover inefficiencies, identify high-cost workloads, and align cloud usage with your actual operational needs.
