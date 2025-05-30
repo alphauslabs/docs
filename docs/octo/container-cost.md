@@ -4,6 +4,10 @@
 
 Built on **AWS Split Cost Allocation Data (SCAD)**, this feature brings transparent, workload-level attribution to your container infrastructure costs, allowing you to understand what you're spending, where, and why.
 
+<div style="border-left: 4px solid #007acc; padding: 0.75em 1em; background-color: #f0f8ff;">
+  <strong>Note:</strong> Container Cost supports <strong>AWS</strong> only, with plans to support other cloud platforms in the future.
+</div>
+
 ## What is Container Cost?
 
 In traditional cloud billing models, container costs are difficult to isolate because containers share compute and memory resources. Container Cost solves this problem by utilizing AWS SCAD to break down shared infrastructure costs and attribute them to individual containers, tasks, pods, or services.
@@ -67,7 +71,10 @@ To use Container Cost, **Split Cost Allocation Data (SCAD)** must be enabled in 
         - **Resource IDs**
         - **Hourly granularity**
 
-> **SCAD data may take up to **24 hours** to appear in your CUR after being enabled.**
+<div style="border-left: 4px solid #007acc; padding: 0.75em 1em; background-color: #f0f8ff;">
+  <strong>Note:</strong> SCAD data may take up to <strong>24 hours</strong> to begin appearing in your Cost and Usage Report (CUR).
+</div>
+
 
 ---
 
@@ -76,17 +83,17 @@ To use Container Cost, **Split Cost Allocation Data (SCAD)** must be enabled in 
 After enabling SCAD and allowing time for the data to populate in your Cost and Usage Report (CUR), you can now create a **Container Cost Group** in OCTO to visualize your container cost and usage.
 
 1. **Navigate to Cost Group Manager** in OCTO and click **Create Cost Group**
-      ![Step 1: Create Container Cost Group](https://lh3.googleusercontent.com/d/1PaeKVunuAiJZq_CehYWyfsKfoZve4URe)
+      ![Step 1: Create Container Cost Group](https://lh3.googleusercontent.com/d/14UqAxhDJDgyydCncgip87LPv7n8S1cHu)
 2. **Choose the _Container Cost_ option**
       ![Step 2: Select Container Cost Option](https://lh3.googleusercontent.com/d/1-jJwaTdGrAAP_Gq5aJsRTMP7iZ8ibu8i)
 3. **Select supported services** (ECS and/or EKS) to include in your cost group
-      ![Step 3: Select Supported Services (ECS/EKS)](https://lh3.googleusercontent.com/d/1YrFIXGWwvjsY_tt93YLX5UWjLrFDx9ql)
+      ![Step 3: Select Supported Services (ECS/EKS)](https://lh3.googleusercontent.com/d/1yzhKbDpBBPbKoZ36qilNaDfoJJw9cJer)
 4. **Fill out the basic details**, then continue through the remaining setup steps
 5. **Click _Confirm and create_** to finalize the container cost group
       ![Step 5: Create](https://lh3.googleusercontent.com/d/1YLcELFX-DxyBB2Qqh_95pGtVLM2XLdyR)
 
 6. **Once created**, your cost group will appear in the list with a **dedicated Insights tab**, where you can explore container-level cost and usage across multiple dimensions.
-      ![Step 6: Container Cost Group Overview](https://lh3.googleusercontent.com/d/1oEkjTFFAM5t7otQvist92JLFfgs961G0)
+      ![Step 6: Container Cost Group Overview](https://lh3.googleusercontent.com/d/1Q8s0qTFFaZrdSHAgzrPciN63MwJJ1z5Y)
 
 
 ---
@@ -94,7 +101,7 @@ After enabling SCAD and allowing time for the data to populate in your Cost and 
 ## What You’ll See
 
 When viewing a **Container Cost group**, you’ll access a dedicated **Insights** tab that displays container-level cost and usage data.
-      ![Container Cost Group - Main View](https://lh3.googleusercontent.com/d/12_w9eLmabi8hPc8MWYESYfthnXUSi9a2)
+      ![Container Cost Group - Main View](https://lh3.googleusercontent.com/d/1gjSTmT8kdnEcVXGo6F5VlXyiVgfEG5uo)
 
 For **ECS workloads**, you can group costs and usage by:
 
@@ -104,8 +111,8 @@ For **ECS workloads**, you can group costs and usage by:
 - EC2 Instance
 - Tagged
 
-![ECS Cost](https://lh3.googleusercontent.com/d/1qBdACL1T-QWCYomPEEmkO9vMjKfn22DO)
-![ECS Usage](https://lh3.googleusercontent.com/d/1-eJD-cJ52EDTydRXhOpIc88mTNOvaQ44)
+![ECS Cost](https://lh3.googleusercontent.com/d/1Ka1L8L2nJ-JDtPztOCWeSiqcp7v9kk9Z)
+![ECS Usage](https://lh3.googleusercontent.com/d/1oOGdAGtuo7KAMxssjR8IymTldnTcQHvU)
 
 
 For **EKS workloads**, you can group costs and usage by:
@@ -120,6 +127,6 @@ For **EKS workloads**, you can group costs and usage by:
 - EC2 Instance
 - Tagged
 
-![EKS Cost](https://lh3.googleusercontent.com/d/1RnraONKN3Lj7cIgHeIRbTnVV3g9IwIuy)
-![EKS Usage](https://lh3.googleusercontent.com/d/1Kc342yQhCQc-cIb9KguboNFJoCFnwIwp)
+![EKS Cost](https://lh3.googleusercontent.com/d/1b-Gj529LRL9c5iVHrUexstBmqHxJDsVO)
+![EKS Usage](https://lh3.googleusercontent.com/d/1_zBQr66jII9G8_oyev4ZFvg1NImJ6pS1)
 
