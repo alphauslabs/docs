@@ -67,6 +67,8 @@ nav:
               - "octo/recommendations/octo/aws.md"
           - "octo/recommendations/executerecommendation.md"
       - "octo/unitcost.md"
+      - "Unit Economics":
+          - "octo/uniteconomics/unitmetrics.md"       
   - "Blue API":
       - "blueapi/overview.md"
       - "blueapi/authentication.md"
