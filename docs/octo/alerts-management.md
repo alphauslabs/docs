@@ -1,8 +1,8 @@
 # Alerts Management
 
-As of this writing, Octo has three types of alerts: **cost**, **anomaly detection**, and **discount expiration**. We'll be discussing how to create alerts on each type. Before this, make sure you have at least one channel created in the Channel Management page.
+As of this writing, Octo has three types of alerts: **cost**, **anomaly detection**, **discount expiration** and **Budget Alerts** . We'll be discussing how to create alerts on each type. Before this, make sure you have at least one channel created in the Channel Management page.
 
-## Navigate to the Channel Management Tab
+## Navigate to the Alerts Management Tab
 
 - Locate the gear or cog icon on the top right corner of the app header, just beside your profile picture. You will see a curation of tabs
 - Under the the `NOTIFICATION` section, click `Alerts Management`
@@ -46,6 +46,20 @@ Currently, this feature supports **AWS** only. To create a new alert, follow the
 - Select frequencies. You can choose as many as needed.
 - Select which channels you would like the alerts to be sent to
 - Click `CREATE ALERT`
+
+### Budget Alert
+
+The Budget Alert feature allows you to receive notifications when your spending exceeds your budget. These alerts help you stay informed about any budget overruns.
+
+**Note:** To create a budget alert, make sure you have already created a budget.
+
+- Navigate to the `BUDGET ALERT` tab  
+- Click the `View Details` of an existing budget  
+- Click `CREATE BUDGET ALERT` and a popup dialog box should appear  
+- Set cost values and percentage of the total budget for threshold  
+- Select which channels you would like the alerts to be sent to  
+- Click `CREATE ALERT`
+
 
 ## Editing an Alert
 
