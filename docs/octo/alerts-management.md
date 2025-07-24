@@ -105,6 +105,7 @@ The Budget Alert feature allows you to receive notifications when your spending 
 - Confirm the deletion
 
 ## Enable/Disable an Alert (Anomaly Detection and Discount Expiration Alerts)
+![Enable/Disable](https://drive.google.com/uc?export=view&id=1rUKUAlhb_RqZngmMAtm_ke65lIwkiMcB)
 
 - Navigate to the actions column of the specific alert
 - Click the toggle switch to enable or disable the alert
