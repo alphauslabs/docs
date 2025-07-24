@@ -43,3 +43,5 @@ From here, you will see three cards which separate your channels per type. Click
 - Simply click the trash icon and you're good to go.
 
 Once you've got your channels set up, you can use these in creating alerts.
+
+https://photos.fife.usercontent.google.com/pw/AP1GczORwMDZcm8Vo5aggO2ZS1i76mDmKpP7E2jqItDccYIJh8IqB2COkfA=w1592-h166-s-no-gm?authuser=0
