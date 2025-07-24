@@ -6,7 +6,7 @@ Receive alerts from Octo through three ways: **email**, **Slack**, and **MS Team
 
 - Locate the gear or cog icon on the top right corner of the app header, just beside your profile picture. You will see a curation of tabs
 - Under the the `NOTIFICATION` section, click `Channel Management`
-![Channel Management](https://drive.googleusercontent.com/uc?export=view&id=1Wo6ve2o_MuG7O_21Ak_cB71TkMeCH2pb)
+![Channel Management](https://drive.google.com/uc?export=view&id=1Wo6ve2o_MuG7O_21Ak_cB71TkMeCH2pb)
 
 ## Creating a Channel
 
