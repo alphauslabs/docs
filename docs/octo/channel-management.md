@@ -7,7 +7,7 @@ Receive alerts from Octo through three ways: **email**, **Slack**, and **MS Team
 - Locate the gear or cog icon on the top right corner of the app header, just beside your profile picture. You will see a curation of tabs
 - Under the the `NOTIFICATION` section, click `Channel Management`
 
-![Channel Management](https://drive.google.com/uc?export=view&id=1Wo6ve2o_MuG7O_21Ak_cB71TkMeCH2pb)
+![Channel Management](https://drive.google.com/uc?export=view&id=14eAPZVe5ejyph0nogjP5NvhdL-B0nA1I)
 
 ## Creating a Channel
 
@@ -15,7 +15,7 @@ From here, you will see three cards which separate your channels per type. Click
 
 ### Slack
 
-![Slack](https://drive.google.com/uc?export=view&id=1_CRktBSUkfxkT2yMuW5B77sA162U6JRW)
+![Slack](https://drive.google.com/uc?export=view&id=1AC_Kfe1_qMM99uutTTSo5p7Z19Wg91ua)
 
 - Input a channel name to your Slack channel and click `SAVE`.
 - This will take you to a new tab prompting you to select the Slack channel you want to connect to Octo.
@@ -25,7 +25,7 @@ From here, you will see three cards which separate your channels per type. Click
 
 ### MS Teams
 
-![MS Teams](https://drive.google.com/uc?export=view&id=1ulqD5DMWIYyLz9g1AlJeLycyhTbz1MZX)
+![MS Teams](https://drive.google.com/uc?export=view&id=1eUrFVu-bl-P9ITk28t-1d9oAFR8HTWsJ)
 
 - First, go to your MS Teams' channel and create a webhook. You can refer how to do so [here](https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook?tabs=newteams%2Cdotnet#create-an-incoming-webhook).
 - Input a channel name to your MS Teams channel and click `NEXT`.
@@ -33,7 +33,7 @@ From here, you will see three cards which separate your channels per type. Click
 
 ### Email
 
-![Email](https://drive.google.com/uc?export=view&id=1L_8s82EzTCv-Idi0CSt_R7RmngZmmujO)
+![Email](https://drive.google.com/uc?export=view&id=171rvk7754VvgvxJHtYQx-cbng4Q8jU9G)
 
 - This is pretty straightforward. Just supply the channel name which could serve as a nickname or shorthand of your actual email.
 - Click `NEXT` and supply your email address.
