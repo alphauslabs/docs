@@ -41,11 +41,15 @@ From here, you will see three cards which separate your channels per type. Click
 
 ## Editing a Channel
 
+![Edit](https://drive.google.com/uc?export=view&id=1JvkKqSB9Z9aTKda6hv2v3-N4pXGDOk_Q)
+
 - Click the channel type card to expand the list of channels you have.
 - Simply click the pen icon and supply the edits. This process should be similar to creating a channel.
 - Click `SAVE`.
 
 ## Deleting a Channel
+
+![Delete](https://drive.google.com/uc?export=view&id=1Xx_D3csLtomZWbIez2HhL-rmKYKiFlFy)
 
 - Click the channel type card to expand the list of channels you have.
 - Simply click the trash icon and you're good to go.
