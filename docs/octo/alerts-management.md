@@ -1,6 +1,6 @@
 # Alerts Management
 
-As of this writing, Octo has three types of alerts: **cost**, **anomaly detection**, **discount expiration** and **Budget Alerts** . We'll be discussing how to create alerts on each type. Before this, make sure you have at least one channel created in the Channel Management page.
+As of this writing, Octo has four types of alerts: **cost**, **anomaly detection**, **discount expiration** and **budget alerts** . We'll be discussing how to create alerts on each type. Before this, make sure you have at least one channel created in the Channel Management page.
 
 ## Navigate to the Alerts Management Tab
 
