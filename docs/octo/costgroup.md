@@ -142,6 +142,22 @@ Add **Tag Filters** to include/exclude resources based on cost allocation tags s
 - `Environment = Production`
 - `Project = Alpha`
 
+#### Change Cloud Provider
+
+If you need to modify your cloud provider selection during the setup process:
+
+**Delete Current Provider**: Click the trash icon to remove and change the current cloud provider or vendor.
+
+![Delete Vendor](https://drive.google.com/uc?export=view&id=1JhT7cNAyFvpAn8E0yVINnat7OVQwWPQY)
+
+**Add New Provider**: Click the **+Add Provider** button to select a different cloud provider.
+
+![Add Provider](https://drive.google.com/uc?export=view&id=1BNaKBBqfAGjZffwBL0HTICN91odifl1S)
+
+**Select and Confirm**: Choose your desired provider from the available options and click the **Confirm** button to apply the changes.
+
+![Select Provider](https://drive.google.com/uc?export=view&id=14uBpfoyMBLn33TTgkXZkaDS0N_JtyiQE)
+
 Click **CREATE COST GROUP** to finalize the cost group setup.
 
 ---
