@@ -20,138 +20,151 @@ Cost groups in OCTO are a flexible and powerful tool designed to help you better
 
 ## Managing Cost Groups
 
-Cost Groups is a key feature in OCTO as discussed in this article. This time, we will tackle how to manage your cost groups efficiently. We shall cover how to create, edit, remove, and view cost groups.
+Cost Groups is a key feature in OCTO as discussed in this article. This section covers how to manage your cost groups efficiently, including how to create, edit, remove, and view cost groups.
 
 > **Note:** Only Admin accounts can create, edit, and remove cost groups.
 
 ### Creating a Cost Group
 
-Head to the left side panel section and select 'Cost Group'. Click the '+ CREATE COST GROUP' button and supply basic information such as cost group name and description. You might as well change the avatar and color to your liking. Then create combinations.
+Head to the left side panel section and select **Cost Group**. Click the **+ CREATE COST GROUP** button and supply basic information such as cost group name and description. You might as well change the avatar and color to your liking. Then create combinations.
 
 ![CostGroup Management](https://drive.google.com/uc?export=view&id=1WxnW6Ffhb4UmtddolM_mcfgPoI0dbx5U)
 
-## 🚀 Step 1: Create a New Cost Group
+---
 
-- Navigate to the **Cost Groups** section.
-- Click on **`+ CREATE COST GROUP`** to begin.
+## Step 1: Create a New Cost Group
+
+- Navigate to the **Cost Groups** section
+- Click on **+ CREATE COST GROUP** to begin
 
 ![Create Cost Group](https://drive.google.com/uc?export=view&id=1ePgZP_HZX6fnHp1IonSg_AVpdBDTIDBa)
 
 ---
 
-## 🔧 Step 2: Select a Cost Group Type
+## Step 2: Select a Cost Group Type
 
 You can create a cost group using one of three approaches:
 
-### 🛠️ 1. Manual Creation
+### 1. Manual Creation
 
 Choose **Manual Creation** to have full control over which AWS or cloud resources to include.
 
-> This option allows you to manually select cloud assets by applying filters based on multiple attributes. These attributes include:
->
-> - **Account ID**
-> - **Service**
-> - **Region**
-> - **Usage Type**
-> - **Instance Type**
-> - **Availability Zone**
-> - **API Operation**
-> - **Invoice ID**
->
-> You can define each filter using the operations:  
-> - `is` (equals to the value)  
-> - `is not` (not equals to the value)
+This option allows you to manually select cloud assets by applying filters based on multiple attributes. These attributes include:
+
+- **Account ID**
+- **Service**
+- **Region**
+- **Usage Type**
+- **Instance Type**
+- **Availability Zone**
+- **API Operation**
+- **Invoice ID**
+
+You can define each filter using the operations:
+
+- `is` (equals to the value)
+- `is not` (not equals to the value)
+- `AND` (combine multiple conditions that must all be true)
+- `OR` (combine multiple conditions where at least one must be true)
 
 ![Manual Creation](https://drive.google.com/uc?export=view&id=1S5Y4Z8Oep06X246gzSBSU0cOqqzwfIo1)
 
-#### Steps:
+#### Define Cost Group Details
 
-**Define Cost Group Details**  
 Provide a descriptive name and personalize the group with an avatar and color.
 
 ![Fill CostGroup Details](https://drive.google.com/uc?export=view&id=1QvT9lnq3_-aUR0LOCCV1yWeh5FL6crpx)
 
-**Add Filters**  
+#### Add Filters
+
 Select attributes from the following options and apply operations:
 
-| Attribute         | Example Value            | Description                                 |
-|-------------------|--------------------------|---------------------------------------------|
-| **Account ID**     | `123456789012`           | AWS account number                          |
-| **Service**        | `Amazon EC2`, `Amazon S3`| AWS services                                |
-| **Region**         | `us-east-1`, `ap-southeast-1` | AWS region                                |
-| **Usage Type**     | `BoxUsage:m5.large`      | Type of usage measured                      |
-| **Instance Type**  | `t3.micro`, `m5.large`   | EC2 instance types                          |
-| **Availability Zone** | `us-east-1a`         | Specific zone within the selected region    |
-| **API Operation**  | `RunInstances`, `GetObject` | The AWS API request performed            |
-| **Invoice ID**     | `1234-5678`              | Invoice identifier for cost grouping        |
+| Attribute | Example Value | Description |
+|-----------|---------------|-------------|
+| **Account ID** | `123456789012` | AWS account number |
+| **Service** | `Amazon EC2`, `Amazon S3` | AWS services |
+| **Region** | `us-east-1`, `ap-southeast-1` | AWS region |
+| **Usage Type** | `BoxUsage:m5.large` | Type of usage measured |
+| **Instance Type** | `t3.micro`, `m5.large` | EC2 instance types |
+| **Availability Zone** | `us-east-1a` | Specific zone within the selected region |
+| **API Operation** | `RunInstances`, `GetObject` | The AWS API request performed |
+| **Invoice ID** | `1234-5678` | Invoice identifier for cost grouping |
 
 Supported operations for all filters:
+
 - **`is`** (exact match)
 - **`is not`** (exclude match)
+- **`AND`** (combine multiple conditions that must all be true)
+- **`OR`** (combine multiple conditions where at least one must be true)
 
 ![Manual Filter](https://drive.google.com/uc?export=view&id=1a5XzcQi9zORjVRRM6iySeldSTNfjApag)
 
-**Optional:**  
+#### Optional: Add Tag Filters
+
 Add **Tag Filters** to include/exclude resources based on cost allocation tags such as:
+
 - `Environment = Production`
 - `Project = Alpha`
 
-Click **`CREATE COST GROUP`** to finalize the cost group setup.
+Click **CREATE COST GROUP** to finalize the cost group setup.
 
 ---
 
-### 🤖 2. AI-Cost Creation
+### 2. AI-Cost Creation
 
 Use **AI-Cost** to intelligently group and analyze services related to AI and ML workloads across cloud vendors.
 
-> This method helps identify and track costs related to AI-specific services like Amazon SageMaker, Vertex AI, Azure ML, and others.
+This method helps identify and track costs related to AI-specific services like Amazon SageMaker, Vertex AI, Azure ML, and others.
 
 ![Ai Cost](https://drive.google.com/uc?export=view&id=1IUc7EP-vPagZKe_jJzWoTlW3a8l3bBO5)
 
-#### Steps:
+#### Select AI Services
 
-**Select AI Services:**  
 Choose one or more AI-related services from your connected cloud providers.
 
 ![Ai Services](https://drive.google.com/uc?export=view&id=1MnMjkeGUk3PBbSXCJl5FmVWVe1hSqBO3)
 
-**Fill in Cost Group Details** (Name, Avatar, Color, etc.)
+#### Fill in Cost Group Details
+
+Add the required information (Name, Avatar, Color, etc.)
 
 ![Fill CostGroup Details - AI](https://drive.google.com/uc?export=view&id=1H9MarEynfcERw1fpTtZSa_ztxcQngIC0)
 
-Click **`CREATE`** to finish.
+Click **CREATE** to finish.
 
 ![Create Cost Group - AI](https://drive.google.com/uc?export=view&id=1Q9A87hwfSwMT61s_whXDJsFGRSxmpj-H)
 
 ---
 
-### 📦 3. Container-Cost Creation
+### 3. Container-Cost Creation
 
 Use **Container-Cost** to track costs related to **Kubernetes**, **Amazon ECS**, or other containerized workloads across multiple cloud environments.
 
 ![Container-Cost](https://drive.google.com/uc?export=view&id=1PL8MfEtCY6JXt5vvaSLfN-xQfcj0mCvH)
 
-#### Steps:
+#### Select Container Services
 
-**Select Container Services:**  
 Choose workloads running on:
+
 - Amazon ECS / EKS
 - GKE / AKS
 - Self-managed Kubernetes
 
 ![Select Container Services](https://drive.google.com/uc?export=view&id=1w5GPb76F8LLMcJk0l0JyFtz2DemDC-mF)
 
-**Fill in Cost Group Details**
+#### Fill in Cost Group Details
+
+Add the required information for your container cost group.
 
 ![Fill CostGroup Details - Container](https://drive.google.com/uc?export=view&id=1rjQ9cgdtwqV2lQplAzU4Uk2QOQOcYG60)
 
-Click **`CREATE`** to complete setup.
+Click **CREATE** to complete setup.
 
 ![Create Cost Group - Container](https://drive.google.com/uc?export=view&id=10cM8dS_mqs98IG9MJ43adybke38DqNRo)
 
 ---
 
-## 📘 Viewing a Cost Group
+## Viewing a Cost Group
 
 Once your cost group is created, click on it to view insights such as:
 
@@ -164,8 +177,6 @@ Once your cost group is created, click on it to view insights such as:
 - Forecasted usage and budget trends (if AI-enabled)
 
 ![View Cost Group](https://drive.google.com/uc?export=view&id=1HYIA5EI6ctsjBzw_zSdtfc89TXv-LK0x)
-
----
 
 
 ### Combinations in Cost Groups and How to Use Them
