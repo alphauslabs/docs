@@ -85,23 +85,7 @@ You can create a cost group using one of three approaches:
 
 Choose **Manual Creation** to have full control over which AWS or cloud resources to include.
 
-This option allows you to manually select cloud assets by applying filters based on multiple attributes. These attributes include:
-
-- **Account ID**
-- **Service**
-- **Region**
-- **Usage Type**
-- **Instance Type**
-- **Availability Zone**
-- **API Operation**
-- **Invoice ID**
-
-You can define each filter using the operations:
-
-- `is` (equals to the value)
-- `is not` (not equals to the value)
-- `AND` (combine multiple conditions that must all be true)
-- `OR` (combine multiple conditions where at least one must be true)
+This option allows you to manually select cloud assets by applying filters based on multiple attributes and operations to create precise cost groupings.
 
 ![Manual Creation](https://drive.google.com/uc?export=view&id=1S5Y4Z8Oep06X246gzSBSU0cOqqzwfIo1)
 
@@ -113,7 +97,7 @@ Provide a name and description for the cost group, then customize it by selectin
 
 #### Add Filters
 
-Select attributes from the following options and apply operations:
+Select from the available attributes and combine them using logical operations to define your cost group criteria:
 
 | Attribute | Example Value | Description |
 |-----------|---------------|-------------|
@@ -126,7 +110,7 @@ Select attributes from the following options and apply operations:
 | **API Operation** | `RunInstances`, `GetObject` | The AWS API request performed |
 | **Invoice ID** | `1234-5678` | Invoice identifier for cost grouping |
 
-Supported operations for all filters:
+**Available Operations**: Use these logical operators to create complex filtering rules:
 
 - **`is`** (exact match)
 - **`is not`** (exclude match)
