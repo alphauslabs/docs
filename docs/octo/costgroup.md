@@ -1,38 +1,33 @@
-# Cost Groups
+# Cost Groups - Complete Guide
 
 ## Overview
-A Cost Group in OCTO is a powerful feature that provides a customized view of your cloud costs and usage. They are essentially filters that allow you to break down your cloud expenses according to various dimensions, offering a granular perspective on your spending. 
 
- 
+A Cost Group in OCTO is a powerful feature that provides a customized view of your cloud costs and usage. They are essentially filters that allow you to break down your cloud expenses according to various dimensions, offering a granular perspective on your spending.
 
-1. What are Cost Groups?
- 
+## What are Cost Groups?
 
-    Cost Groups in OCTO are groupings that can be defined based on specific criteria. They allow you to analyze and manage your cloud costs and usage in a way that aligns with your business needs and structure. Whether it's by cloud provider accounts, services, regions, or tags, cost groups help you understand where your money is going and how resources are being utilized.
+Cost Groups in OCTO are groupings that can be defined based on specific criteria. They allow you to analyze and manage your cloud costs and usage in a way that aligns with your business needs and structure. Whether it's by cloud provider accounts, services, regions, or tags, cost groups help you understand where your money is going and how resources are being utilized.
 
- 
+## Detailed Analysis
 
-2. Detailed Analysis
- 
+Cost Groups offer the flexibility to view your cloud costs and usage across a multitude of dimensions, such as specific cloud provider accounts, services, regions, or tags. This allows you to 'slice and dice' your costs, providing a granular analysis of your cloud spending. It helps you uncover hidden costs, identify trends, or spot inefficiencies, thus contributing to a more comprehensive cloud cost management strategy and in-depth analysis of your cloud spending.
 
-    Cost Groups offer the flexibility to view your cloud costs and usage across a multitude of dimensions, such as specific cloud provider accounts, services, regions, or tags. This allows you to 'slice and dice' your costs, providing a granular analysis of your cloud spending. It helps you uncover hidden costs, identify trends, or spot inefficiencies, thus contributing to a more comprehensive cloud cost management strategy and in-depth analysis of your cloud spending. 
+> **Important:** This feature is only available to Admins in your OCTO organization. This is to ensure that cost data and financial information is managed and viewed by authorized personnel only, thus maintaining data integrity and security within your organization.
 
- 
+Cost groups in OCTO are a flexible and powerful tool designed to help you better understand and manage your cloud costs. By providing the ability to visualize and customize your cost analysis, cost groups empower you to make more informed decisions about your cloud expenditure.
 
-Please note that this feature is only available to Admins in your OCTO organization. This is to ensure that cost data and financial information is managed and viewed by authorized personnel only, thus maintaining data integrity and security within your organization.
+---
 
- 
+## Managing Cost Groups
 
-In conclusion, cost groups in OCTO are a flexible and powerful tool designed to help you better understand and manage your cloud costs. By providing the ability to visualize and customize your cost analysis, cost groups empower you to make more informed decisions about your cloud expenditure.
 Cost Groups is a key feature in OCTO as discussed in this article. This time, we will tackle how to manage your cost groups efficiently. We shall cover how to create, edit, remove, and view cost groups.
 
-                Only Admin accounts can create, edit, and remove cost groups.
+> **Note:** Only Admin accounts can create, edit, and remove cost groups.
 
 ### Creating a Cost Group
 
-Head to the left side panel section and select 'Cost Group'. Click the '+ CREATE COST GROUP' button and supply basic information such as cost group name and description. You might as well change the avatar and color to your liking. Then create combinations.  
+Head to the left side panel section and select 'Cost Group'. Click the '+ CREATE COST GROUP' button and supply basic information such as cost group name and description. You might as well change the avatar and color to your liking. Then create combinations.
 
-- Click Cost Group
 ![CostGroup Management](https://drive.google.com/uc?export=view&id=1WxnW6Ffhb4UmtddolM_mcfgPoI0dbx5U)
 
 ## 🚀 Step 1: Create a New Cost Group
@@ -48,9 +43,7 @@ Head to the left side panel section and select 'Cost Group'. Click the '+ CREATE
 
 You can create a cost group using one of three approaches:
 
----
-
-### 🛠️ 1. **Manual Creation**
+### 🛠️ 1. Manual Creation
 
 Choose **Manual Creation** to have full control over which AWS or cloud resources to include.
 
@@ -71,46 +64,43 @@ Choose **Manual Creation** to have full control over which AWS or cloud resource
 
 ![Manual Creation](https://drive.google.com/uc?export=view&id=1S5Y4Z8Oep06X246gzSBSU0cOqqzwfIo1)
 
----
-
 #### Steps:
 
-- **Define Cost Group Details**  
-  Provide a descriptive name and personalize the group with an avatar and color.
+**Define Cost Group Details**  
+Provide a descriptive name and personalize the group with an avatar and color.
 
-  ![Fill CostGroup Details](https://drive.google.com/uc?export=view&id=1QvT9lnq3_-aUR0LOCCV1yWeh5FL6crpx)
+![Fill CostGroup Details](https://drive.google.com/uc?export=view&id=1QvT9lnq3_-aUR0LOCCV1yWeh5FL6crpx)
 
-- **Add Filters**  
-  Select attributes from the following options and apply operations:
+**Add Filters**  
+Select attributes from the following options and apply operations:
 
-  | Attribute         | Example Value            | Description                                 |
-  |-------------------|--------------------------|---------------------------------------------|
-  | **Account ID**     | `123456789012`           | AWS account number                          |
-  | **Service**        | `Amazon EC2`, `Amazon S3`| AWS services                                |
-  | **Region**         | `us-east-1`, `ap-southeast-1` | AWS region                                |
-  | **Usage Type**     | `BoxUsage:m5.large`      | Type of usage measured                      |
-  | **Instance Type**  | `t3.micro`, `m5.large`   | EC2 instance types                          |
-  | **Availability Zone** | `us-east-1a`         | Specific zone within the selected region    |
-  | **API Operation**  | `RunInstances`, `GetObject` | The AWS API request performed            |
-  | **Invoice ID**     | `1234-5678`              | Invoice identifier for cost grouping        |
+| Attribute         | Example Value            | Description                                 |
+|-------------------|--------------------------|---------------------------------------------|
+| **Account ID**     | `123456789012`           | AWS account number                          |
+| **Service**        | `Amazon EC2`, `Amazon S3`| AWS services                                |
+| **Region**         | `us-east-1`, `ap-southeast-1` | AWS region                                |
+| **Usage Type**     | `BoxUsage:m5.large`      | Type of usage measured                      |
+| **Instance Type**  | `t3.micro`, `m5.large`   | EC2 instance types                          |
+| **Availability Zone** | `us-east-1a`         | Specific zone within the selected region    |
+| **API Operation**  | `RunInstances`, `GetObject` | The AWS API request performed            |
+| **Invoice ID**     | `1234-5678`              | Invoice identifier for cost grouping        |
 
-  Supported operations for all filters:
-  - **`is`** (exact match)
-  - **`is not`** (exclude match)
+Supported operations for all filters:
+- **`is`** (exact match)
+- **`is not`** (exclude match)
 
-  ![Manual Filter](https://drive.google.com/uc?export=view&id=1a5XzcQi9zORjVRRM6iySeldSTNfjApag)
+![Manual Filter](https://drive.google.com/uc?export=view&id=1a5XzcQi9zORjVRRM6iySeldSTNfjApag)
 
-- **Optional**:  
-  Add **Tag Filters** to include/exclude resources based on cost allocation tags such as:
-  - `Environment = Production`
-  - `Project = Alpha`
+**Optional:**  
+Add **Tag Filters** to include/exclude resources based on cost allocation tags such as:
+- `Environment = Production`
+- `Project = Alpha`
 
-- Click **`CREATE COST GROUP`** to finalize the cost group setup.
-
+Click **`CREATE COST GROUP`** to finalize the cost group setup.
 
 ---
 
-### 🤖 2. **AI-Cost Creation**
+### 🤖 2. AI-Cost Creation
 
 Use **AI-Cost** to intelligently group and analyze services related to AI and ML workloads across cloud vendors.
 
@@ -120,22 +110,22 @@ Use **AI-Cost** to intelligently group and analyze services related to AI and ML
 
 #### Steps:
 
-- **Select AI Services**:  
-  Choose one or more AI-related services from your connected cloud providers.
+**Select AI Services:**  
+Choose one or more AI-related services from your connected cloud providers.
 
-  ![Ai Services](https://drive.google.com/uc?export=view&id=1MnMjkeGUk3PBbSXCJl5FmVWVe1hSqBO3)
+![Ai Services](https://drive.google.com/uc?export=view&id=1MnMjkeGUk3PBbSXCJl5FmVWVe1hSqBO3)
 
-- **Fill in Cost Group Details** (Name, Avatar, Color, etc.)
+**Fill in Cost Group Details** (Name, Avatar, Color, etc.)
 
-  ![Fill CostGroup Details - AI](https://drive.google.com/uc?export=view&id=1H9MarEynfcERw1fpTtZSa_ztxcQngIC0)
+![Fill CostGroup Details - AI](https://drive.google.com/uc?export=view&id=1H9MarEynfcERw1fpTtZSa_ztxcQngIC0)
 
-- Click **`CREATE`** to finish.
+Click **`CREATE`** to finish.
 
-  ![Create Cost Group - AI](https://drive.google.com/uc?export=view&id=1Q9A87hwfSwMT61s_whXDJsFGRSxmpj-H)
+![Create Cost Group - AI](https://drive.google.com/uc?export=view&id=1Q9A87hwfSwMT61s_whXDJsFGRSxmpj-H)
 
 ---
 
-### 📦 3. **Container-Cost Creation**
+### 📦 3. Container-Cost Creation
 
 Use **Container-Cost** to track costs related to **Kubernetes**, **Amazon ECS**, or other containerized workloads across multiple cloud environments.
 
@@ -143,21 +133,21 @@ Use **Container-Cost** to track costs related to **Kubernetes**, **Amazon ECS**,
 
 #### Steps:
 
-- **Select Container Services**:  
-  Choose workloads running on:
-  - Amazon ECS / EKS
-  - GKE / AKS
-  - Self-managed Kubernetes
+**Select Container Services:**  
+Choose workloads running on:
+- Amazon ECS / EKS
+- GKE / AKS
+- Self-managed Kubernetes
 
-  ![Select Container Services](https://drive.google.com/uc?export=view&id=1w5GPb76F8LLMcJk0l0JyFtz2DemDC-mF)
+![Select Container Services](https://drive.google.com/uc?export=view&id=1w5GPb76F8LLMcJk0l0JyFtz2DemDC-mF)
 
-- **Fill in Cost Group Details**
+**Fill in Cost Group Details**
 
-  ![Fill CostGroup Details - Container](https://drive.google.com/uc?export=view&id=1rjQ9cgdtwqV2lQplAzU4Uk2QOQOcYG60)
+![Fill CostGroup Details - Container](https://drive.google.com/uc?export=view&id=1rjQ9cgdtwqV2lQplAzU4Uk2QOQOcYG60)
 
-- Click **`CREATE`** to complete setup.
+Click **`CREATE`** to complete setup.
 
-  ![Create Cost Group - Container](https://drive.google.com/uc?export=view&id=10cM8dS_mqs98IG9MJ43adybke38DqNRo)
+![Create Cost Group - Container](https://drive.google.com/uc?export=view&id=10cM8dS_mqs98IG9MJ43adybke38DqNRo)
 
 ---
 
@@ -174,6 +164,8 @@ Once your cost group is created, click on it to view insights such as:
 - Forecasted usage and budget trends (if AI-enabled)
 
 ![View Cost Group](https://drive.google.com/uc?export=view&id=1HYIA5EI6ctsjBzw_zSdtfc89TXv-LK0x)
+
+---
 
 
 ### Combinations in Cost Groups and How to Use Them
