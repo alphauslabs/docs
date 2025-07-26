@@ -22,9 +22,10 @@ Cost groups in OCTO are a flexible and powerful tool designed to help you better
 
 ### What are Combinations?
 
-Combinations are the fundamental building blocks of Cost Groups in OCTO. They enable users to customize which accounts, services, regions, or resources belong to a specific cost group by defining precise filtering criteria. Think of combinations as advanced filters that allow you to slice and dice your cloud costs across multiple dimensions and providers.
+Combinations are the fundamental building blocks of Cost Groups in OCTO. They enable users to customize which accounts, services, regions, or resources are included in a specific cost group by defining precise filtering criteria. Think of combinations as advanced filters that let you break down and analyze your cloud costs across multiple dimensions and providers.
 
-With the rise of cloud computing came the challenge of managing costs across different services and providers. As demand for cloud resources increases, companies struggle to manage their expenses, leading to unoptimized usage. The complexity of tracking cloud resources from different providers can be overwhelming and time-consuming. OCTO solves this problem through the power of combinations.
+As cloud computing expanded, managing costs across multiple services and providers became increasingly complex. Many organizations struggle to control spending and use resources efficiently as their cloud usage grows. Monitoring and organizing resources across different platforms can be difficult and time-consuming. OCTO simplifies this process with combinations, allowing for smarter and more efficient cost management.
+
 
 ### How Combinations Work
 
