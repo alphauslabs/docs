@@ -26,7 +26,7 @@ Cost Groups is a key feature in OCTO as discussed in this article. This section 
 
 ### Creating a Cost Group
 
-Head to the left side panel section and select **Cost Group**. Click the **+ CREATE COST GROUP** button and supply basic information such as cost group name and description. You might as well change the avatar and color to your liking. Then create combinations.
+Head to the left side panel section and select **Cost Group**. 
 
 ![CostGroup Management](https://drive.google.com/uc?export=view&id=1WxnW6Ffhb4UmtddolM_mcfgPoI0dbx5U)
 
@@ -34,7 +34,6 @@ Head to the left side panel section and select **Cost Group**. Click the **+ CRE
 
 ### Step 1: Create a New Cost Group
 
-- Navigate to the **Cost Groups** section
 - Click on **+ CREATE COST GROUP** to begin
 
 ![Create Cost Group](https://drive.google.com/uc?export=view&id=1ePgZP_HZX6fnHp1IonSg_AVpdBDTIDBa)
@@ -71,7 +70,7 @@ You can define each filter using the operations:
 
 #### Define Cost Group Details
 
-Provide a descriptive name and personalize the group with an avatar and color.
+Provide a name and description for the cost group, then customize it by selecting an avatar and color.
 
 ![Fill CostGroup Details](https://drive.google.com/uc?export=view&id=1QvT9lnq3_-aUR0LOCCV1yWeh5FL6crpx)
 
@@ -114,7 +113,7 @@ Click **CREATE COST GROUP** to finalize the cost group setup.
 
 Use **AI-Cost** to intelligently group and analyze services related to AI and ML workloads across cloud vendors.
 
-This method helps identify and track costs related to AI-specific services like Amazon SageMaker, Vertex AI, Azure ML, and others.
+This method helps identify and track costs related to AI-specific services like Amazon SageMaker, Bedrock, Polly, and others.
 
 ![Ai Cost](https://drive.google.com/uc?export=view&id=1IUc7EP-vPagZKe_jJzWoTlW3a8l3bBO5)
 
@@ -126,11 +125,11 @@ Choose one or more AI-related services from your connected cloud providers.
 
 #### Fill in Cost Group Details
 
-Add the required information (Name, Avatar, Color, etc.)
+Add the required information (Name, Avatar, Color and Description)
 
 ![Fill CostGroup Details - AI](https://drive.google.com/uc?export=view&id=1H9MarEynfcERw1fpTtZSa_ztxcQngIC0)
 
-Click **CREATE** to finish.
+Click **CONFIRM AND CREATE** to finish.
 
 ![Create Cost Group - AI](https://drive.google.com/uc?export=view&id=1Q9A87hwfSwMT61s_whXDJsFGRSxmpj-H)
 
@@ -138,7 +137,7 @@ Click **CREATE** to finish.
 
 ### 3. Container-Cost Creation
 
-Use **Container-Cost** to track costs related to **Kubernetes**, **Amazon ECS**, or other containerized workloads across multiple cloud environments.
+Use **Container-Cost** to track costs related to **Amazon ECS**, **Amazon EKS**, or other containerized workloads across multiple cloud environments.
 
 ![Container-Cost](https://drive.google.com/uc?export=view&id=1PL8MfEtCY6JXt5vvaSLfN-xQfcj0mCvH)
 
@@ -146,9 +145,8 @@ Use **Container-Cost** to track costs related to **Kubernetes**, **Amazon ECS**,
 
 Choose workloads running on:
 
-- Amazon ECS / EKS
-- GKE / AKS
-- Self-managed Kubernetes
+- Amazon ECS
+- Amazon EKS
 
 ![Select Container Services](https://drive.google.com/uc?export=view&id=1w5GPb76F8LLMcJk0l0JyFtz2DemDC-mF)
 
@@ -158,7 +156,7 @@ Add the required information for your container cost group.
 
 ![Fill CostGroup Details - Container](https://drive.google.com/uc?export=view&id=1rjQ9cgdtwqV2lQplAzU4Uk2QOQOcYG60)
 
-Click **CREATE** to complete setup.
+Click **CONFIRM AND CREATE** to complete setup.
 
 ![Create Cost Group - Container](https://drive.google.com/uc?export=view&id=10cM8dS_mqs98IG9MJ43adybke38DqNRo)
 
@@ -166,17 +164,102 @@ Click **CREATE** to complete setup.
 
 ## Viewing a Cost Group
 
-Once your cost group is created, click on it to view insights such as:
+Once your cost group is created, click on it to view comprehensive insights and analytics. The Cost Group dashboard provides multiple ways to analyze and understand your cloud spending:
 
-- Total cloud spend (daily, monthly, or custom range)
-- Breakdowns by:
-  - AWS services
-  - Linked accounts
-  - Tags (e.g., department, environment)
-  - Usage types and regions
-- Forecasted usage and budget trends (if AI-enabled)
+### Time Range Filtering
 
-![View Cost Group](https://drive.google.com/uc?export=view&id=1HYIA5EI6ctsjBzw_zSdtfc89TXv-LK0x)
+Filter your cost data by different time periods (daily, monthly, or custom range) to analyze spending patterns over specific timeframes.
+
+![Filter Time](https://drive.google.com/uc?export=view&id=1k_eZP_pkLFS6TMIuJ-xQh316QwhOh1Lb)
+
+### Cost Visualization Graphs
+
+View your cost data through various chart types and visualizations to better understand spending trends and patterns:
+
+![Cost Overview Graph](https://drive.google.com/uc?export=view&id=1v9cLezcnC9Fa01oji--287Tg8JIys4SV)
+
+![Service Breakdown Chart](https://drive.google.com/uc?export=view&id=1NLrxmKgaqhKlG2pwia7_xYWB8nO0T4IP)
+
+![Regional Cost Distribution](https://drive.google.com/uc?export=view&id=16dFJXx_2tFBrGqmaJL4dN4VjAKcgeghP)
+
+![Usage Trends Analysis](https://drive.google.com/uc?export=view&id=1OikN_IcZBHLXewFhyvu8iyoI0fxmjweI)
+
+### Filtering and Grouping Options
+
+Customize your cost analysis by applying additional filters and grouping data by different dimensions such as services, accounts, or tags.
+
+![Filter and Group Options](https://drive.google.com/uc?export=view&id=1bNkU1ot3xk3Ztdt04fLwpAUVVZCE-5LR)
+
+### Anomaly Detection and Data Management
+
+- **Display Anomalies**: Click the gear icon to enable anomaly detection and identify unusual spending patterns
+- **Reload Data**: Use the reload icon to refresh the cost data with the latest information
+
+![Anomaly Detection and Reload Options](https://drive.google.com/uc?export=view&id=1Uxv03WhJ8KDHzAFqxbqPXNBGwDJbrrzs)
+
+### Search and Export Features
+
+- **Search Functionality**: Search by specific services or vendors to quickly find relevant cost data
+- **CSV Download**: Click the download button to export your cost data in CSV format for further analysis
+
+![Search and Download Features](https://drive.google.com/uc?export=view&id=16mO-wMdYvwMPQCrTlOBcrI1bAq0xFgEW)
+
+### Detailed Service Information
+
+Click the **Details** button to access comprehensive information about specific services, including names, descriptions, and the ability to search and sort based on your preferences.
+
+![Service Details View](https://drive.google.com/uc?export=view&id=1Ua7sZNwC6IfzB0FJwYvyZ7bET2_P3VID)
+
+### Additional Cost Group Features
+
+The Cost Group dashboard provides access to several specialized views and features:
+
+#### Discount Plans
+View and manage discount plans associated with your cost group.
+
+![Discount Plans](https://drive.google.com/uc?export=view&id=1KvBPRkRBvCUmduVgQ7rRo20rO99fSSDy)
+
+#### Assets Inventory
+Access a comprehensive inventory of all assets included in your cost group.
+
+![Assets Inventory](https://drive.google.com/uc?export=view&id=1sxAXMyRmScErfYgt3T92mfZ02OF70aca)
+
+#### Budget Management
+Monitor and manage budgets associated with your cost group.
+
+![Budget Management](https://drive.google.com/uc?export=view&id=1xM-KImCj4mBkoh7D52h8WMOT8ezPlQaM)
+
+#### Anomaly Analysis
+Review detailed anomaly detection results and investigate unusual spending patterns.
+
+![Anomaly Analysis](https://drive.google.com/uc?export=view&id=1tYHAfuPLH2_R6CC1gTw9g2xuSciZd2Zh)
+
+#### Charge Breakdown
+Analyze detailed charge information and billing components.
+
+![Charge Breakdown](https://drive.google.com/uc?export=view&id=1W0Md26GCaa4SJelL38GZxpz3EPGIxFQR)
+
+### Cost Group Configuration
+
+#### Combination View
+Review the filter combinations and criteria used to create your cost group. Available in two formats:
+
+**Default View**: User-friendly display of your cost group configuration
+![Default Configuration View](https://drive.google.com/uc?export=view&id=1I37vqrCo4o6FjovFLWzwrrrp2UTs8W8r)
+
+**JSON View**: Technical representation of your cost group settings for advanced users
+![JSON Configuration View](https://drive.google.com/uc?export=view&id=1o6DOVqmahUT_pbmlCvidmNQAEPSkw-F_)
+
+#### Cost Group Information
+Access basic information and metadata about your cost group, including creation date, description, and configuration details.
+
+![Cost Group Information](https://drive.google.com/uc?export=view&id=1TK9XVM1D_vd6PtkHvWUbSzpve3LEfAbK)
+
+### Complete Cost Group Dashboard
+
+The main Cost Group dashboard brings together all these features in a comprehensive interface for complete cost analysis and management.
+
+![Complete Cost Group Dashboard](https://drive.google.com/uc?export=view&id=1HYIA5EI6ctsjBzw_zSdtfc89TXv-LK0x)
 
 
 ### Combinations in Cost Groups and How to Use Them
@@ -305,6 +388,6 @@ In this scenario, it implies that you are specifically choosing only AWS DynamoD
 
 ### Edit and Delete Cost Group
 
-Only Admin OCTO accounts can edit cost groups which can then edit combinations. Access Cost Groups from the left side panel section and then click your desired cost group. On the side drawer which slides out from the right side, click the side menu on the upper right corner. You can select between editing the combination info, the combination itself, or delete it.
+Only Admin OCTO accounts can edit cost groups which can then edit combinations and change anomaly threshold. Click the "Action" button and now you can select between editing the combination info, the combination itself, change anomaly threshold, or delete it.
 
-![Edit and Delete Costgroup](https://lh3.googleusercontent.com/fife/AGXqzDkEZMR1jbzM2XEK6O3xZSsmvcLEop5UMvG-_NvVlKt6-fZ4Ioy9ywy8MmDrIjMBGPweobGUJE0WTIB6JBAnCKMRqTqbyg3KjRdhnNUf9iNQlL9_5huHox6sHhhuSvwBKmHCcYQzjftbY5UwvHmfbnJIMHb5Ra2-iJhSp06zrIEwnjRQ7Nu4fiyw2bzf8xnDhimL3BnIR4qndbLzJHebhXqRGoAYiABTNEYKy5jNZS5RmLE0rH4aBxlanxFdvIj9593uDS3_kZ0MlwCgENijbezRRFH5kCZqQi_y10upQwqiaBFw6BY8Ll56aR0LPn3D4ae7gj6-mSJY0VgLh8d9slocl6PDPuJFGcXhOABlyX47Rj9xwgEdR0utVznMq3sBp9hCOIFuL2Bwmbno9QtAg4BPCsWaTTNtKrm8kc4MFsk2he0-fXOGxHe-r8s69Bgz1Fi6BBElCGZmw0EhLjeJ5KEW6YdVY1FaiHoWrieAmmBGmwCfjSpjEC76f8RjpeXoDMmbGH0ONQuw3Hfqhf0Kd4l_yboFs7GCC6r5tZkW-nxWxb5hj0l6L4lnIElUFOxw9NDedRSW4HMUP2X7vfl8IGtNfr9Kbz8NQUvhIdbnkp8GmReS1w2fw0SaxFC4FFPpBOPqSeHyZi-n87vKrihWQGEB4pNky1Lgd5qfclmv-3bTkZU3HTrePzlaMbJbYrRyix51pLwZcLV8ZjYPaYYvF0F-C79o_pmaQ08PHygMFHUvVkteuLfvjFizTdbdfPRgLEh_n_p6VCsdxwtoHbGwGwVkXxBW_xANXa5Il0e7iuTfnz3pgaVpszMZgnSeGNHxfXxt5RsvXSuRAEVatAlIOT5XD3RnFpM0VZ6GZ-lcaL0bYjy5axdaLF8pMfeROUW7v8HA1Rj47PHqcd2hXYhwb1xs3UdpactTTsu2J7fsGUNRO1EEmdLMIPgRs8IMp99qmqu-s36GWkMeqbbAPaRARnHrZ9FyG89elZh-fvtU_cGOlZpjgv5Y6lBYoEpg3W4JKFdvp1HyzvkA1UZ4bqbbIu9ImpYGyin3RdECAMCE_GWhZbsR_9uI3aIiciGy7SX7izxmTRMNQYJf3H_zoQI55ciVzzFoDgVo1RvYvsKSltsg_g9tzDh-jUKHLI9O312XKwz4Qw6cyJ1UNn8OVwjz997JwW0JmOa41JCrejFFYUD6xwXqlV7l2iZr9shgZqlykbmXuk6iOGh27ACthF4Xo_O36WIuCsUo4js7XgTR_Y6_MuAQtvTJtkYILtIAGFltOOOYnQZKuPjIYsBUs_s52hg-IzRqPCXlG66KCx7Nq2ikDLsy2CKniwpihPxJ6VZpzHgo0rhEZT7DVWBKzZLhN4IfiVOZn2U4Z5YwMv9TAqJBlEaLynyshUIpLFNXx5x8s8oXrOiA7gnwPvJANpNxdxwgtamCnT7__Z0nVCc4al3HZ3iNBzJnwEGz_CaozuaA32TGobun7sMlR6qhaP4KVKC0uxrAgywhAQiy9gZyZU0glI127XPfFNHuw6zp7dNbKPUERByVX6o=w1920-h982)
+![Edit and Delete Cost group](https://drive.google.com/uc?export=view&id=10d4J6gg3MKf8rGZkHnN0aPEwyb5dUcXC)
