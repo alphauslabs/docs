@@ -32,7 +32,7 @@ Head to the left side panel section and select **Cost Group**. Click the **+ CRE
 
 ---
 
-## Step 1: Create a New Cost Group
+### Step 1: Create a New Cost Group
 
 - Navigate to the **Cost Groups** section
 - Click on **+ CREATE COST GROUP** to begin
@@ -41,7 +41,7 @@ Head to the left side panel section and select **Cost Group**. Click the **+ CRE
 
 ---
 
-## Step 2: Select a Cost Group Type
+### Step 2: Select a Cost Group Type
 
 You can create a cost group using one of three approaches:
 
