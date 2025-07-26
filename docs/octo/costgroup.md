@@ -18,6 +18,43 @@ Cost groups in OCTO are a flexible and powerful tool designed to help you better
 
 ---
 
+## Understanding Combinations in Cost Groups
+
+### What are Combinations?
+
+Combinations are the fundamental building blocks of Cost Groups in OCTO. They enable users to customize which accounts, services, regions, or resources belong to a specific cost group by defining precise filtering criteria. Think of combinations as advanced filters that allow you to slice and dice your cloud costs across multiple dimensions and providers.
+
+With the rise of cloud computing came the challenge of managing costs across different services and providers. As demand for cloud resources increases, companies struggle to manage their expenses, leading to unoptimized usage. The complexity of tracking cloud resources from different providers can be overwhelming and time-consuming. OCTO solves this problem through the power of combinations.
+
+### How Combinations Work
+
+Combinations work across all three cost group creation methods:
+
+- **Manual Creation**: Direct attribute selection using combinations of vendor, account, service, region, usage type, and tags
+- **AI-Cost Creation**: Pre-configured combinations focused on AI and ML services across cloud providers  
+- **Container-Cost Creation**: Specialized combinations for containerized workloads and Kubernetes environments
+
+In the combination interface, you'll find:
+
+- **Vendors**: Support for AWS, Azure, and GCP
+- **Categories**: Options including account, product/service, region, tags, usage types, and more
+- **Attributes**: Specific resources within each category that can be included or excluded
+- **Operations**: Logical operators (`is`, `is not`, `AND`, `OR`) to create complex filtering rules
+
+### Creating Combinations
+
+When creating any type of cost group, you'll work with combinations to define your filtering criteria:
+
+1. **Select Vendor**: Choose from AWS, Azure, or GCP
+2. **Choose Category**: Pick from account, product, region, tag, etc.
+3. **Define Attributes**: Specify which resources to include or exclude
+4. **Apply Operations**: Use logical operators to create complex rules
+5. **Combine Multiple Filters**: Layer different combinations for precise cost grouping
+
+The chosen category and attributes determine which resources will be included in your cost group. You can refine your selection by specifying subjects, choosing from all available options or selecting specific accounts, products, regions, tags, and other attributes based on your registered cloud accounts and requirements.
+
+---
+
 ## Managing Cost Groups
 
 Cost Groups is a key feature in OCTO as discussed in this article. This section covers how to manage your cost groups efficiently, including how to create, edit, remove, and view cost groups.
@@ -261,11 +298,10 @@ The main Cost Group dashboard brings together all these features in a comprehens
 
 ![Complete Cost Group Dashboard](https://drive.google.com/uc?export=view&id=1HYIA5EI6ctsjBzw_zSdtfc89TXv-LK0x)
 
+---
 
+## Edit and Delete Cost Group
 
+Only Admin OCTO accounts can edit cost groups which can then edit combinations and change anomaly threshold. Click the **Action** button and now you can select between editing the combination info, the combination itself, change anomaly threshold, or delete it.
 
-### Edit and Delete Cost Group
-
-Only Admin OCTO accounts can edit cost groups which can then edit combinations and change anomaly threshold. Click the "Action" button and now you can select between editing the combination info, the combination itself, change anomaly threshold, or delete it.
-
-![Edit and Delete Cost group](https://drive.google.com/uc?export=view&id=10d4J6gg3MKf8rGZkHnN0aPEwyb5dUcXC)
+![Edit and Delete Cost Group](https://drive.google.com/uc?export=view&id=10d4J6gg3MKf8rGZkHnN0aPEwyb5dUcXC)
