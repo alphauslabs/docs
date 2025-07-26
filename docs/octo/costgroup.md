@@ -33,16 +33,147 @@ Cost Groups is a key feature in OCTO as discussed in this article. This time, we
 Head to the left side panel section and select 'Cost Group'. Click the '+ CREATE COST GROUP' button and supply basic information such as cost group name and description. You might as well change the avatar and color to your liking. Then create combinations.  
 
 - Click Cost Group
-![Select CostGroup](https://lh3.googleusercontent.com/fife/AGXqzDkuBDsZ4l4F93hmTyaqVSKrL6INo1LHdh4kgiiT1dW6_dBAHdARY-uONAohBJQFHYr6MVMkPcM3RHr6Mrub6Zm1ljwTaaaojSu6ZQ0hlGkO8n2O2WQt9TWPWluueV9E5O04_XaJKP27_JvJUVar6NSMMPGXRI9fv8OXtzICIUpxhSsmhFkzDPVMSSDTB6_kGjDmkoRt12tBdld7mfWnNTMSsShy4Du-VPs6OV-tSDNVyxnG8ozbZZKJZYhIsbZvauCMAYwKKD8ilohesaf--STHGEOirPsFnkIxjoCrBfk4A-eD8s28PoQMsghygisrL6318Uz7-3afR-OZ5hYbH9Xs8HxThenTqv2oyuPMpzw1yDEsWtbowmrNsiM73qre8Z0cdfEc1OLzKgIEVs7FaHgW-8u8N0auoLFBD91EUcdeq1HNPZINlT7FflOzK3SP-7XwJqFQ1EXyDZWg2CCp87xJ6aKAeyJl-46Ad0XqG_e_Y-4sW3Xj77i98Y4LN6yOzJbJ7tyxSbJN6mDXKEVUN2EtIXwxEorWIYmLPuvfNACkZQqV_iM0Ae_Nt81Z0C_09iFG8Zx2Z9tHHIMqRXQuT7nqrjx62mzl1Brk6RSueiXRGHlP9VKT6zge6nqhe1SrZ1-zIGynLHJ2Pg0CWBAzPG3zXZ3S325QxW9eHDuBXXAczf5dmhdat78BqKl1F2pVGrjVjI-6IrAJth8et1060nKXLZc6l9E1z671TrTYVMjPYUDZePy6NZOvECC1FTAKMEQcP9QRpugFCtBhIj5bW2RoKvcWuAhlbZOUaNutwI94ZK_LCkBuZKAbmKznv8R-8TBp8GqH1Kvy2O6LBTAalF0io1xGKqUDnGKPyPmkZlhAys7kdI86TkrB3Y-q5LERoqY6DprJS1sEpeg5Y1S0x1EZ7OAtnL4F5ePfSbpNjwo6-NN-gBGcXWY1yGt5KW_-02gbN913A2VZMUEDxflu2XfgU54BaJTbIElh46Z3l62rLqMTNrNjCALPWdwM-waHqBvgAuQ-CMTrtSdhp56QrD3CBhlmEmvScrTILCi6MnQs32wCxlZ1brSPGfAweLwwu8zJWXpYBAXWSfJU8SETKYVINICGb5suihG7JgVxCN_0CPj8DzzkPcK7FVz5uqtZdf5d64tQjm-C-9vLPLReVmGk_Ce7BA6eHiznN8pJq040uERT7EYFf3oMzBlaOI8ave_2YIwU3eLDe3vRpDTLfCk6nwmuEdrVZNeQbcQ71vO3IlS-GwBeAcQ267gWyNp1JeyY8iCHad_4C9h8LjIiH4qzCeHcu0UiZ1l2siasKfIN__97bhwzURjm5s6kzt7WlzMu8_kaC3A0T0sTWUdXRyj_apOPA7L8-gTUoY4-51f49fwFtQurkb7m9OW0VFW9kS9TBmacrf9q0IldGmhXoDqcyBQnBhtXI9SeP4kBdd7yVJ3EH8obtScCagA-aWfZIc9iQw9qnitvq95kZYtjSZaNjFSMBVw-m4Qej1swaBleeUgVEIKwqnhAojfEN7y2TZ9uzQ77BGg=w1440-h821)
+![CostGroup Management](https://drive.google.com/uc?export=view&id=1WxnW6Ffhb4UmtddolM_mcfgPoI0dbx5U)
 
-- Click Cost Group Management
-![CostGroup Management](https://lh3.googleusercontent.com/fife/AGXqzDnFHyVkVp-miEkHcaTycE1w6o7QoCxEOJaeG_UEpzYusMmD6KG1D6P2BQNuvSZLlo5e6fEKQUmcIPmGexmrfsbfxms9_dQv6T1vbVw4kuI48rm5GHmx06Lu9KOlZiXPTl7nuGRAA8cuDodq6hxZetnzFX0l00ft3qWHoNNARnrCGgJeF23BfrkHRJU87h35NaD_AylCluKgd_F_ygjJ_f2oG4goja6KVRSzNxrw1EczBNeDU-Mz7U_7cB9eUjS4kFCLKbczgo4BJ5mMAZ3-Sh3KQxBQuzP4DxrSGaTTbFcHOS6BsrL0xbg5SiNHTQPA6sXoGRrzl_lGcHjt_Qer7aCVB7lHysgHAxY3aesPG0uGc8Q92K4yDg-csWUukCTfLkXPgjKonw0Sy9fDzh6vuVZXFoSDhTNEhStYT1pfGVZ2kiC_Qlm92u4e9qdsNfX0it8uSE6DFgcvhLEv0AvllTu2-GBdTLREZ8dx6MGi6HCmcnjfpglEiniz_Hv4PjvUCdCpWJraU2ARfRw-WKS6JcU68K6QheYk6zZEvTdXgATtDOkF_dY3tLB0fI2f4dyWZGz_6wrN5rvDfskVIaFwQrWqbdh910v-3kQFgUZBytB7zVJQX7NlUIGO_Uf_BCnjwv-U5bZLzenledF9K5oEtJYbILC13AaCf_yjGbACoBaVvNw2q8NLM9Bsf3xZbmybzoaxIVEI8ChOHC5iKeYPKTMUCdfHDNH4c-NX__NY1pLHg7RBl929Xr2hBvaSf3rPYoyHuatW6OrYBwYaRptgjTaw-SbIAQiU7jhwdGL8jqIuW-CA3KAgMoAsL1i5NeONZ47iLWFHN1K7usOrdExAGjCdgr5jwI3W_t9e_H_6aM7vbDvB2o7g10z70RRCWTAjGssMY3fq4Vx3c8VTJOEyAsbWYPNnODPT6gsm-PH-ui1s8ZbkEc6ETPH_gkheCTL659a4yixYPeJOlwKCNEat9XayOr8TG2um-sqpUg3NS5YvSMZtLVRrKV8APwqY_sSuBtOd3aGWVG41ZcOKqu2lUkTGfc37pBmxfBu6eGGg9RA45f5uk0-hhVxbghVQDPvCyV5YY0wHLXTbvF3tJ7ajCBHLjBTtV5XrtqSN1KPTSkDrMrEajDNhb3VFhMamuy7vHDezf5QGmrZAQi4GvgB_Di_Ww3lpWBPOAFgfcjYFWEru_Vp3agR2eA27tDLfgxDgCeY7mmoiKA7CfiPgeOoy0JPdq4ciIxuWIcp8rQ8Y4tJfZDCuWv-B9fJAziH0ntQPdeEh0MOeA1OMe3hlvfbYdENqAgEDmCoo1Bimu5aGmdiuORTopFMPnPR49bChwguVBxdRRlzVzcu2pfma2U282VDvbQ4ji66u0ju1zbXJPy-VAhGkvKjqr-h4z1NfM4Uw05aA3v0sLXYjAAlhMETWQy7NLkmJqWfPgSjOmJtvoOc9MbVA31UkdOOHS4aQou5eLA8cwQXGQWs49KOt3lrXZqLNPbCSg8BtBw-KBvmOS3Y_zQF-jxiu9-EDtDRWFDCn0wadJCpdWg=w1920-h982)
+## 🚀 Step 1: Create a New Cost Group
 
-- Click '+ CREATE COST GROUP'
-![Create CostGroup](https://lh3.googleusercontent.com/fife/AGXqzDkVz2WH_3ZP3P3bKZ_RZiwLbN-aSeWp0L0K_fEIr_nRgKkp5tyuj1OiFpv1ViIu0l5gEEM2K5F4AW1yWKlcdgBwKQoCjHDbsz4tzQZHANyrFEvLfrcj19REAHirI77U7rKUCIfgSGGGJJHs_kGGTIS68m3ose0P8byDxefuNSoK4ulNB4KFlDJtu9yonUT_tRfVleWYr3EcxwKayodd-dFWm5g5dobgNWBP60HA7T2CQe-gagEryIaRGOzflb8QuiCaLpQGW-jvIcVKoiNBXDlgvT5eZzpeXocA-lP0V-qlAviDUxVqz6t9lhaEpw78HRl7f165-6agDouXQVh9NVqAfSzt6vfa81-aFYlJT1PLlv3VhZoLeEjnDeNPkNvGRli6VeIQeUYrP-wMzW6gui1mqBnoWUZGsP8C4-qvpzBED-279uf0Scqh6skddyoAQNaOsiajeMlpPljFJSSnx6F-WwJFNKg3DAypapgt3aAzcxCRVeV9MspjrhzL8Is5q7fCFCEUBlPuWq6OsGogfasttE1xo1gGBOrhKZ49J0haqvYldLZG2IG0xslkziTZs0B7yJEAtCfLogw0E0EB1iOVw8OVOraBI_FUQ-VslnhIrtWrN7XkwCXixLJc9L8QXp7iFI7D4t6As3WODgbh0zpyVXvd-0XXuEuiPgcoA-EYj8hfbN28y66KV9d_BS-ZS5lMa_0sRp7-_t7YNP-U4_iy3XXfdDCgMxNQCDdwul5GOJHo1RZFKhoqN_0pJnjDTIDFMaItPiLCScZ1tYfhW4gpplMLKutSg8Fuk3oKslfFJRQuoOVEML8g0Y38vnbAOJY0bknOW-8jlbpCuxuN_nNWyNd_eeugo7u9mD69VSl6hIVZxTdyBnuUciOYnwfFDJR1l07fG9djgI0ttsh0KMB5gaJzmXgqR-S3fk_ernG9LUU9nxXtxS5zCqcVzZZNj2unRsAMFQUkPck-jbrirv4qk-ug5yau5e5gpdlCI-vBYqYeNNTrIdqetKSPhzTuHtbJ61UJU-wBo66p3YggodgtNeyP0Z2D7ISF4eh-2xPS1NTQzDVOk6M0-GQDRsVcSAD03YJkLb7QUU7pkFTuY1MZp-hroukFlgv7ll0fepenYvqnRiu75g4bheWlyR4zwwqqc6LG210MPVpcfRTLgbID99EYzYUpe0LeBBUfpzkC5UoJ5M66qoOocCjTsmtfxJ5S9qWawLeHkez8g4oFPnutg4ul0Q9l2jj7qawLEYJ4P4ASev9q0z1lWfd_duB-ovFvTqddG7FlQqUGGBOArgcmUkmnUiJRo1BccPztahh-a9Yf5KabO_6z3rYTrDVoIcQxvOXNnfgn8Do-uXE_HzvrtlPFkKk4B3yk91drpJuPVOf-ASD0sRRtl9QwPodJcq-f3yIZzVuctJKDY0pDHUNZRFgzk5-7ebeYpdIhqvPm8wDTl8VLH2-e9Al4PAHJKF0DtWTkLXa4-vvJI6mu9rwDiinIqJ-BdRynaPzrF2juWi9VG0Xl9Sfiba5Oc-uZV4RDRvJH1I8=w1920-h982)
+- Navigate to the **Cost Groups** section.
+- Click on **`+ CREATE COST GROUP`** to begin.
 
-- Fill CostGroup Details. You might as well change the avatar and color to your liking.
-![Fill CostGroup Details](https://lh3.googleusercontent.com/fife/AGXqzDmdEU2ThFtKV8THnpLM5eznBhEnntmqxwRHXLqwqWcCr0ibeTDWbflhJ85jp_ibyoDwn6afAearqLKRiNeimr6MQ_dZU2Vvc9Yx9JRwTWuG9okSivOK3hBloGSlCXIfTbzf6AQuc8_Rxi626s1E_sYknZ3OsXeL-nj8bIEwYzkBx0ocjgEVl0TBP409TNHPRxItq63XWwUn2rfx4CdiOgR6y-zCXpLRvU_rs3tSiKXGwUT9k87bOe9rElZhGh02GHcrSSaPtsh8kqAfEXrtVkeVZ3meG6QQ02Cjhjd5pJn2vqeUiE_9s2kjG4SA7aBg2HXIEDyaLBO3V74T_axAHSSlt4SULIsMnO_nyyVZuJhNJDnynz9VPrslWBgLi4YYNToDAo0dkXffxveO1545Ej36NkUeuP5iMQddj4rDT2ICNZmwDYQWcFCD50XLCfipO1Z_7dnANDDu4HclJ_kW8ueOVx2N6X0LsDNQK_tU_l757Ozage6-QSp_J5-nVYVK7koAjH_eOo2yQwqHcrOakJ118RyNYlBrXJmXhBAsSfMR9kwiKolGXvxY8xNqKZC8O-t6fNnP_3h5muvSlHPH4cisao000ci6ZmU3ZY3Qdbj22rWboyzEDOnqYHwl9M-AU0zqKRUsGvIcS64wE5KgEuJ7s-lRNhhVt82BxGV4G1nMg77puoREmRqHWcHgQ6JXPv3ftJw46bhUftGkK6xn9bL5aFAuPH6HpX9jisgvPhtxlsBEPgcZe0LgPE3lBRF4VJlpYRwO_hUe2TPd-fPsGVtPWfkmR0GZnpamicGIQTjhjuJmfSyFXEkicVuWHDYhkjpttATJLvE0M_Fu892fM8nD2vpWWYl2DAvd3hm13CWtnqwi8i1xlrMk7q72E68yQOFv8CGfdwU5oKNyp5Tp981ouRHDzlzsTXi07oyEUPo5ueECgME3Gl38ykgJEqnHUSrvY2stxbG5bpDEihWnoDVnqGD_x5j7mcL8cU71nqCvULlA9bBLukitvSMRxC5oXOe4gPMnDdQCFLkR_PXgAgm7CzneKwsQ29tfR0HaYNwJ_saspe_ijERd3vp1HDxWluKaZ9VgeLj1igL8KZciIh-PV6ZIWOGbm8OO9GIzUHcPJb_yz2jSiTNFYKMFf8_Sn_NlxksCZrlv7l6AIutGqaY79xJFBLsMWWfhUS8bxXAWS2iPA63sYoZJZMHOWuIFsgZfN0aIsg2UMHkjfNpAneqNangCKfnNELouZskmoA1q_45oQlNHFcdVYMKd2-QMECQ2FCBjlgebUxdF56W_qkU7yG2IqpPtONiw3Gn0YNFINhkzQKXMwK8nWpw1FyU6hKgZQMVAy0n8uCGClpl_PgPWiMnkeEZw56YgZMaHxYr-VymJPmXYem0tIOzCaxN6GIzK-souUxEwee6xNJF8BTmP2bjeqVsmSVOpZYLwbPIgIrIqGiKRhY33P9tOgSFcvqCX_H2E_gR1L41nzvCDCweD1q44LEtZ5lJt6nH451TodjsMKENeBYNaRiCwC-P3m_lIj-Q6Izg=w1920-h982)
+![Create Cost Group](https://drive.google.com/uc?export=view&id=1ePgZP_HZX6fnHp1IonSg_AVpdBDTIDBa)
+
+---
+
+## 🔧 Step 2: Select a Cost Group Type
+
+You can create a cost group using one of three approaches:
+
+---
+
+### 🛠️ 1. **Manual Creation**
+
+Choose **Manual Creation** to have full control over which AWS or cloud resources to include.
+
+> This option allows you to manually select cloud assets by applying filters based on multiple attributes. These attributes include:
+>
+> - **Account ID**
+> - **Service**
+> - **Region**
+> - **Usage Type**
+> - **Instance Type**
+> - **Availability Zone**
+> - **API Operation**
+> - **Invoice ID**
+>
+> You can define each filter using the operations:  
+> - `is` (equals to the value)  
+> - `is not` (not equals to the value)
+
+![Manual Creation](https://drive.google.com/uc?export=view&id=1S5Y4Z8Oep06X246gzSBSU0cOqqzwfIo1)
+
+---
+
+#### Steps:
+
+- **Define Cost Group Details**  
+  Provide a descriptive name and personalize the group with an avatar and color.
+
+  ![Fill CostGroup Details](https://drive.google.com/uc?export=view&id=1QvT9lnq3_-aUR0LOCCV1yWeh5FL6crpx)
+
+- **Add Filters**  
+  Select attributes from the following options and apply operations:
+
+  | Attribute         | Example Value            | Description                                 |
+  |-------------------|--------------------------|---------------------------------------------|
+  | **Account ID**     | `123456789012`           | AWS account number                          |
+  | **Service**        | `Amazon EC2`, `Amazon S3`| AWS services                                |
+  | **Region**         | `us-east-1`, `ap-southeast-1` | AWS region                                |
+  | **Usage Type**     | `BoxUsage:m5.large`      | Type of usage measured                      |
+  | **Instance Type**  | `t3.micro`, `m5.large`   | EC2 instance types                          |
+  | **Availability Zone** | `us-east-1a`         | Specific zone within the selected region    |
+  | **API Operation**  | `RunInstances`, `GetObject` | The AWS API request performed            |
+  | **Invoice ID**     | `1234-5678`              | Invoice identifier for cost grouping        |
+
+  Supported operations for all filters:
+  - **`is`** (exact match)
+  - **`is not`** (exclude match)
+
+  ![Manual Filter](https://drive.google.com/uc?export=view&id=1a5XzcQi9zORjVRRM6iySeldSTNfjApag)
+
+- **Optional**:  
+  Add **Tag Filters** to include/exclude resources based on cost allocation tags such as:
+  - `Environment = Production`
+  - `Project = Alpha`
+
+- Click **`CREATE COST GROUP`** to finalize the cost group setup.
+
+
+---
+
+### 🤖 2. **AI-Cost Creation**
+
+Use **AI-Cost** to intelligently group and analyze services related to AI and ML workloads across cloud vendors.
+
+> This method helps identify and track costs related to AI-specific services like Amazon SageMaker, Vertex AI, Azure ML, and others.
+
+![Ai Cost](https://drive.google.com/uc?export=view&id=1IUc7EP-vPagZKe_jJzWoTlW3a8l3bBO5)
+
+#### Steps:
+
+- **Select AI Services**:  
+  Choose one or more AI-related services from your connected cloud providers.
+
+  ![Ai Services](https://drive.google.com/uc?export=view&id=1MnMjkeGUk3PBbSXCJl5FmVWVe1hSqBO3)
+
+- **Fill in Cost Group Details** (Name, Avatar, Color, etc.)
+
+  ![Fill CostGroup Details - AI](https://drive.google.com/uc?export=view&id=1H9MarEynfcERw1fpTtZSa_ztxcQngIC0)
+
+- Click **`CREATE`** to finish.
+
+  ![Create Cost Group - AI](https://drive.google.com/uc?export=view&id=1Q9A87hwfSwMT61s_whXDJsFGRSxmpj-H)
+
+---
+
+### 📦 3. **Container-Cost Creation**
+
+Use **Container-Cost** to track costs related to **Kubernetes**, **Amazon ECS**, or other containerized workloads across multiple cloud environments.
+
+![Container-Cost](https://drive.google.com/uc?export=view&id=1PL8MfEtCY6JXt5vvaSLfN-xQfcj0mCvH)
+
+#### Steps:
+
+- **Select Container Services**:  
+  Choose workloads running on:
+  - Amazon ECS / EKS
+  - GKE / AKS
+  - Self-managed Kubernetes
+
+  ![Select Container Services](https://drive.google.com/uc?export=view&id=1w5GPb76F8LLMcJk0l0JyFtz2DemDC-mF)
+
+- **Fill in Cost Group Details**
+
+  ![Fill CostGroup Details - Container](https://drive.google.com/uc?export=view&id=1rjQ9cgdtwqV2lQplAzU4Uk2QOQOcYG60)
+
+- Click **`CREATE`** to complete setup.
+
+  ![Create Cost Group - Container](https://drive.google.com/uc?export=view&id=10cM8dS_mqs98IG9MJ43adybke38DqNRo)
+
+---
+
+## 📘 Viewing a Cost Group
+
+Once your cost group is created, click on it to view insights such as:
+
+- Total cloud spend (daily, monthly, or custom range)
+- Breakdowns by:
+  - AWS services
+  - Linked accounts
+  - Tags (e.g., department, environment)
+  - Usage types and regions
+- Forecasted usage and budget trends (if AI-enabled)
+
+![View Cost Group](https://drive.google.com/uc?export=view&id=1HYIA5EI6ctsjBzw_zSdtfc89TXv-LK0x)
 
 
 ### Combinations in Cost Groups and How to Use Them
