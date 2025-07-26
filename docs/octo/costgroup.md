@@ -1,4 +1,4 @@
-# Cost Groups - Complete Guide
+# Cost Groups
 
 ## Overview
 
@@ -6,11 +6,11 @@ A Cost Group in OCTO is a powerful feature that provides a customized view of yo
 
 ## What are Cost Groups?
 
-Cost Groups in OCTO are groupings that can be defined based on specific criteria. They allow you to analyze and manage your cloud costs and usage in a way that aligns with your business needs and structure. Whether it's by cloud provider accounts, services, regions, or tags, cost groups help you understand where your money is going and how resources are being utilized.
+Cost Groups in OCTO are groupings that can be defined based on specific criteria. They allow you to analyze and manage your cloud costs and usage in a way that aligns with your business needs and structure. Whether it's by cloud provider accounts, services, regions, usage, instance, availability zone, API operation, invoice and tags, cost groups help you understand where your money is going and how resources are being utilized.
 
 ## Detailed Analysis
 
-Cost Groups offer the flexibility to view your cloud costs and usage across a multitude of dimensions, such as specific cloud provider accounts, services, regions, or tags. This allows you to 'slice and dice' your costs, providing a granular analysis of your cloud spending. It helps you uncover hidden costs, identify trends, or spot inefficiencies, thus contributing to a more comprehensive cloud cost management strategy and in-depth analysis of your cloud spending.
+Cost Groups offer the flexibility to view your cloud costs and usage across a multitude of dimensions, such as specific cloud provider accounts, services, regions,usage, instance, availability zone, API operation, invoice and tags. This allows you to 'slice and dice' your costs, providing a granular analysis of your cloud spending. It helps you uncover hidden costs, identify trends, or spot inefficiencies, thus contributing to a more comprehensive cloud cost management strategy and in-depth analysis of your cloud spending.
 
 > **Important:** This feature is only available to Admins in your OCTO organization. This is to ensure that cost data and financial information is managed and viewed by authorized personnel only, thus maintaining data integrity and security within your organization.
 
@@ -22,7 +22,7 @@ Cost groups in OCTO are a flexible and powerful tool designed to help you better
 
 ### What are Combinations?
 
-Combinations are the fundamental building blocks of Cost Groups in OCTO. They enable users to customize which accounts, services, regions, or resources are included in a specific cost group by defining precise filtering criteria. Think of combinations as advanced filters that let you break down and analyze your cloud costs across multiple dimensions and providers.
+Combinations are the fundamental building blocks of Cost Groups in OCTO. They enable users to customize which accounts, services, regions, usage, instance, availability zone, API operation, invoice, tags and resources are included in a specific cost group by defining precise filtering criteria. Think of combinations as advanced filters that let you break down and analyze your cloud costs across multiple dimensions and providers.
 
 As cloud computing expanded, managing costs across multiple services and providers became increasingly complex. Many organizations struggle to control spending and use resources efficiently as their cloud usage grows. Monitoring and organizing resources across different platforms can be difficult and time-consuming. OCTO simplifies this process with combinations, allowing for smarter and more efficient cost management.
 
@@ -31,26 +31,24 @@ As cloud computing expanded, managing costs across multiple services and provide
 
 Combinations work across all three cost group creation methods:
 
-- **Manual Creation**: Direct attribute selection using combinations of vendor, account, service, region, usage type, and tags
-- **AI-Cost Creation**: Pre-configured combinations focused on AI and ML services across cloud providers  
-- **Container-Cost Creation**: Specialized combinations for containerized workloads and Kubernetes environments
+- **Manual Creation**: Direct attribute selection using combinations of vendor, account, service, region, usage type, instance, availability zone, API operation, invoice and tags.
+- **AI-Cost Creation**: Pre-configured combinations focused on AI and ML services across cloud providers.  
+- **Container-Cost Creation**: Specialized combinations for containerized workloads and Kubernetes environments.
 
 In the combination interface, you'll find:
 
-- **Vendors**: Support for AWS, Azure, and GCP
-- **Categories**: Options including account, product/service, region, tags, usage types, and more
-- **Attributes**: Specific resources within each category that can be included or excluded
-- **Operations**: Logical operators (`is`, `is not`, `AND`, `OR`) to create complex filtering rules
+- **Vendors**: Support for AWS, Azure, and GCP.
+- **Attributes**: Specific resources within each category that can be included or excluded. Options including account, product/service, region, usage types, instance, availability zone, API operation, invoice and tags.
+- **Operations**: Logical operators (`is`, `is not`, `AND`, `OR`) to create advanced filtering rules.
 
 ### Creating Combinations
 
 When creating any type of cost group, you'll work with combinations to define your filtering criteria:
 
-1. **Select Vendor**: Choose from AWS, Azure, or GCP
-2. **Choose Category**: Pick from account, product, region, tag, etc.
-3. **Define Attributes**: Specify which resources to include or exclude
-4. **Apply Operations**: Use logical operators to create complex rules
-5. **Combine Multiple Filters**: Layer different combinations for precise cost grouping
+1. **Select Vendor**: Choose from AWS, Azure, or GCP.
+2. **Choose Attributes**: Specify which resources to include or exclude. Pick from  account, product/service, region, usage types, instance, availability zone, API operation, invoice and tags.
+4. **Apply Operations**: Use logical operators to create advance rules.
+5. **Combine Multiple Filters**: Layer different combinations for precise cost grouping.
 
 The chosen category and attributes determine which resources will be included in your cost group. You can refine your selection by specifying subjects, choosing from all available options or selecting specific accounts, products, regions, tags, and other attributes based on your registered cloud accounts and requirements.
 
@@ -72,7 +70,7 @@ Head to the left side panel section and select **Cost Group**.
 
 ### Step 1: Create a New Cost Group
 
-- Click on **+ CREATE COST GROUP** to begin
+- Click on **+ CREATE COST GROUP** to start.
 
 ![Create Cost Group](https://drive.google.com/uc?export=view&id=1ePgZP_HZX6fnHp1IonSg_AVpdBDTIDBa)
 
@@ -111,7 +109,7 @@ Select from the available attributes and combine them using logical operations t
 | **API Operation** | `RunInstances`, `GetObject` | The AWS API request performed |
 | **Invoice ID** | `1234-5678` | Invoice identifier for cost grouping |
 
-**Available Operations**: Use these logical operators to create complex filtering rules:
+**Available Operations**: Use these logical operators to create advance filtering rules:
 
 - **`is`** (exact match)
 - **`is not`** (exclude match)
@@ -163,7 +161,7 @@ Choose one or more AI-related services from your connected cloud providers.
 
 #### Fill in Cost Group Details
 
-Add the required information (Name, Avatar, Color and Description)
+Provide a name and description for the cost group. You can also add an avatar and color to personalize it.
 
 ![Fill CostGroup Details - AI](https://drive.google.com/uc?export=view&id=1H9MarEynfcERw1fpTtZSa_ztxcQngIC0)
 
@@ -181,7 +179,7 @@ Use **Container-Cost** to track costs related to **Amazon ECS**, **Amazon EKS**,
 
 #### Select Container Services
 
-Choose workloads running on:
+Choose workloads running on like:
 
 - Amazon ECS
 - Amazon EKS
@@ -224,27 +222,27 @@ View your cost data through various chart types and visualizations to better und
 
 ### Filtering and Grouping Options
 
-Customize your cost analysis by applying additional filters and grouping data by different dimensions such as services, accounts, or tags.
+Customize your cost analysis by applying additional filters and grouping data by different dimensions such as account, product/service, region, usage type, charge type, billing account, category and vendor.
 
 ![Filter and Group Options](https://drive.google.com/uc?export=view&id=1bNkU1ot3xk3Ztdt04fLwpAUVVZCE-5LR)
 
 ### Anomaly Detection and Data Management
 
-- **Display Anomalies**: Click the gear icon to enable anomaly detection and identify unusual spending patterns
-- **Reload Data**: Use the reload icon to refresh the cost data with the latest information
+- **Display Anomalies**: Click the gear icon to enable anomaly detection and identify unusual spending patterns.
+- **Reload Data**: Use the reload icon to refresh the cost data with the latest information available.
 
 ![Anomaly Detection and Reload Options](https://drive.google.com/uc?export=view&id=1Uxv03WhJ8KDHzAFqxbqPXNBGwDJbrrzs)
 
 ### Search and Export Features
 
-- **Search Functionality**: Search by specific services or vendors to quickly find relevant cost data
-- **CSV Download**: Click the download button to export your cost data in CSV format for further analysis
+- **Search Functionality**: Search by specific services or vendors to quickly find relevant cost data.
+- **CSV Download**: Click the download button to export your cost data in CSV format for further analysis.
 
 ![Search and Download Features](https://drive.google.com/uc?export=view&id=16mO-wMdYvwMPQCrTlOBcrI1bAq0xFgEW)
 
 ### Detailed Service Information
 
-Click the **Details** button to access comprehensive information about specific services, including names, descriptions, and the ability to search and sort based on your preferences.
+Click the **Details** button to access comprehensive information about specific services, including names, descriptions, costs and the ability to search and sort based on your preferences.
 
 ![Service Details View](https://drive.google.com/uc?export=view&id=1Ua7sZNwC6IfzB0FJwYvyZ7bET2_P3VID)
 
@@ -282,14 +280,14 @@ Analyze detailed charge information and billing components.
 #### Combination View
 Review the filter combinations and criteria used to create your cost group. Available in two formats:
 
-**Default View**: User-friendly display of your cost group configuration
+**Default View**: User-friendly display of your cost group configuration.
 ![Default Configuration View](https://drive.google.com/uc?export=view&id=1I37vqrCo4o6FjovFLWzwrrrp2UTs8W8r)
 
-**JSON View**: Technical representation of your cost group settings for advanced users
+**JSON View**: Technical representation of your cost group settings for advanced users.
 ![JSON Configuration View](https://drive.google.com/uc?export=view&id=1o6DOVqmahUT_pbmlCvidmNQAEPSkw-F_)
 
 #### Cost Group Information
-Access basic information and metadata about your cost group, including creation date, description, and configuration details.
+Access basic information and metadata about your cost group, including creation date, name, description, threshold for anomaly and cost group ID.
 
 ![Cost Group Information](https://drive.google.com/uc?export=view&id=1TK9XVM1D_vd6PtkHvWUbSzpve3LEfAbK)
 
