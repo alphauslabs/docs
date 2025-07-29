@@ -75,20 +75,20 @@ The Budget Alert feature allows you to receive notifications when your spending 
 
 **Note:** To create a budget alert, make sure you have already created a budget.
 
-![Budget Alert](https://lh3.googleusercontent.com/d/1Nd1DjslUmNQrgodp1bny3Mts26hnqotW
+![Budget Alert](https://lh3.googleusercontent.com/d/1uoh_J0LGrH-OYDqcBWQ1yrw0nBpZvAmo
 )
 
 - Navigate to the `BUDGET ALERT` tab.  
 - Click the `View Details` of an existing budget.  
 
-![Create Budget Alert](https://lh3.googleusercontent.com/d/1-DMIjzO89_XEXUVen7L3gfcbmgMfq0ug
+![Create Budget Alert](https://lh3.googleusercontent.com/d/12e4ku2qrfRoTT2rRc-FuKPS672hQC5mG
 )
-![Create Budget Alert](https://lh3.googleusercontent.com/d/1rXHbcfHKUgJkIQ1XsaTsJQZGTRFBVkzi
+![Create Budget Alert](https://lh3.googleusercontent.com/d/1BksHzb36MKK-V0PGvXt31qiVvChqQSwB
 )
 
 - Click `CREATE BUDGET ALERT` and a popup dialog box should appear. 
 
-![Create Budget Alert](https://lh3.googleusercontent.com/d/1IM9AXLCOfGlCoApBFi_fz44U9qMQG7ON
+![Create Budget Alert](https://lh3.googleusercontent.com/d/14uS1RLJYDVwp7PVZo4G_mJMCjalobmOD
 )
 
 - Set both a cost value and a percentage of your total budget to define when the alert should be triggered. The alert will notify you once your spending reaches either the specified amount or the specified percentage of your budget. 
