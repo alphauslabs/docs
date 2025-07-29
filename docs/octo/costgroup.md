@@ -22,8 +22,8 @@ As cloud computing expanded, managing costs across multiple services and provide
 Combinations work across all three cost group creation methods:
 
 - **Manual Creation**: Direct attribute selection using combinations of vendor, account, service, region, usage type, instance, availability zone, API operation, invoice and tags.
-- **AI-Cost Creation**: Pre-configured combinations focused on AI and ML services across cloud providers. Learn more about **[AI Cost](aicost.md)**
-- **Container-Cost Creation**: Specialized combinations for containerized workloads and Kubernetes environments. Learn more about **[Container Cost](container-cost.md)**
+- **AI-Cost Creation**: Pre-configured combinations focused on AI and ML services across cloud providers. For detailed instructions, refer to **[AI Cost](aicost.md)** documentation.
+- **Container-Cost Creation**: Specialized combinations for containerized workloads and Kubernetes environments. To learn how to set this up, visit **[Container Cost](container-cost.md)** guide.
 
 In the combination interface, you'll find:
 
