@@ -4,17 +4,7 @@
 
 A Cost Group in OCTO is a powerful feature that provides a customized view of your cloud costs and usage. They are essentially filters that allow you to break down your cloud expenses according to various dimensions, offering a granular perspective on your spending.
 
-## What are Cost Groups?
-
-Cost Groups in OCTO are groupings that can be defined based on specific criteria. They allow you to analyze and manage your cloud costs and usage in a way that aligns with your business needs and structure. Whether it's by cloud provider accounts, services, regions, usage, instance, availability zone, API operation, invoice and tags, cost groups help you understand where your money is going and how resources are being utilized.
-
-## Detailed Analysis
-
-Cost Groups offer the flexibility to view your cloud costs and usage across a multitude of dimensions, such as specific cloud provider accounts, services, regions,usage, instance, availability zone, API operation, invoice and tags. This allows you to 'slice and dice' your costs, providing a granular analysis of your cloud spending. It helps you uncover hidden costs, identify trends, or spot inefficiencies, thus contributing to a more comprehensive cloud cost management strategy and in-depth analysis of your cloud spending.
-
 > **Important:** This feature is only available to Admins in your OCTO organization. This is to ensure that cost data and financial information is managed and viewed by authorized personnel only, thus maintaining data integrity and security within your organization.
-
-Cost groups in OCTO are a flexible and powerful tool designed to help you better understand and manage your cloud costs. By providing the ability to visualize and customize your cost analysis, cost groups empower you to make more informed decisions about your cloud expenditure.
 
 ---
 
@@ -226,78 +216,7 @@ Customize your cost analysis by applying additional filters and grouping data by
 
 ![Filter and Group Options](https://drive.google.com/uc?export=view&id=1bNkU1ot3xk3Ztdt04fLwpAUVVZCE-5LR)
 
-### Anomaly Detection and Data Management
 
-- **Display Anomalies**: Click the gear icon to enable anomaly detection and identify unusual spending patterns.
-- **Reload Data**: Use the reload icon to refresh the cost data with the latest information available.
-
-![Anomaly Detection and Reload Options](https://drive.google.com/uc?export=view&id=1Uxv03WhJ8KDHzAFqxbqPXNBGwDJbrrzs)
-
-### Search and Export Features
-
-- **Search Functionality**: Search by specific services or vendors to quickly find relevant cost data.
-- **CSV Download**: Click the download button to export your cost data in CSV format for further analysis.
-
-![Search and Download Features](https://drive.google.com/uc?export=view&id=16mO-wMdYvwMPQCrTlOBcrI1bAq0xFgEW)
-
-### Detailed Service Information
-
-Click the **Details** button to access comprehensive information about specific services, including names, descriptions, costs and the ability to search and sort based on your preferences.
-
-![Service Details View](https://drive.google.com/uc?export=view&id=1Ua7sZNwC6IfzB0FJwYvyZ7bET2_P3VID)
-
-### Additional Cost Group Features
-
-The Cost Group dashboard provides access to several specialized views and features:
-
-#### Discount Plans
-View and manage discount plans associated with your cost group.
-
-![Discount Plans](https://drive.google.com/uc?export=view&id=1KvBPRkRBvCUmduVgQ7rRo20rO99fSSDy)
-
-#### Assets Inventory
-Access a comprehensive inventory of all assets included in your cost group.
-
-![Assets Inventory](https://drive.google.com/uc?export=view&id=1sxAXMyRmScErfYgt3T92mfZ02OF70aca)
-
-#### Budget Management
-Monitor and manage budgets associated with your cost group.
-
-![Budget Management](https://drive.google.com/uc?export=view&id=1xM-KImCj4mBkoh7D52h8WMOT8ezPlQaM)
-
-#### Anomaly Analysis
-Review detailed anomaly detection results and investigate unusual spending patterns.
-
-![Anomaly Analysis](https://drive.google.com/uc?export=view&id=1tYHAfuPLH2_R6CC1gTw9g2xuSciZd2Zh)
-
-#### Charge Breakdown
-Analyze detailed charge information and billing components.
-
-![Charge Breakdown](https://drive.google.com/uc?export=view&id=1W0Md26GCaa4SJelL38GZxpz3EPGIxFQR)
-
-### Cost Group Configuration
-
-#### Combination View
-Review the filter combinations and criteria used to create your cost group. Available in two formats:
-
-**Default View**: User-friendly display of your cost group configuration.
-![Default Configuration View](https://drive.google.com/uc?export=view&id=1I37vqrCo4o6FjovFLWzwrrrp2UTs8W8r)
-
-**JSON View**: Technical representation of your cost group settings for advanced users.
-![JSON Configuration View](https://drive.google.com/uc?export=view&id=1o6DOVqmahUT_pbmlCvidmNQAEPSkw-F_)
-
-#### Cost Group Information
-Access basic information and metadata about your cost group, including creation date, name, description, threshold for anomaly and cost group ID.
-
-![Cost Group Information](https://drive.google.com/uc?export=view&id=1TK9XVM1D_vd6PtkHvWUbSzpve3LEfAbK)
-
-### Complete Cost Group Dashboard
-
-The main Cost Group dashboard brings together all these features in a comprehensive interface for complete cost analysis and management.
-
-![Complete Cost Group Dashboard](https://drive.google.com/uc?export=view&id=1HYIA5EI6ctsjBzw_zSdtfc89TXv-LK0x)
-
----
 
 ## Edit and Delete Cost Group
 
