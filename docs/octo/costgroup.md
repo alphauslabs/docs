@@ -52,8 +52,7 @@ Cost Groups is a key feature in OCTO as discussed in this article. This section 
 
 Head to the left side panel section and select **Cost Group**. 
 
-![CostGroup Management](https://lh3.googleusercontent.com/d/1WxnW6Ffhb4UmtddolM_mcfgPoI0dbx5U
-)
+![CostGroup Management](https://lh3.googleusercontent.com/d/1IfLUK61Q5O9PW2GC0HWV8vrKz4CbFtRW)
 
 ---
 
@@ -61,7 +60,7 @@ Head to the left side panel section and select **Cost Group**.
 
 - Click on **+ CREATE COST GROUP** to start.
 
-![Create Cost Group](https://lh3.googleusercontent.com/d/1ePgZP_HZX6fnHp1IonSg_AVpdBDTIDBa
+![Create Cost Group](https://lh3.googleusercontent.com/d/11iUqji-FobZVNfGPqblwnZEVZoJ1wIke
 )
 
 ---
@@ -76,14 +75,14 @@ Choose **Manual Creation** to have full control over which AWS or cloud resource
 
 This option allows you to manually select cloud assets by applying filters based on multiple attributes and operations to create precise cost groupings.
 
-![Manual Creation](https://lh3.googleusercontent.com/d/1S5Y4Z8Oep06X246gzSBSU0cOqqzwfIo1
+![Manual Creation](https://lh3.googleusercontent.com/d/1MRCQo7JsrKf270nfN6La_Dh2h4WiS4GE
 )
 
 #### Define Cost Group Details
 
 Provide a name and description for the cost group, then customize it by selecting an avatar and color.
 
-![Fill CostGroup Details](https://lh3.googleusercontent.com/d/13sy-FQStIMCRwj_ja9_iee34buahklDd
+![Fill CostGroup Details](https://lh3.googleusercontent.com/d/1e2CQ1sfrqJe37KFnHRAgC888csG0Qbzk
 )
 
 #### Add Filters
@@ -108,7 +107,7 @@ Select from the available attributes and combine them using logical operations t
 - **`AND`** (combine multiple conditions that must all be true)
 - **`OR`** (combine multiple conditions where at least one must be true)
 
-![Manual Filter](https://lh3.googleusercontent.com/d/1a5XzcQi9zORjVRRM6iySeldSTNfjApag
+![Manual Filter](https://lh3.googleusercontent.com/d/1zhwxSn9T2BK0u2lkOgFx-1pFaV7PAexQ
 )
 
 #### Optional: Add Tag Filters
@@ -124,17 +123,17 @@ If you need to modify your cloud provider selection during the setup process:
 
 **Delete Current Provider**: Click the trash icon to remove and change the current cloud provider or vendor.
 
-![Delete Vendor](https://lh3.googleusercontent.com/d/1JhT7cNAyFvpAn8E0yVINnat7OVQwWPQY
+![Delete Vendor](https://lh3.googleusercontent.com/d/1veA5YLEL4AaR0qk2q7dImuAh9HMEDpZz
 )
 
 **Add New Provider**: Click the **+Add Provider** button to select a different cloud provider.
 
-![Add Provider](https://lh3.googleusercontent.com/d/1BNaKBBqfAGjZffwBL0HTICN91odifl1S
+![Add Provider](https://lh3.googleusercontent.com/d/1J8GMxkWIktRuGCnndteSlfHDUWjkiMcr
 )
 
 **Select and Confirm**: Choose your desired provider from the available options and click the **Confirm** button to apply the changes.
 
-![Select Provider](https://lh3.googleusercontent.com/d/14uBpfoyMBLn33TTgkXZkaDS0N_JtyiQE
+![Select Provider](https://lh3.googleusercontent.com/d/1-QfAwZmDg5USq8YX9BJ-e5XJ417KMs1R
 )
 
 Click **CREATE COST GROUP** to finalize the cost group setup.
@@ -149,7 +148,7 @@ Once your cost group is created, click on it to view comprehensive insights and 
 
 Filter your cost data by different time periods (daily, monthly, or custom range) to analyze spending patterns over specific timeframes.
 
-![Filter Time](https://lh3.googleusercontent.com/d/1k_eZP_pkLFS6TMIuJ-xQh316QwhOh1Lb
+![Filter Time](https://lh3.googleusercontent.com/d/110ssBZGGbDfB4JSKp10cMQxXk_qZEz6c
 )
 
 ### Cost Visualization Graphs
@@ -172,12 +171,12 @@ View your cost data through various chart types and visualizations to better und
 
 Customize your cost analysis by applying additional filters and grouping data by different dimensions such as account, product/service, region, usage type, charge type, billing account, category and vendor.
 
-![Filter and Group Options](https://lh3.googleusercontent.com/d/1bNkU1ot3xk3Ztdt04fLwpAUVVZCE-5LR
+![Filter and Group Options](https://lh3.googleusercontent.com/d/1GXG3iXNh_buxLfelK6CZ1XfTD91P5zeQ
 )
 
 ## Edit and Delete Cost Group
 
 Only Admin OCTO accounts can edit cost groups which can then edit combinations and change anomaly threshold. Click the **Action** button and now you can select between editing the combination info, the combination itself, change anomaly threshold, or delete it.
 
-![Edit and Delete Cost Group](https://lh3.googleusercontent.com/d/10d4J6gg3MKf8rGZkHnN0aPEwyb5dUcXC
+![Edit and Delete Cost Group](https://lh3.googleusercontent.com/d/1aEmfiMrJ8-9p_Cw743qLJLtLsbLpcjd3
 )
