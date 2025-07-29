@@ -22,8 +22,8 @@ As cloud computing expanded, managing costs across multiple services and provide
 Combinations work across all three cost group creation methods:
 
 - **Manual Creation**: Direct attribute selection using combinations of vendor, account, service, region, usage type, instance, availability zone, API operation, invoice and tags.
-- **AI-Cost Creation**: Pre-configured combinations focused on AI and ML services across cloud providers.  
-- **Container-Cost Creation**: Specialized combinations for containerized workloads and Kubernetes environments.
+- **AI-Cost Creation**: Pre-configured combinations focused on AI and ML services across cloud providers. Learn more about **[AI Cost](aicost.md)**
+- **Container-Cost Creation**: Specialized combinations for containerized workloads and Kubernetes environments. Learn more about **[Container Cost](container-cost.md)**
 
 In the combination interface, you'll find:
 
@@ -68,9 +68,9 @@ Head to the left side panel section and select **Cost Group**.
 
 ### Step 2: Select a Cost Group Type
 
-You can create a cost group using one of three approaches:
+Select the type of Cost Group you want to create. The steps below show how to create a Manual Creation cost group, which is the default option and gives you full control over your cost group configuration.
 
-### 1. Manual Creation
+### Manual Creation
 
 Choose **Manual Creation** to have full control over which AWS or cloud resources to include.
 
@@ -132,59 +132,6 @@ If you need to modify your cloud provider selection during the setup process:
 ![Select Provider](https://drive.google.com/uc?export=view&id=14uBpfoyMBLn33TTgkXZkaDS0N_JtyiQE)
 
 Click **CREATE COST GROUP** to finalize the cost group setup.
-
----
-
-### 2. AI-Cost Creation
-
-Use **AI-Cost** to intelligently group and analyze services related to AI and ML workloads across cloud vendors.
-
-This method helps identify and track costs related to AI-specific services like Amazon SageMaker, Bedrock, Polly, and others.
-
-![Ai Cost](https://drive.google.com/uc?export=view&id=1IUc7EP-vPagZKe_jJzWoTlW3a8l3bBO5)
-
-#### Select AI Services
-
-Choose one or more AI-related services from your connected cloud providers.
-
-![Ai Services](https://drive.google.com/uc?export=view&id=1MnMjkeGUk3PBbSXCJl5FmVWVe1hSqBO3)
-
-#### Fill in Cost Group Details
-
-Provide a name and description for the cost group. You can also add an avatar and color to personalize it.
-
-![Fill CostGroup Details - AI](https://drive.google.com/uc?export=view&id=1H9MarEynfcERw1fpTtZSa_ztxcQngIC0)
-
-Click **CONFIRM AND CREATE** to finish.
-
-![Create Cost Group - AI](https://drive.google.com/uc?export=view&id=1Q9A87hwfSwMT61s_whXDJsFGRSxmpj-H)
-
----
-
-### 3. Container-Cost Creation
-
-Use **Container-Cost** to track costs related to **Amazon ECS**, **Amazon EKS**, or other containerized workloads across multiple cloud environments.
-
-![Container-Cost](https://drive.google.com/uc?export=view&id=1PL8MfEtCY6JXt5vvaSLfN-xQfcj0mCvH)
-
-#### Select Container Services
-
-Choose workloads running on like:
-
-- Amazon ECS
-- Amazon EKS
-
-![Select Container Services](https://drive.google.com/uc?export=view&id=1w5GPb76F8LLMcJk0l0JyFtz2DemDC-mF)
-
-#### Fill in Cost Group Details
-
-Add the required information for your container cost group.
-
-![Fill CostGroup Details - Container](https://drive.google.com/uc?export=view&id=1rjQ9cgdtwqV2lQplAzU4Uk2QOQOcYG60)
-
-Click **CONFIRM AND CREATE** to complete setup.
-
-![Create Cost Group - Container](https://drive.google.com/uc?export=view&id=10cM8dS_mqs98IG9MJ43adybke38DqNRo)
 
 ---
 
