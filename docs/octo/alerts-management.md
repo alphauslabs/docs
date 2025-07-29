@@ -81,7 +81,7 @@ The Budget Alert feature allows you to receive notifications when your spending 
 - Navigate to the `BUDGET ALERT` tab.  
 - Click the `View Details` of an existing budget.  
 
-![Create Budget Alert](https://lh3.googleusercontent.com/d/12e4ku2qrfRoTT2rRc-FuKPS672hQC5mG
+![Create Budget Alert](https://lh3.googleusercontent.com/d/13j3rHy6BOxhb5sdKkDFxEyYhY0pa3mGE
 )
 ![Create Budget Alert](https://lh3.googleusercontent.com/d/1BksHzb36MKK-V0PGvXt31qiVvChqQSwB
 )
