@@ -1,29 +1,21 @@
-# Creating Report
-
-## Overview
-
-OCTO provides reporting capabilities that allow users to analyze cloud usage, track optimization implementations, and identify cost-saving opportunities across multiple accounts. Reports can be generated on a monthly, quarterly, or yearly basis and offer both pre-configured templates and customizable layouts to meet specific organizational needs.
-
-## Dashboard Sections
-
-> **Note:** The layout of the dashboard will vary depending on whether the user has selected a customized configuration, such as by adding or rearranging widgets to suit their preferences. Below are the sample metrics displayed in the dashboard.
-
-### 1. Cloud Usage Analysis
-This section provides detailed insights into your cloud spending patterns and trends.
-
-**Key Metrics Include:**
-- Total cloud usage costs
-- Period-over-period comparison showing percentage and absolute changes
-- Daily average cost fluctuations
-- Visual cost overview graphs
-- Cost breakdown by service
-- Savings coverage breakdown analysis
-- Cost breakdown by account
 
 
+# Reports
 
-### 2. Optimization Implementation Analysis
-This section tracks the execution and effectiveness of cost optimization recommendations.
+    Overview
+    Fixed Report
+    Custom Report
+
+---
+
+**Overview:**
+See [Overview](reports/overview.md) for a summary of reporting capabilities and dashboard metrics.
+
+**Fixed Report:**
+See [Fixed Report](reports/fixed-report.md) for instructions on creating a report using the Fixed Template.
+
+**Custom Report:**
+See [Custom Report](reports/custom-report.md) for instructions on creating a report using the Build from Scratch (Custom Template) option.
 
 **Key Metrics Include:**
 - Total number of optimization suggestions generated
