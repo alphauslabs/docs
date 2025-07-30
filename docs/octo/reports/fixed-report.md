@@ -5,7 +5,6 @@ This guide covers how to create a report using the **Fixed Report Template** in 
 ## Features of Fixed Template
 - Pre-configured insight reports with predefined layouts
 - Automatically structured based on selected time period
-- Ideal for standardized reporting needs
 
 ## Steps to Create a Fixed Report
 

@@ -5,7 +5,6 @@ This guide covers how to create a report using the **Build from Scratch** (Custo
 ## Features of Build from Scratch
 - Add custom widgets from the platform's widget library
 - Full customization of report layout and content
-- Suitable for specific or unique reporting requirements
 
 ## Steps to Create a Custom Report
 
