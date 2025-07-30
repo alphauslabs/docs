@@ -6,6 +6,8 @@ OCTO provides reporting capabilities that allow users to analyze cloud usage, tr
 
 ## Dashboard Sections
 
+> **Note:** The layout of the dashboard will vary depending on whether the user has selected a customized configuration, such as by adding or rearranging widgets to suit their preferences. Below are the sample metrics displayed in the dashboard.
+
 ### 1. Cloud Usage Analysis
 This section provides detailed insights into your cloud spending patterns and trends.
 
