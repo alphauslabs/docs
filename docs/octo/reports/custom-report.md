@@ -70,6 +70,7 @@ After saving the layout, you can further customize your report through:
 - **Move Widget:** Reposition widgets within the dashboard layout
 - **Add New Widget:** Insert additional widgets to expand data visualization
 - **Delete Widget:** Remove unwanted widgets from the report
+
 ![Post Layout](https://lh3.googleusercontent.com/d/1H-apE1i5pkW0RcKAQM2BPEnHsXfxwWw1)
 
 **Widget Settings:**
