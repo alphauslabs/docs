@@ -74,6 +74,10 @@ After saving the layout, you can further customize your report through:
 
 **Widget Settings:**
 Access individual widget settings to customize:
+
+![Display Option](https://lh3.googleusercontent.com/d/1GlmZFLsMOdtTDSVnU7gODjC4R8vs7eQ2)
+![Edit Option](https://lh3.googleusercontent.com/d/1RaLqUN8aOxwQ13gzwKVJWrOrUbYVommB)
+
 - **Title and Subtitle:** Edit widget display names and descriptions
 - **Cost Group:** Change the data source for the widget
 - **Granularity:** Select data aggregation level (Daily or Monthly)
@@ -84,5 +88,4 @@ Access individual widget settings to customize:
 - **Past Comparisons:** Enable option to show historical data comparisons
 - Click **"Update Widget"** to apply changes
 
-![Display Option](https://lh3.googleusercontent.com/d/1GlmZFLsMOdtTDSVnU7gODjC4R8vs7eQ2)
-![Edit Option](https://lh3.googleusercontent.com/d/1RaLqUN8aOxwQ13gzwKVJWrOrUbYVommB)
+

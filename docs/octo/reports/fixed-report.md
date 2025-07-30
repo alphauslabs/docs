@@ -52,9 +52,11 @@ Choose which cost groups should be included in the report. The selected cost gro
 **Preview Report:**
 Click "Preview Report" to review the layout and content before finalizing.
 
+![Preview](https://lh3.googleusercontent.com/d/1_6sOioLi-YY8VA8NwQPjpnlKruWv0-VF)
+
 **Final Actions:**
 - **Save Layout:** Confirm and save the report configuration
 - **Cancel:** Discard changes and exit report creation
 - **Report Settings:** Access additional configuration options to modify parameters
 
-![Preview](https://lh3.googleusercontent.com/d/1_6sOioLi-YY8VA8NwQPjpnlKruWv0-VF)
+
