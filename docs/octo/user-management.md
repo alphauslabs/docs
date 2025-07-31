@@ -56,7 +56,7 @@ The User Management system in Octo platform allows administrators to invite, man
 
 ### Accessing Member Actions
 
-Each member entry includes a **meatballs menu (three dots)** that provides various management options depending on the user's current status.
+Each member entry includes a **kebab menu (three dots)** that provides various management options depending on the user's current status.
 
 ### Pending Members Management
 
