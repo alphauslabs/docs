@@ -1,47 +1,15 @@
 # Report 
 
-## Overview
 OCTO provides reporting capabilities that allow users to analyze cloud usage, track optimization implementations, and identify cost-saving opportunities across multiple accounts. Reports can be generated on a monthly, quarterly, or yearly basis and offer both pre-configured templates and customizable layouts to meet specific organizational needs.
 
-## Dashboard Sections
+OCTO offers two main approaches to report creation:
 
-> **Note:** The sample metrics listed below apply only to the **fixed report** layout. **Custom reports** may have a different layout and set of metrics, depending on the widgets and configuration selected by the user.
+### Fixed Report
+Pre-configured insight reports with predefined layouts that are automatically structured based on your selected time period. This option provides a quick way to generate comprehensive reports with standard metrics and visualizations.
 
-### 1. Cloud Usage Analysis
-This section provides detailed insights into your cloud spending patterns and trends.
+**[Click here to learn how to create a Fixed Report →](fixed-report.md)**
 
-**Key Metrics Include:**
-- Total cloud usage costs
-- Period-over-period comparison showing percentage and absolute changes
-- Daily average cost fluctuations
-- Visual cost overview graphs
-- Cost breakdown by service
-- Savings coverage breakdown analysis
-- Cost breakdown by account
+### Custom Report (Build from Scratch)
+Fully customizable reports where you can add widgets from the platform's widget library and design your own layout. This option gives you complete control over report content and visualization.
 
-### 2. Optimization Implementation Analysis
-This section tracks the execution and effectiveness of cost optimization recommendations.
-
-**Key Metrics Include:**
-- Total number of optimization suggestions generated
-- Number of optimizations actually executed
-- Cost vs. Savings
-- Savings breakdown by account
-- Optimization recommendations recorded
-
-### 3. Estimated Usage Optimization Opportunities
-This section identifies unrealized cost-saving opportunities in your current cloud usage.
-
-**Key Metrics Include:**
-- Total unrealized savings potential for the reporting period
-- Highest impact optimization opportunities by service
-- Specific recommendations with projected savings amounts
-
-### 4. Estimated Unrealized Rate Optimization Opportunities
-This section focuses on rate optimization through reserved instances and savings plans.
-
-**Key Metrics Include:**
-- Monthly unrealized savings from rate optimization
-- Specific savings plan recommendations
-- Account-specific optimization opportunities
-- Analysis based on 3-year term length and full upfront payment options
+**[Click here to learn how to create a Custom Report →](custom-report.md)**
