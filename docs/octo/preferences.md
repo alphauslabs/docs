@@ -7,8 +7,12 @@ OCTO preferences allow users to customize their platform experience and configur
 - **User Settings:** Personal customization options such as account details, connected accounts, and interface themes.
 - **Organization Settings:** Company-wide configurations including fiscal year and currency settings.
 - **App Settings:** Application behavior preferences like language, region, and color theme.
+- **Notification Settings:** Alert and channel management for receiving notifications
+- **Single Sign-On:** SAML SSO configuration for user authentication
 
-> **Note:** Some preference categories are documented separately.  
+> **Note:** Some preference categories are documented separately:
+> - **Notification Settings:** [Alerts Management](alerts-management.md) and [Channel Management](channel-management.md)
+> - **Single Sign-On:** [SAML SSO](samlsso.md)  
 
 
 ## Accessing Preferences
