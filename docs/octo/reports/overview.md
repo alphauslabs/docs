@@ -11,3 +11,19 @@ Pre-configured insight reports with predefined layouts that are automatically st
 Fully customizable reports where you can add widgets from the platform's widget library and design your own layout. This option gives you complete control over report content and visualization.
 
 **[Click here to learn how to create a Custom Report →](custom-report.md)**
+
+## Edit, Delete and Duplicate Report
+
+To edit, delete, or duplicate an existing report, click the **kebab menu(three dots)**. This will provide you with the following options:
+
+- **Edit:** Modify the report configuration and layout
+- **Delete:** Remove the report permanently
+- **Duplicate:** Create a copy of the existing report for further customization
+
+![edit, del, dup](https://lh3.googleusercontent.com/d/1cX81yS4D-WORJhghTDYpqPrvS20M9HHN)
+
+**Additional Options Available:**
+- **Set to Main Report:** Designate this report as the default/main report
+- **Switch Display Currency:** Toggle between Yen and Dollar currency display
+- **Information:** View detailed information about the report
+- **Edit Layout:** Modify the report's layout and widget arrangement
