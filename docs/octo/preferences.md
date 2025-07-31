@@ -99,14 +99,9 @@ The system shows your current fiscal year start date and quarterly breakdown:
 
 Currency settings control how monetary values are displayed and calculated in OCTO reports.
 
-**Key Features:**
 - **Fixed Report Currency Switching:** Currency changes only apply to Fixed Reports
 - **Exchange Rate Updates:** Configure when OCTO retrieves updated exchange rates
 - **Monthly Rate Refresh:** The system automatically updates exchange rates on a specified day each month
-
-**Important Notes:**
-- Currency switching is limited to Fixed Reports only
-- Exchange rates are updated monthly based on your configured schedule
 
 
 ![Currency Settings](https://lh3.googleusercontent.com/d/1awn57FQQjy88eLRufE5M4oqVStuBzYTB)
@@ -134,8 +129,7 @@ Configure localization settings to ensure OCTO displays information according to
 - **Language Selection:** Choose your preferred display language
 
 **Regional Settings:**
-- **Timezone Configuration:** Set your local timezone for accurate date and time display
-- **Timezone Display:** Shows both the timezone name and identifier (e.g., "Asia/Manila")
+- **Timezone:** Choose your local timezone otherwise you can also set it automatically.
 
 ![Language and Region](https://lh3.googleusercontent.com/d/1SMTJUZ3qyx0uuZslVMKC93cEc2r8Fura)
 
