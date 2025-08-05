@@ -45,13 +45,15 @@ To create a budget in Octo, follow these steps:
 
 ![save as draft](https://lh3.googleusercontent.com/d/1MF1YSAwUyebusGqhZr0FTWRkJYlme0Kq)
 
-   * **Create Budget:** If you are satisfied with the budget, click "Create Budget" to activate it. Once created, the budget will show an "Active" status. Click **Next** after supplying the amount of budget.
+   * **Create Budget:** Once you're satisfied with the allocated budget amount, click Next, then select the **Create Budget** button to finalize the creation.
 
 ![create budget](https://lh3.googleusercontent.com/d/1KvFFExsuXz-HpxmZT04NoH6NZOUAZDWC)
 
 > **Note:** Set Budget Notification (Optional but Recommended):
    * *For detailed steps on setting budget notifications, please refer to the documentation on Budget Alerts.*
-## Budget Status
+## Budget Details
+
+After creation, you will be redirected to a view displaying the list of budgets created for this specific cost group.
 
 * **Draft Budgets:** Users can save a budget as a draft if they are not yet ready to activate it. Drafts can be configured or deleted later.
 * **Active Budgets:** Once a budget is created (not a draft), it becomes active.
@@ -60,19 +62,20 @@ To create a budget in Octo, follow these steps:
 
 ![budget status](https://lh3.googleusercontent.com/d/1U_g7af-fT3MHmYaW0VF_XKxRV-OMjGNU)
 
-## Budget Details View
 
-Click the **View Details** button to view the budget details.
+Click the **View Details** button to view the overview of the created budget.
 
 ![view details](https://lh3.googleusercontent.com/d/1Ii7cb70d4YU7rp8Bc_jl4lzrByn9xu5l)
 ![budget view](https://lh3.googleusercontent.com/d/1KW3XNTh3x5IX7th4c8JEWAlRND7jPCIC)
 
-* **Budget Progress:** This indicates the percentage of the total budget that has been spent, offering a snapshot of spending patterns.
-* **Summary Cards:** These cards display total actual spending, total budget, budget progress, and the budget period.
 * **Actual Cost:** This row shows the current cost for each month, updating in real-time.
+* **Budget:** This row shows the amount of budget you set during creation.
+* **Budget Progress:** This indicates the percentage of the total budget that has been spent, offering a snapshot of spending patterns.
+* **Period:** This shows the duration for which the budget is set.
+
 ## Budget Settings
 
-Users can click the notification bell to create budget alerts. From the budget settings, users can also edit, delete, and view budget information.
+In the upper right corner, users can click the notification bell to create budget alerts. They can also edit, delete, or view budget details from this section.
 
 ![budget settings](https://lh3.googleusercontent.com/d/1aDb6KThA2PQXQo-_3iaJSSrRPTauDNrx)
 
