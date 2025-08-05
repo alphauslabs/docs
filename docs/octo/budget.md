@@ -28,7 +28,7 @@ To create a budget in Octo, follow these steps:
  ![set budget](https://lh3.googleusercontent.com/d/1I95Qc9RnE6L8NqljrnWdwJmWdsVcyIoH)
 
 
-   * **Forecast Data:** This is derived from historical usage patterns; more past data leads to more accurate forecasting. This helps to manage the amount of budget you want to allocate for that cost group. Refer to this docs for more information.
+   * **Forecast Data:** This is derived from historical usage patterns; more past data leads to more accurate forecasting. This helps to manage the amount of budget you want to allocate for that cost group. Refer to this [docs](forecasting.md) for more information.
    * **Previous Period Spending:** This row displays spending data from the same period one year prior to help identify trends.
    * **Budget:** This is where you configure your budget.
    * **Difference:** This shows the percentage difference between the previous period's spending and the current budget.
@@ -45,12 +45,12 @@ To create a budget in Octo, follow these steps:
 
 ![save as draft](https://lh3.googleusercontent.com/d/1MF1YSAwUyebusGqhZr0FTWRkJYlme0Kq)
 
-   * **Create Budget:** Once you're satisfied with the allocated budget amount, click Next, then select the **Create Budget** button to finalize the creation.
+   * **Create Budget:** When you're satisfied with the allocated budget amount, click **Next**, then click the **Create Budget** button to complete the process.
 
 ![create budget](https://lh3.googleusercontent.com/d/1KvFFExsuXz-HpxmZT04NoH6NZOUAZDWC)
 
 > **Note:** Set Budget Notification (Optional but Recommended):
-   * *For detailed steps on setting budget notifications, please refer to the documentation on Budget Alerts.*
+   * *For detailed steps on setting budget notifications, please refer to the documentation on [Budget Alerts](alerts-management.md).*
 ## Budget Details
 
 After creation, you will be redirected to a view displaying the list of budgets created for this specific cost group.
@@ -63,7 +63,7 @@ After creation, you will be redirected to a view displaying the list of budgets 
 ![budget status](https://lh3.googleusercontent.com/d/1U_g7af-fT3MHmYaW0VF_XKxRV-OMjGNU)
 
 
-Click the **View Details** button to view the overview of the created budget.
+Click the **View Details** button to see an overview of the created budget.
 
 ![view details](https://lh3.googleusercontent.com/d/1Ii7cb70d4YU7rp8Bc_jl4lzrByn9xu5l)
 ![budget view](https://lh3.googleusercontent.com/d/1KW3XNTh3x5IX7th4c8JEWAlRND7jPCIC)

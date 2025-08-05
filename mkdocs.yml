@@ -61,6 +61,7 @@ nav:
       - "octo/aicost.md"
       - "octo/preferences.md"
       - "octo/user-management.md"
+      - "octo/budget.md"
       - "Reports":
           - "Overview": "octo/reports/overview.md"
           - "Fixed Report": "octo/reports/fixed-report.md"
