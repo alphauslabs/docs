@@ -1,10 +1,10 @@
-# Forecasting
+# Forecast
 
 Octo's forecasting feature enables users to predict their future cloud costs. This functionality is crucial for budget planning and understanding potential future expenditures based on historical data.
 
 The system utilizes an ARIMA+ (Autoregressive Integrated Moving Average) model for these predictions. Currently, the model uses one year of past cost data to generate a forecast for the upcoming year. The forecast data is also integrated into the budget management feature for comprehensive financial planning.
 
-## Viewing Forecasting Data
+## Viewing Forecast Data
 
 To view forecasting data in Octo, follow these steps:
 
