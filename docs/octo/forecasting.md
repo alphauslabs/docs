@@ -1,4 +1,4 @@
-# Forecast
+# Forecasting
 
 Octo's forecasting feature enables users to predict their future cloud costs. This functionality is crucial for budget planning and understanding potential future expenditures based on historical data.
 
