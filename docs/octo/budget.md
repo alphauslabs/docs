@@ -2,30 +2,31 @@
 
 Octo's budget management feature allows users to control and monitor spending for their cost groups. It provides tools to create budgets for various periods, set up automated notifications, and track real-time expenditure against the allocated budget.
 
-## Steps on How to Create a Budget
+## Creating a Budget
 
 To create a budget in Octo, follow these steps:
 
-### 1. Navigate to the Budget Management Tab:
+### Navigate to the Budget Management Tab:
    * Go to the "Cost Group" section in the left pannel.
    * Select the specific cost group for which you want to create a budget and then head over to the budget tab.
 
-### 2. Initiate Budget Creation:
-   * Click the "Create Budget" button. A three-step pop-up dialog will appear.
+### Initiate Budget Creation:
+   * Click the "Create Budget" button. A three-step pop-up dialog will appear to start the creation process.
 
 ![create budget](https://lh3.googleusercontent.com/d/1bi12NOoa2XKSEoPKJjaqr_y0Ryc1W5BP)
 
-### 3. Step 1: Select Budget Period:
+### Step 1: Select Budget Period:
    * Choose the budget period: "Three Months," "Six Months," or "Twelve Months."
    * Specify the "Customize Starting and Ending Month" by selecting a start date then click **Next**. Note that the end date will automatically be calculated based on the chosen period (e.g., three months minus one day) .
 
 ![select period](https://lh3.googleusercontent.com/d/12GvwASXZBLWjpZXlolc0BwAdMoVLpZkx)
 ![date range](https://lh3.googleusercontent.com/d/1YAKWmBb5T1aAVtZFHCRzCXUPZK5tix2J)
 
-### 4. Step 2: Set Budget Amount:
+### Step 2: Set Budget Amount:
  Supply the amount of budget you want to set and take a look on the chart above as it simply provides a visual  representation of this data.
 
-   ![budget table](https://lh3.googleusercontent.com/d/1_57RwN5_VmZXKOURVIZG_WNReC-yzP6Z)
+ ![set budget](https://lh3.googleusercontent.com/d/1I95Qc9RnE6L8NqljrnWdwJmWdsVcyIoH)
+
 
    * **Forecast Data:** This is derived from historical usage patterns; more past data leads to more accurate forecasting. This helps to manage the amount of budget you want to allocate for that cost group. Refer to this docs for more information.
    * **Previous Period Spending:** This row displays spending data from the same period one year prior to help identify trends.
@@ -34,12 +35,12 @@ To create a budget in Octo, follow these steps:
    * **Choose Budget Type:**
       * **Distributed Budget:** Enter a "Total Budget" amount, and it will be equally divided across all months in the selected period.
       * **Cumulative Budget:** Toggle this option to manually input a different budget amount for each month. **Warning:** Switching from a cumulative to a distributed budget will reset all manually entered monthly values to zero.
-   * Optionally, click "Export Data to CSV" to export the table data.
+
 
 ![budget type](https://lh3.googleusercontent.com/d/1T0gacBO_CM553EPrDPDdic-Rh9sX0GHw)
    
+   * Optionally, click "Export Data to CSV" to export the table data.
 
-### 6. Save or Create Budget:
    * **Save as Draft:** If you are not yet ready to activate the budget, click "Save as Draft." You can configure or delete drafts later from the main budget view list.
 
 ![save as draft](https://lh3.googleusercontent.com/d/1MF1YSAwUyebusGqhZr0FTWRkJYlme0Kq)
@@ -61,13 +62,14 @@ To create a budget in Octo, follow these steps:
 
 ## Budget Details View
 
-* **Budget Progress:** This indicates the percentage of the total budget that has been spent, offering a snapshot of spending patterns.
-* **Summary Cards:** These cards display total actual spending, total budget, budget progress, and the budget period.
-* **Actual Cost:** This row shows the current cost for each month, updating in real-time.
+Click the **View Details** button to view the budget details.
 
 ![view details](https://lh3.googleusercontent.com/d/1Ii7cb70d4YU7rp8Bc_jl4lzrByn9xu5l)
 ![budget view](https://lh3.googleusercontent.com/d/1KW3XNTh3x5IX7th4c8JEWAlRND7jPCIC)
 
+* **Budget Progress:** This indicates the percentage of the total budget that has been spent, offering a snapshot of spending patterns.
+* **Summary Cards:** These cards display total actual spending, total budget, budget progress, and the budget period.
+* **Actual Cost:** This row shows the current cost for each month, updating in real-time.
 ## Budget Settings
 
 Users can click the notification bell to create budget alerts. From the budget settings, users can also edit, delete, and view budget information.
