@@ -6,7 +6,7 @@ Octo's budget management feature allows users to control and monitor spending fo
 
 To create a budget in Octo, follow these steps:
 
-### 1. Navigate to the Budget Management Page:
+### 1. Navigate to the Budget Management Tab:
    * Go to the "Cost Group" section in the left pannel.
    * Select the specific cost group for which you want to create a budget and then head over to the budget tab.
 
@@ -27,7 +27,7 @@ To create a budget in Octo, follow these steps:
 
    ![budget table](https://lh3.googleusercontent.com/d/1_57RwN5_VmZXKOURVIZG_WNReC-yzP6Z)
 
-   * **Forecast Data:** This is derived from historical usage.patterns; more past data leads to more accurate forecasting. This helps to manage the amount of budget you set. Refer to this docs for more information.
+   * **Forecast Data:** This is derived from historical usage patterns; more past data leads to more accurate forecasting. This helps to manage the amount of budget you want to allocate for that cost group. Refer to this docs for more information.
    * **Previous Period Spending:** This row displays spending data from the same period one year prior to help identify trends.
    * **Budget:** This is where you configure your budget.
    * **Difference:** This shows the percentage difference between the previous period's spending and the current budget.
@@ -38,19 +38,18 @@ To create a budget in Octo, follow these steps:
 
 ![budget type](https://lh3.googleusercontent.com/d/1T0gacBO_CM553EPrDPDdic-Rh9sX0GHw)
    
-   * Click **Next** after supplying the amount of budget.
-### 5. Step 3: Set Budget Notification (Optional but Recommended):
-   * *For detailed steps on setting budget notifications, please refer to the documentation on Budget Alerts.*
 
 ### 6. Save or Create Budget:
    * **Save as Draft:** If you are not yet ready to activate the budget, click "Save as Draft." You can configure or delete drafts later from the main budget view list.
 
 ![save as draft](https://lh3.googleusercontent.com/d/1MF1YSAwUyebusGqhZr0FTWRkJYlme0Kq)
 
-   * **Create Budget:** If you are satisfied with the budget, click "Create Budget" to activate it. Once created, the budget will show an "Active" status.
+   * **Create Budget:** If you are satisfied with the budget, click "Create Budget" to activate it. Once created, the budget will show an "Active" status. Click **Next** after supplying the amount of budget.
 
 ![create budget](https://lh3.googleusercontent.com/d/1KvFFExsuXz-HpxmZT04NoH6NZOUAZDWC)
 
+> **Note:** Set Budget Notification (Optional but Recommended):
+   * *For detailed steps on setting budget notifications, please refer to the documentation on Budget Alerts.*
 ## Budget Status
 
 * **Draft Budgets:** Users can save a budget as a draft if they are not yet ready to activate it. Drafts can be configured or deleted later.
