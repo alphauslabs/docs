@@ -22,15 +22,13 @@ To view forecasting data in Octo, follow these steps:
    * This "Forecast Cost" represents the predicted future spending.
 
 4. **Understand Grouping Limitations:**
-   * Currently, the "Group By" option (e.g., grouping by account) does not affect the displayed forecast cost. The forecast cost will remain the same regardless of how you group the actual cost data.
-
-5. **Note on Data Status:**
-   * A notice might be displayed indicating that the data contains forecast information, reminding users that these are predictions.
-   * It's important to remember that the current day's data and future data are still processing and may not be final until the end of the month, as the Cost and Usage Report (CUR) is constantly changing.
+> **Note:**  
+> * A text indicator is displayed to inform users that the graph includes forecast data.  
+> * There's a forecast data shown in the graph for the current day since the Cost and Usage Report (CUR) is still being processed.
 
 ## Technical Background
 
 * **Model Used:** Octo uses the ARIMA+ model from GCP BigQuery ML for cost forecasting.
 * **Data Source:** The model is fed with one year of historical cost data to predict one year of future costs.
 * **Data Storage:** After prediction, the forecast data is stored in Spanner tables, separated by vendor (e.g., `cover_aws_forecast`, `cover_gcp_forecast`, `cover_azure_forecast`).
-* **API:** An API endpoint is used to retrieve this data from Spanner and display it in the UI.
+* **API:** An API endpoint `costusage` is used to retrieve this data from Spanner and display it in the UI.
