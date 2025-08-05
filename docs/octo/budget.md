@@ -39,7 +39,7 @@ To create a budget in Octo, follow these steps:
 
 ![budget type](https://lh3.googleusercontent.com/d/1T0gacBO_CM553EPrDPDdic-Rh9sX0GHw)
    
-   * Optionally, click "Export Data to CSV" to export the table data.
+   * Optionally, click "Export Data to CSV" to export and download the data you have entered.
 
    * **Save as Draft:** If you are not yet ready to activate the budget, click "Save as Draft." You can configure or delete drafts later from the main budget view list.
 
