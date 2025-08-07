@@ -31,7 +31,7 @@ The CUR export settings and the target S3 bucket will be deployed to us-east-1 r
 
 ![Verify New Setup](https://lh3.googleusercontent.com/d/11AfRVtOWofM4BmJCwUPaOwVRS5MFE8H2)
 
-6. If the verification is successful, you'll have the option to add a sub-account. You can either add one and click `Check and Confirm` again to finish, or simply skip the sub-account step.
+6. If the verification is successful, you'll have the option to add a sub-account. You can either add and click `Check and Confirm` again to finish, or simply skip the sub-account step.
 
 ![Sub account](https://lh3.googleusercontent.com/d/1w9szAN4XWo0-8I-jdN5wXuCteX7gOkBY)
 

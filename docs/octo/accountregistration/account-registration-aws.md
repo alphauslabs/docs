@@ -16,7 +16,7 @@ Currently we have 2 steps in registering AWS account in Octo. First is through A
 
     a. Input your AWS Account Id (12 digits).
 
-    b. Input Account Name (Optional).
+    b. Input Account Name.
 
     c. Click Register Account.
 
@@ -85,7 +85,7 @@ Note: You must have terraform installed in your local machine to proceed. You ca
 
     a. Input your AWS Account Id (12 digit).
 
-    b. Input Account Name (Optional).
+    b. Input Account Name.
 
     c. Click Register Account.
 
