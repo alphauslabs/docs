@@ -10,7 +10,7 @@ Currently we have 2 steps in registering AWS account in Octo. First is through A
 
 1. **Select Registration Method.** Choose Connect via AWS Console.
 
-![AWS Console](https://lh3.googleusercontent.com/d/1yFJbu44o1ue1nR6wZxGcr_IdHllZ6oL4)
+   ![AWS Console](https://lh3.googleusercontent.com/d/1yFJbu44o1ue1nR6wZxGcr_IdHllZ6oL4)
 
 2. **Basic Details.** This step will save your account's Id and name if provided.
 
@@ -22,13 +22,13 @@ Currently we have 2 steps in registering AWS account in Octo. First is through A
 
     d. If there is no error, then click Next.
 
-![Basic details](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
+   ![Basic details](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
 
 3. **Setup API Access.** In this step it will deploy a stack in your AWS account, this will setup needed permission to allow Octo to perfome API Operation in your account.
 
     a. Click Open AWS create stack page. This will bring you create stack page in your currently signed-in AWS account, make sure you deploy the stack in your intended account, default region would be `us-east-1`.
 
-  ![Stack page](https://lh3.googleusercontent.com/d/1_z9qtqv9qWG7pWvtGVEt2Ucvin8jgDfM)
+   ![Stack page](https://lh3.googleusercontent.com/d/1_z9qtqv9qWG7pWvtGVEt2Ucvin8jgDfM)
 
     b. Please check default values when creating stack:
 
@@ -36,30 +36,30 @@ Currently we have 2 steps in registering AWS account in Octo. First is through A
     - ExternalId (Do not change.)
     - Principal (Do not change.)
 
-  ![Stack values](https://lh3.googleusercontent.com/d/1rDS68nmxXFB_BdnHJpM6qGtowtfqAU08)
+   ![Stack values](https://lh3.googleusercontent.com/d/1rDS68nmxXFB_BdnHJpM6qGtowtfqAU08)
 
     c. Tick the checkbox to agree the I acknowledge that AWS CloudFormation might create IAM resources with custom names. message.
 
     d. After checking the stack details, click Create stack button. If create stack is success, go back to Octo.
 
-  ![Agreement](https://lh3.googleusercontent.com/d/1kcZPqOxhzWpEyx2Z0OYRt_1ROmpMFgxB)
+   ![Agreement](https://lh3.googleusercontent.com/d/1kcZPqOxhzWpEyx2Z0OYRt_1ROmpMFgxB)
 
     e. Click Check and Confirm to verify the deployment.
 
 
     f. If verification is success, it would check whether your account is a linked or payer account. If it is linked, you can click the Confirm and Finish button to finish the registration. If payer then click next to proceed with additional steps for payer accounts.
 
-Linked Account
+    Linked Account
   ![Linked Account](https://lh3.googleusercontent.com/d/1GCvA890E7KTwQje_2rOGs3AU9aDWNBM8)
 
-Payer Account
+   Payer Account
   ![Payer Acc](https://lh3.googleusercontent.com/d/10Vzj9ZFmfG_kAK7XxSNx9diO_E8cuWDF)
 
 4. **Setup Multiple API Access - Optional** (Payer Only). This step will use stackset to deploy API Access in all linked accounts under the payer account. This is useful if your organization have many linked accounts that you want to register to Octo.
 
     a. Click Open AWS create stackset page. This will bring you to create stackset page in your currently signed-in AWS account, make sure you deploy the stackset in your intended account.
 
-  ![stack page](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
+   ![stack page](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
 
     b. In the create stackset page, follow this guide: [Setup multiple account API Access using stackset](https://labs.alphaus.cloud/docs/octo/multiple-account-setup/)
 
@@ -67,13 +67,13 @@ Payer Account
 
     d. If success, you can click Next.
 
-  ![Payer Acc](https://lh3.googleusercontent.com/d/10Vzj9ZFmfG_kAK7XxSNx9diO_E8cuWDF)
+   ![Payer Acc](https://lh3.googleusercontent.com/d/10Vzj9ZFmfG_kAK7XxSNx9diO_E8cuWDF)
 
 5. **Setup CUR and S3 bucket** (Payer Only). This will deploy stacks for setting up CUR definition in your account, it will also setup a bucket to store your CUR data. You can choose whether to proceed with the default configuration or target S3 bucket in a different region. Another guide can be found [here](https://labs.alphaus.cloud/docs/octo/curs3payer/)
 
     a. Click AWS create stack page. This will bring you create stack page in your currently signed-in AWS account, make sure you deploy the stack in your intended account.
 
-  ![stack page](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
+   ![stack page](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
 
     b. Click check and confirm. This will verify you stack deployments.
 
@@ -86,7 +86,7 @@ Note: You must have terraform installed in your local machine to proceed. You ca
 
 1. **Select Registration Methodd.** Click Via other options, choose terraform.
 
-![Terraform](https://lh3.googleusercontent.com/d/1BVuBUqy9Eju8IWnc3M1wQ7G8I2LlzZQ_)
+   ![Terraform](https://lh3.googleusercontent.com/d/1BVuBUqy9Eju8IWnc3M1wQ7G8I2LlzZQ_)
 
 2. **Basic Details.** This step will save your account's Id and name if provided.
 
@@ -98,7 +98,7 @@ Note: You must have terraform installed in your local machine to proceed. You ca
 
     d. If there is no error, then click Next.
 
-![Basic Details](https://lh3.googleusercontent.com/d/1w1wob0ikOhoK42oigOCWxkd6jbRFAUsw)
+   ![Basic Details](https://lh3.googleusercontent.com/d/1w1wob0ikOhoK42oigOCWxkd6jbRFAUsw)
 
 3. Check this [terraform module](https://registry.terraform.io/modules/alphauslabs/octo/aws/latest), from there you can read it's README section for more detailed information about the module and the required inputs.
 
@@ -110,6 +110,6 @@ Note: You must have terraform installed in your local machine to proceed. You ca
 
 7. If API Access is success, you can click **Confirm and Finish**.
 
-![Terraform Finish](https://lh3.googleusercontent.com/d/1HqhAppraKZ_-mmNGRxsMiotNf1XPOf6x)
+   ![Terraform Finish](https://lh3.googleusercontent.com/d/1HqhAppraKZ_-mmNGRxsMiotNf1XPOf6x)
 
 For Payer accounts, if it's registered without using stackset, you can still enable it by doing the steps above, just make sure you set the **use_stackset** to true in the terraform module, it will update the resources and automatically register all your linked account to Octo, there is no need to delete your payer account and register again.
