@@ -27,9 +27,13 @@ The CUR export settings and the target S3 bucket will be deployed to us-east-1 r
 
 ![Default](https://lh3.googleusercontent.com/d/1bfW_M-ZyXeE8SMRIRAZoNY5zRbfhw2Bk)
 
-5. Once done, come back to Octo and click `Check and Confirm` to start the verification process. If success, you have an option to add a sub account and after that click `Check and Confirm` again and then finish. You have an option also to skip it.
+5. Once you're done, go back to Octo and click `Check and Confirm` to start the verification process. 
 
- ![Sub account](https://lh3.googleusercontent.com/d/1w9szAN4XWo0-8I-jdN5wXuCteX7gOkBY)
+![Verify New Setup](https://lh3.googleusercontent.com/d/11AfRVtOWofM4BmJCwUPaOwVRS5MFE8H2)
+
+6. If the verification is successful, you'll have the option to add a sub-account. You can either add one and click `Check and Confirm` again to finish, or simply skip the sub-account step.
+
+![Sub account](https://lh3.googleusercontent.com/d/1w9szAN4XWo0-8I-jdN5wXuCteX7gOkBY)
 
 ### Setup target S3 bucket in a different region.
 S3 bucket is setup on a desired region aside from us-east-1 region.
@@ -44,9 +48,9 @@ S3 bucket is setup on a desired region aside from us-east-1 region.
 
 4. Under CUR, click `Open AWS Create Stack Page`.
 
-5. Clicking the link above will take you to your CloudFormation console.
+5. Clicking the button above will take you to your CloudFormation console.
 
-![Stack Page](https://lh3.googleusercontent.com/d/1X0YdJ9bZb_OV_stZvQj0IYVJsD2ctVsH)
+![Stack page Custom](https://lh3.googleusercontent.com/d/1IN1hgqiK3_EAWVenbWlLieQ76jivUIPu)
 
 6. Provide a stack name.(You can retain the value or input your desired stack name.) Then set the `CurS3BucketOption` parameter to `USE_EXISTING`, then set your `CurS3BucketName` and `CurS3BucketRegion` accordingly.
 
@@ -68,7 +72,7 @@ If you prefer not to add a sub-account, simply click Skip and finish.
 
 1. Click `Open AWS Create Stack Page`.
 
-![Stack Page](https://lh3.googleusercontent.com/d/YOUR_FILE_ID)
+  ![Stack page](https://lh3.googleusercontent.com/d/1mOWwGh60MtMp4Eehg_EWMI12ygJe419x)
 
 2. Clicking the button above will take you to your CloudFormation console.
 
