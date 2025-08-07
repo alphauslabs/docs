@@ -28,7 +28,7 @@ Currently we have 2 steps in registering AWS account in Octo. First is through A
 
     a. Click Open AWS create stack page. This will bring you create stack page in your currently signed-in AWS account, make sure you deploy the stack in your intended account, default region would be `us-east-1`.
 
-![stack page](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
+![Stack page](https://lh3.googleusercontent.com/d/1_z9qtqv9qWG7pWvtGVEt2Ucvin8jgDfM)
 
     b. Please check default values when creating stack:
 
