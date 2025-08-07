@@ -69,11 +69,11 @@ Currently we have 2 steps in registering AWS account in Octo. First is through A
 
    ![Payer Acc](https://lh3.googleusercontent.com/d/10Vzj9ZFmfG_kAK7XxSNx9diO_E8cuWDF)
 
-5. **Setup CUR and S3 bucket** (Payer Only). This will deploy stacks for setting up CUR definition in your account, it will also setup a bucket to store your CUR data. You can choose whether to proceed with the default configuration or target S3 bucket in a different region. Another guide can be found [here](https://labs.alphaus.cloud/docs/octo/curs3payer/)
+5. **Setup CUR and S3 bucket** (Payer Only). This will deploy stacks for setting up CUR definition in your account, it will also setup a bucket to store your CUR data. You can choose whether to proceed with the default configuration or target S3 bucket in a different region. Another guide can be found [here](../curs3payer.md)
 
     a. Click AWS create stack page. This will bring you create stack page in your currently signed-in AWS account, make sure you deploy the stack in your intended account.
 
-   ![stack page](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
+   ![Stack page](https://lh3.googleusercontent.com/d/1_z9qtqv9qWG7pWvtGVEt2Ucvin8jgDfM)
 
     b. Click check and confirm. This will verify you stack deployments.
 
