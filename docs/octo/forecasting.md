@@ -25,10 +25,3 @@ To view forecasting data in Octo, follow these steps:
 > **Note:**  
 > * A text indicator is displayed to inform users that the graph includes forecast data.  
 > * There's a forecast data shown in the graph for the current day since the Cost and Usage Report (CUR) is still being processed.
-
-## Design
-
-* **Model Used:** Octo uses the ARIMA+ model from GCP BigQuery ML for cost forecasting.
-* **Data Source:** The model is fed with one year of historical cost data to predict one year of future costs.
-* **Data Storage:** After prediction, the forecast data is stored in Spanner tables, separated by vendor (e.g., `cover_aws_forecast`, `cover_gcp_forecast`, `cover_azure_forecast`).
-* **API:** An API endpoint `costusage` is used to retrieve this data from Spanner and display it in the UI.
