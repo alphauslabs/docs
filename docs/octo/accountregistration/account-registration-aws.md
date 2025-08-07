@@ -28,7 +28,7 @@ Currently we have 2 steps in registering AWS account in Octo. First is through A
 
     a. Click Open AWS create stack page. This will bring you create stack page in your currently signed-in AWS account, make sure you deploy the stack in your intended account, default region would be `us-east-1`.
 
-![Stack page](https://lh3.googleusercontent.com/d/1_z9qtqv9qWG7pWvtGVEt2Ucvin8jgDfM)
+  ![Stack page](https://lh3.googleusercontent.com/d/1_z9qtqv9qWG7pWvtGVEt2Ucvin8jgDfM)
 
     b. Please check default values when creating stack:
 
@@ -36,13 +36,13 @@ Currently we have 2 steps in registering AWS account in Octo. First is through A
     - ExternalId (Do not change.)
     - Principal (Do not change.)
 
-![Stack values](https://lh3.googleusercontent.com/d/1rDS68nmxXFB_BdnHJpM6qGtowtfqAU08)
+  ![Stack values](https://lh3.googleusercontent.com/d/1rDS68nmxXFB_BdnHJpM6qGtowtfqAU08)
 
     c. Tick the checkbox to agree the I acknowledge that AWS CloudFormation might create IAM resources with custom names. message.
 
     d. After checking the stack details, click Create stack button. If create stack is success, go back to Octo.
 
-![Agreement](https://lh3.googleusercontent.com/d/1kcZPqOxhzWpEyx2Z0OYRt_1ROmpMFgxB)
+  ![Agreement](https://lh3.googleusercontent.com/d/1kcZPqOxhzWpEyx2Z0OYRt_1ROmpMFgxB)
 
     e. Click Check and Confirm to verify the deployment.
 
@@ -50,16 +50,16 @@ Currently we have 2 steps in registering AWS account in Octo. First is through A
     f. If verification is success, it would check whether your account is a linked or payer account. If it is linked, you can click the Confirm and Finish button to finish the registration. If payer then click next to proceed with additional steps for payer accounts.
 
 Linked Account
-![Linked Account](https://lh3.googleusercontent.com/d/1GCvA890E7KTwQje_2rOGs3AU9aDWNBM8)
+  ![Linked Account](https://lh3.googleusercontent.com/d/1GCvA890E7KTwQje_2rOGs3AU9aDWNBM8)
 
 Payer Account
-![Payer Acc](https://lh3.googleusercontent.com/d/10Vzj9ZFmfG_kAK7XxSNx9diO_E8cuWDF)
+  ![Payer Acc](https://lh3.googleusercontent.com/d/10Vzj9ZFmfG_kAK7XxSNx9diO_E8cuWDF)
 
 4. **Setup Multiple API Access - Optional** (Payer Only). This step will use stackset to deploy API Access in all linked accounts under the payer account. This is useful if your organization have many linked accounts that you want to register to Octo.
 
     a. Click Open AWS create stackset page. This will bring you to create stackset page in your currently signed-in AWS account, make sure you deploy the stackset in your intended account.
 
-![stack page](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
+  ![stack page](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
 
     b. In the create stackset page, follow this guide: [Setup multiple account API Access using stackset](https://labs.alphaus.cloud/docs/octo/multiple-account-setup/)
 
@@ -67,13 +67,13 @@ Payer Account
 
     d. If success, you can click Next.
 
-![Payer Acc](https://lh3.googleusercontent.com/d/10Vzj9ZFmfG_kAK7XxSNx9diO_E8cuWDF)
+  ![Payer Acc](https://lh3.googleusercontent.com/d/10Vzj9ZFmfG_kAK7XxSNx9diO_E8cuWDF)
 
 5. **Setup CUR and S3 bucket** (Payer Only). This will deploy stacks for setting up CUR definition in your account, it will also setup a bucket to store your CUR data. You can choose whether to proceed with the default configuration or target S3 bucket in a different region. Another guide can be found [here](https://labs.alphaus.cloud/docs/octo/curs3payer/)
 
     a. Click AWS create stack page. This will bring you create stack page in your currently signed-in AWS account, make sure you deploy the stack in your intended account.
 
-![stack page](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
+  ![stack page](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
 
     b. Click check and confirm. This will verify you stack deployments.
 
