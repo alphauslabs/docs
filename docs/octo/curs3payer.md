@@ -62,7 +62,7 @@ S3 bucket is setup on a desired region aside from us-east-1 region.
 
 8. After that, you have an option to add a sub account, you can click the `Open AWS Create Stack Page` and then click the `Check and Confirm` button to finish.
 
-![Sub Account](https://lh3.googleusercontent.com/d/1FDySMDNz8_rqlE2AtrIVdwa5yR7v1V_P)
+![sub account](https://lh3.googleusercontent.com/d/1AAMLWjX2RyVkKmH_EWBH5E5uswawSHo8)
 
 If you prefer not to add a sub-account, simply click Skip and finish.
 
@@ -86,6 +86,6 @@ If you prefer not to add a sub-account, simply click Skip and finish.
 
 6. After that, you have an option to add a sub account, you can click the `Open AWS Create Stack Page` and then click the `Check and Confirm` button to finish.
 
-![Sub Account](https://lh3.googleusercontent.com/d/1FDySMDNz8_rqlE2AtrIVdwa5yR7v1V_P)
+![sub account](https://lh3.googleusercontent.com/d/1AAMLWjX2RyVkKmH_EWBH5E5uswawSHo8)
 
 If you prefer not to add a sub-account, simply click Skip and finish.

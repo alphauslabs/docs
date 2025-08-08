@@ -36,7 +36,7 @@ Currently we have 2 steps in registering AWS account in Octo. First is through A
     - ExternalId (Do not change.)
     - Principal (Do not change.)
 
-   ![Stack values](https://lh3.googleusercontent.com/d/1rDS68nmxXFB_BdnHJpM6qGtowtfqAU08)
+   ![stack values](https://lh3.googleusercontent.com/d/17NcnsEjKvQX_tzNR_Uj9JbU6JPB5eRSx)
 
     c. Tick the checkbox to agree the I acknowledge that AWS CloudFormation might create IAM resources with custom names. message.
 
