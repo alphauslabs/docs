@@ -42,6 +42,16 @@ To access the list, click `More` in the sidebar and select `Account Registration
 
 ---
 
+## Add Sub-account
+
+To add a sub-account to a cloud provider account:
+
+1. Click on the account you wish to add a sub-account to.
+2. Click the kebab menu (three dots) on the right side.
+3. Select `Add Sub-account`.
+
+---
+
 ## Edit Settings
 
 To edit a cloud provider account:
