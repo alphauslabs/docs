@@ -49,6 +49,8 @@ nav:
           - "AWS": "octo/accountregistration/account-registration-aws.md"
           - "Microsoft Azure CSP": "octo/accountregistration/account-registration-azure.md"
           - "Google Cloud": "octo/accountregistration/account-registration-gcp.md"
+      - "CloudFormation Templates":
+          - "API Access": "octo/cloudformationtemplate/api-access.md"
       - "octo/multiple-account-setup.md"
       - "octo/account-registration-gcpbigquery.md"
       - "octo/curs3payer.md"
