@@ -1,5 +1,5 @@
-# Setting up API Access in Octo
-This template provisions a cross-account IAM role that grants Octo secure access to AWS account cost-related information. The role is assumed by Octo using an external ID for security, allowing automated access to billing, cost optimization, and related services.
+# Setting-up API Access in Octo
+This template provisions a cross-account IAM role that grants Octo secure access to AWS account cost-related information. The role is assumed by Alphaus using an external ID for security, allowing automated access to billing, cost optimization, and related services.
 
 ## Template Information
 
