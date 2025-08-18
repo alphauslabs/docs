@@ -51,6 +51,7 @@ nav:
           - "Google Cloud": "octo/accountregistration/account-registration-gcp.md"
       - "CloudFormation Templates":
           - "API Access": "octo/cloudformationtemplate/api-access.md"
+          - "CUR and S3 Bucket": "octo/cloudformationtemplate/cur-s3-bucket-setup.md"
       - "octo/multiple-account-setup.md"
       - "octo/account-registration-gcpbigquery.md"
       - "octo/curs3payer.md"
