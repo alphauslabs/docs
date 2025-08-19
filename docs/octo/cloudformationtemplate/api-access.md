@@ -91,8 +91,8 @@ Key Permissions:
 
 ## Security Considerations
 
-- High-Privilege Actions: The role has delete and modification permissions (EC2, RDS, Redshift, etc.). This is necessary for cost optimization automation but should be reviewed under least privilege principles.
+- High-Privilege Actions: The role has delete and modification permissions (EC2, RDS, Redshift, etc.). This is necessary for cost optimization automation but with additional setup on [Change Template](../recommendations/executerecommendation.md).
 
-- ExternalId Requirement: Protects against the "confused deputy problem".
+- ExternalId Requirement: Protect permissions to access certain resources or perform certain actions.
 
 - Scoped IAM Role Policy: Some IAM actions are restricted to the AlphausAcctAccessRole itself.
