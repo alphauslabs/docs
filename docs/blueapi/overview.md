@@ -7,4 +7,21 @@
 
 Apart from Octo, some of the APIs currently supported in Ripple, and WavePro are still not available in Blue. In the meantime, you can still use our JSON/REST APIs [here](../apiref/index.md). We plan to upgrade as many of our JSON/REST APIs as possible over to gRPC as it is significantly more efficient in terms of throughput and CPU usage compared to JSON/REST API. However, we don't intend to deprecate our JSON/REST APIs once the transition is completed. You should be able to use both.
 
+### List of supported APIs
+
+| **API** | **Link** | **Additional info** |
+|---------|----------|---------------------|
+| Organization API | [https://alphauslabs.github.io/blueapidocs/#/Organization](https://alphauslabs.github.io/blueapidocs/#/Organization) | - |
+| IAM API | [https://alphauslabs.github.io/blueapidocs/#/Iam](https://alphauslabs.github.io/blueapidocs/#/Iam) | [Link](./apis/iam.md) |
+| Admin API | [https://alphauslabs.github.io/blueapidocs/#/Admin](https://alphauslabs.github.io/blueapidocs/#/Admin) | - |
+| Cost API | [https://alphauslabs.github.io/blueapidocs/#/Cost](https://alphauslabs.github.io/blueapidocs/#/Cost) | - |
+| Billing API | [https://alphauslabs.github.io/blueapidocs/#/Billing](https://alphauslabs.github.io/blueapidocs/#/Billing) | [Link](./apis/billing/billinggroup.md) |
+| Operations API | [https://alphauslabs.github.io/blueapidocs/#/Operations](https://alphauslabs.github.io/blueapidocs/#/Operations) | - |
+| Octo API | [https://alphauslabs.github.io/blueapidocs/#/Cover](https://alphauslabs.github.io/blueapidocs/#/Cover) | - |
+| Pricing API | [https://labs.alphaus.cloud/blueapidocs/#/Pricing](https://labs.alphaus.cloud/blueapidocs/#/Pricing) | - |
+| Flow API | [https://labs.alphaus.cloud/blueapidocs/#/Flow](https://labs.alphaus.cloud/blueapidocs/#/Flow) | - |
+| Prism API | [https://labs.alphaus.cloud/blueapidocs/#/Prism](https://labs.alphaus.cloud/blueapidocs/#/Prism) | - |
+| Vortex API | [https://labs.alphaus.cloud/blueapidocs/#/Vortex](https://labs.alphaus.cloud/blueapidocs/#/Vortex) | - |
+| Preferences API | [https://labs.alphaus.cloud/blueapidocs/#/Preferences](https://labs.alphaus.cloud/blueapidocs/#/Preferences) | - |
+
 ---
