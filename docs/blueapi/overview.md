@@ -11,13 +11,13 @@ Apart from Octo, some of the APIs currently supported in Ripple, and WavePro are
 
 | **API** | **Link** | **Additional info** |
 |---------|----------|---------------------|
-| Organization API | [https://alphauslabs.github.io/blueapidocs/#/Organization](https://alphauslabs.github.io/blueapidocs/#/Organization) | - |
-| IAM API | [https://alphauslabs.github.io/blueapidocs/#/Iam](https://alphauslabs.github.io/blueapidocs/#/Iam) | [Link](./apis/iam.md) |
-| Admin API | [https://alphauslabs.github.io/blueapidocs/#/Admin](https://alphauslabs.github.io/blueapidocs/#/Admin) | - |
-| Cost API | [https://alphauslabs.github.io/blueapidocs/#/Cost](https://alphauslabs.github.io/blueapidocs/#/Cost) | - |
-| Billing API | [https://alphauslabs.github.io/blueapidocs/#/Billing](https://alphauslabs.github.io/blueapidocs/#/Billing) | [Link](./apis/billing/billinggroup.md) |
-| Operations API | [https://alphauslabs.github.io/blueapidocs/#/Operations](https://alphauslabs.github.io/blueapidocs/#/Operations) | - |
-| Octo API | [https://alphauslabs.github.io/blueapidocs/#/Cover](https://alphauslabs.github.io/blueapidocs/#/Cover) | - |
+| Organization API | [https://labs.alphaus.cloud/blueapidocs/#/Organization](https://alphauslabs.github.io/blueapidocs/#/Organization) | - |
+| IAM API | [https://labs.alphaus.cloud/blueapidocs/#/Iam](https://alphauslabs.github.io/blueapidocs/#/Iam) | [Link](./apis/iam.md) |
+| Admin API | [https://labs.alphaus.cloud/blueapidocs/#/Admin](https://alphauslabs.github.io/blueapidocs/#/Admin) | - |
+| Cost API | [https://labs.alphaus.cloud/blueapidocs/#/Cost](https://alphauslabs.github.io/blueapidocs/#/Cost) | - |
+| Billing API | [https://labs.alphaus.cloud/blueapidocs/#/Billing](https://alphauslabs.github.io/blueapidocs/#/Billing) | [Link](./apis/billing/billinggroup.md) |
+| Operations API | [https://labs.alphaus.cloud/blueapidocs/#/Operations](https://alphauslabs.github.io/blueapidocs/#/Operations) | - |
+| Octo API | [https://labs.alphaus.cloud/blueapidocs/#/Cover](https://alphauslabs.github.io/blueapidocs/#/Cover) | - |
 | Pricing API | [https://labs.alphaus.cloud/blueapidocs/#/Pricing](https://labs.alphaus.cloud/blueapidocs/#/Pricing) | - |
 | Flow API | [https://labs.alphaus.cloud/blueapidocs/#/Flow](https://labs.alphaus.cloud/blueapidocs/#/Flow) | - |
 | Prism API | [https://labs.alphaus.cloud/blueapidocs/#/Prism](https://labs.alphaus.cloud/blueapidocs/#/Prism) | - |
