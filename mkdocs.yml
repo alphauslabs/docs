@@ -83,19 +83,11 @@ nav:
           - "octo/recommendations/executerecommendation.md"
       - "octo/unitcost.md"
       - "Unit Economics":
-          - "octo/uniteconomics/unitmetrics.md"       
+          - "octo/uniteconomics/unitmetrics.md"
   - "Blue API":
       - "blueapi/overview.md"
       - "blueapi/authentication.md"
       - "CLI: bluectl": "blueapi/bluectl.md"
-      - "APIs":
-          - "blueapi/apis/org.md"
-          - "blueapi/apis/iam.md"
-          - "blueapi/apis/admin.md"
-          - "blueapi/apis/cost.md"
-          - "blueapi/apis/billing.md"
-          - "blueapi/apis/operations.md"
-          - "blueapi/apis/preferences.md"
       - "blueapi/client-sdks.md"
   - "Guides":
       - "guides/index.md"
@@ -119,7 +111,7 @@ extra:
       link: https://www.linkedin.com/company/alphaus/
     - icon: fontawesome/brands/github
       link: https://github.com/alphauslabs
-      
+
 extra_css:
   - stylesheets/extra.css
 
