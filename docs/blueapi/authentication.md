@@ -146,7 +146,7 @@ ALPHAUS_CLIENT_ID
 ALPHAUS_CLIENT_SECRET
 ```
 
-The `ALPHAUS_AUTH_URL` environment variable is optional for Ripple. For Wave(Pro) users, this can be set to:
+The `ALPHAUS_AUTH_URL` environment variable is optional for Ripple/Octo. For WavePro users, this can be set to:
 ``` sh
 ALPHAUS_AUTH_URL=https://login.alphaus.cloud/access_token
 ```
