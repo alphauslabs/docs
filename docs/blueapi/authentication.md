@@ -193,6 +193,7 @@ The following are the endpoints used to acquire product-specific access tokens. 
     https://login.alphaus.cloud/ripple/access_token
     ```
 
+!!! quote ""
     WavePro endpoint:
 
     ```
