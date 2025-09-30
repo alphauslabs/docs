@@ -24,7 +24,7 @@ If successful, it will output some information about the authenticated user.
 
 ## Environment variables
 
-You can also store your credentials as environment variables instead of typing them everytime you run a command. Check out the "Environment setup" section [here](https://alphauslabs.github.io/docs/blueapi/authentication/#environment-setup).
+You can also store your credentials as environment variables instead of typing them everytime you run a command. Check out the "Environment setup" section [here](./authentication.md#using-environment-variables).
 
 With environment variables set, you should now be able to run any `bluectl` commands without the `--client-id` and `--client-secret` flags.
 
