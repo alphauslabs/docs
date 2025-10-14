@@ -6,7 +6,7 @@ Octo supports registering AWS accounts through either the AWS Console or Terrafo
 
 Currently we have 2 steps in registering AWS account in Octo. First is through AWS console, which requires you to sign-in to you account and involves deploying stacks or stackset in your AWS account. Second option is using Terraform module, you can use our  terraform module to deploy the necessary resources in your AWS account. 
 
-**Via AWS Console**
+## Via AWS Console
 
 1. **Select Registration Method.** Choose Connect via AWS Console.
 
