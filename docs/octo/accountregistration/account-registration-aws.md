@@ -203,19 +203,20 @@ This step uses stackset to deploy API Access in all sub-accounts (linked account
 
 !!! note "You must have terraform installed in your local machine to proceed. You can follow this [guide](https://www.terraform.io/downloads.html)<br>(Optional) If you prefer to use AWS CLI for authenticating your AWS account, you can follow this [guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)."  
 
-1. **Select Registration Methodd.** Click Via other options, choose terraform.
+1. **Select Registration Method**  
+   Click `Via other options`, choose Terraform
+    ![Terraform](https://lh3.googleusercontent.com/d/1BVuBUqy9Eju8IWnc3M1wQ7G8I2LlzZQ_)
 
-   ![Terraform](https://lh3.googleusercontent.com/d/1BVuBUqy9Eju8IWnc3M1wQ7G8I2LlzZQ_)
+2. **Basic Details**   
+   This step will save your account's Id and name if provided.
 
-2. **Basic Details.** This step will save your account's Id and name if provided.
+    a. Input your AWS Account Id (12 digits)
 
-    a. Input your AWS Account Id (12 digit).
+    b. Input Account Name
 
-    b. Input Account Name.
+    c. Click Register Account
 
-    c. Click Register Account.
-
-    d. If there is no error, then click Next.
+    d. If there is no error, then click `Next`
 
     ![Basic Details](https://lh3.googleusercontent.com/d/1w1wob0ikOhoK42oigOCWxkd6jbRFAUsw)
 
@@ -223,11 +224,11 @@ This step uses stackset to deploy API Access in all sub-accounts (linked account
 
 4. Run **terraform init**, this initializes a working directory containing Terraform configuration files, **terraform plan** to check what resources will be created, and **terraform apply** to create those resources. You can also check [here](https://developer.hashicorp.com/terraform/cli) for more information about the Terraform CLI.
 
-5. After running those commands above, check if the deployments are successful, if so, click **Check and confirm** to verify. You can also check in your AWS account console to see if the resources are properly created.
+5. After running those commands above, check if the deployments are successful, if so, click `Check and confirm` to verify. You can also check in your AWS account console to see if the resources are properly created.
 
 6. On Octo, you can see the status of the deployments for API Access, CUR and S3 bucket (For payer account only), and multiple account API access - optional (For payer account only).
 
-7. If API Access is success, you can click **Confirm and Finish**.
+7. If API Access is successful, you can click `Confirm and Finish`
 
    ![Terraform Finish](https://lh3.googleusercontent.com/d/1HqhAppraKZ_-mmNGRxsMiotNf1XPOf6x)
 
