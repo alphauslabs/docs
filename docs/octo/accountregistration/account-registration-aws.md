@@ -133,29 +133,75 @@ Note, do not change the `Principal`
 If you prefer not to add a sub-account, simply click `Skip and finish`
 
 ### Step 5: Adding sub-accounts (linked accounts)
-This step uses stackset to deploy API Access in all sub-accounts (linked accounts) under the billing account (payer account). This is useful if your organization have many linked accounts that you want to register to Octo. 
 
 !!! note "Optional to add sub-accounts immediately"
     You can skip this step and add the sub-accounts later in the billing account details page in Octo.
 
-a. Click Open AWS create stackset page. This will bring you to create stackset page in your currently signed-in AWS account, make sure you deploy the stackset in your intended account.
-![Stack page](https://lh3.googleusercontent.com/d/1_z9qtqv9qWG7pWvtGVEt2Ucvin8jgDfM)
+This step uses stackset to deploy API Access in all sub-accounts (linked accounts) under the billing account (payer account). This is useful if your organization have many linked accounts that you want to register to Octo. 
 
-    b. In the create stackset page, follow this guide: [Setup multiple account API Access using stackset](https://labs.alphaus.cloud/docs/octo/multiple-account-setup/)
+![add sub accounts step](https://lh3.googleusercontent.com/d/1isBdegXAwqcWxyDXXzb6nTuIwN_Qwp9f)
 
-    c. Click check and confirm. This will verify you stackset deployment.
+1. **Stackset page**   
+   If you choose connect all linked accounts, click `Open AWS Create Stack Page` button.    
+   This will open AWS Create StackSet page in a new tab. Make sure you are signed in to the correct AWS account which is the payer account
+   ![StackSet page](https://lh3.googleusercontent.com/d/1HGt8R501YF1k7jL3dhd0wol7RfYtXv5u)
 
-    d. If success, you can click Next.
+2. **Choose a template (AWS StackSet page)**
 
-   ![Payer Acc](https://lh3.googleusercontent.com/d/10Vzj9ZFmfG_kAK7XxSNx9diO_E8cuWDF)
+    1.  In the StackSet page, scroll down to Prerequisite - Prepare Template and select Template is ready
 
-5. **Setup CUR and S3 bucket** (Payer Only). This will deploy stacks for setting up CUR definition in your account, it will also setup a bucket to store your CUR data. You can choose whether to proceed with the default configuration or target S3 bucket in a different region. Another guide can be found [here](../curs3payer.md)
+    2.  Under Specify template, ensure that Amazon S3 URL is selected and paste the S3 template URL. You can find the URL back in the Octo Add-sub accounts page
 
+    3. Click Next
+
+    ![Choose Template](https://lh3.googleusercontent.com/d/1mLNA8kB2PCAaHetABW46zlNrvzgW-FN_)
+
+3. **Specify StackSet details**
+
+    1. Fill in StackSet name with your desired name or you can copy and paste from Octo
+
+    2. Paste your InternalID and Principal into the relevant field under Parameters. You can find the details back in the Octo Add-sub accounts page
+
+    3. Click Next
+
+    ![Stackset Details](https://lh3.googleusercontent.com/d/1qWAcUESjeIhrmtEz8_WciHA2DfZlmUGv)
+
+4. **Configure StackSet options**
+
+    1. Under Execution configuration, select either Inactive or Active
+    
+    2. Check the checkbox below before clicking Next
+    
+    3. Click Next
+    
+    ![Stackset Options](https://lh3.googleusercontent.com/d/1lUQYndzbTXm1BIQsGgN1u0xzIgoYBm9O)
+
+5. **Set deployment options**
+
+    1. Scroll down to Specify regions and input `us-east-1`
+
+    2. Click Next
+
+    ![Deployment](https://lh3.googleusercontent.com/d/1_raixipmHnOqt-0BN4kDVHF8P-opfypp)
+    ![Deployment next](https://lh3.googleusercontent.com/d/17Xp0RAzEbYh53PX9HSM-xoGIkh3u2YXF)
+
+6. **Review**
+
+    1. Review your newly created StackSet and click `Submit`
+
+    2. Your new StackSet should appear within a few moments on the main StackSets page
+
+8. **Checking in Octo**  
+
+    1. Go back to Octo and click `Check and confirm access`
+
+    2. When you use a success message banner proceed to click `Finish` to complete the entire process
+
+    ![sub-account-connected-successfully](https://lh3.googleusercontent.com/d/1L2PXV8TH1zZShP2t6Mgm21B0NbsMUnRY)
 
 ## Via Terraform
 
-Note: You must have terraform installed in your local machine to proceed. You can follow this [guide](https://www.terraform.io/downloads.html).  
-(Optional) If you prefer to use AWS CLI for authenticating your AWS account, you can follow this [guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html).
+!!! note "You must have terraform installed in your local machine to proceed. You can follow this [guide](https://www.terraform.io/downloads.html)<br>(Optional) If you prefer to use AWS CLI for authenticating your AWS account, you can follow this [guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)."  
 
 1. **Select Registration Methodd.** Click Via other options, choose terraform.
 
@@ -171,7 +217,7 @@ Note: You must have terraform installed in your local machine to proceed. You ca
 
     d. If there is no error, then click Next.
 
-   ![Basic Details](https://lh3.googleusercontent.com/d/1w1wob0ikOhoK42oigOCWxkd6jbRFAUsw)
+    ![Basic Details](https://lh3.googleusercontent.com/d/1w1wob0ikOhoK42oigOCWxkd6jbRFAUsw)
 
 3. Check this [terraform module](https://registry.terraform.io/modules/alphauslabs/octo/aws/latest), from there you can read it's README section for more detailed information about the module and the required inputs.
 
