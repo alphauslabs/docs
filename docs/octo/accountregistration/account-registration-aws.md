@@ -65,7 +65,9 @@ If you initially connected to Payer account in the previous step. You will see t
 
 ![New or Existing](https://lh3.googleusercontent.com/d/1kMawyTJyjzPHtEAZI_lLG6901TV-za5Z)
 
-#### Setup CloudFormation using default configuration
+#### Setting up the CUR and S3 bucket using New CUR setup
+
+##### Setup CloudFormation using default configuration
 The CUR export settings and the target S3 bucket will be deployed to us-east-1 region.
 
 1. Select `Default configuration`
@@ -111,7 +113,7 @@ S3 bucket is setup on a desired region aside from us-east-1 region.
 
 If you prefer not to add a sub-account, simply click `Skip and finish`
 
-#### Setting up the CUR and S3 bucket using existing CUR setup:
+#### Setting up the CUR and S3 bucket using Existing CUR setup
 
 ![Existing Setup](https://lh3.googleusercontent.com/d/1Qsxx2Su3442rIwTXsX6EmdcE5aH9S6MZ)
 
