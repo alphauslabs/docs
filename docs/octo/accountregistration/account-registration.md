@@ -13,7 +13,7 @@ After registration, it may take up to one day for data to populate in Octo.
 ### Register AWS Account
 
 To view detailed steps for registering an AWS account,  
- **[Click here to view the AWS Registration Guide](account-registration-aws.md)**
+ **[Click here to view the AWS Registration Guide](AWS/account-registration-aws.md)**
 
 ### Register Azure CSP Account
 

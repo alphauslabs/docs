@@ -46,15 +46,14 @@ nav:
       - "octo/index.md"
       - "Account Registration":
           - "Overview": "octo/accountregistration/account-registration.md"
-          - "AWS": "octo/accountregistration/account-registration-aws.md"
+          - "AWS":
+            - "Registration": "octo/accountregistration/AWS/account-registration-aws.md"
+            - "CloudFormation Templates":
+              - "API Access": "octo/accountregistration/AWS/cloudformationtemplate/api-access.md"
+              - "CUR and S3 Bucket": "octo/accountregistration/AWS/cloudformationtemplate/cur-s3-bucket-setup.md"
           - "Microsoft Azure CSP": "octo/accountregistration/account-registration-azure.md"
           - "Google Cloud": "octo/accountregistration/account-registration-gcp.md"
-      - "CloudFormation Templates":
-          - "API Access": "octo/cloudformationtemplate/api-access.md"
-          - "CUR and S3 Bucket": "octo/cloudformationtemplate/cur-s3-bucket-setup.md"
-      - "octo/multiple-account-setup.md"
       - "octo/account-registration-gcpbigquery.md"
-      - "octo/curs3payer.md"
       - "octo/samlsso.md"
       - "octo/costallocation.md"
       - "octo/costgroup.md"
