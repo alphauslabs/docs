@@ -7,7 +7,7 @@ theme:
   favicon: assets/alphaus.png
   features:
     - navigation.tabs
-    # - navigation.sections
+    - navigation.sections
 
 nav:
   - "General":
@@ -43,7 +43,7 @@ nav:
           - "ripple/apiref/export.md"
           - "ripple/apiref/project.md"
   - "Octo":
-      - "octo/index.md"
+      - "Getting Started": "octo/index.md"
       - "Account Registration":
           - "Overview": "octo/accountregistration/account-registration.md"
           - "AWS":
@@ -54,9 +54,10 @@ nav:
           - "Microsoft Azure CSP": "octo/accountregistration/account-registration-azure.md"
           - "Google Cloud": "octo/accountregistration/account-registration-gcp.md"
       - "octo/account-registration-gcpbigquery.md"
-      - "octo/costgroup.md"
-      - "octo/aicost.md"
-      - "octo/container-cost.md"
+      - "Cost Groups":
+          - "Overview": "octo/costgroup.md"
+          - "AI Cost": "octo/aicost.md"
+          - "Container Cost": "octo/container-cost.md"
       - "Reports":
           - "Overview": "octo/reports/overview.md"
           - "Fixed Report": "octo/reports/fixed-report.md"
@@ -75,14 +76,18 @@ nav:
       # - "octo/unitcost.md"
       - "Unit Economics":
           - "octo/uniteconomics/unitmetrics.md"
-      - "octo/costallocation.md"
-      - "octo/budget.md"
-      - "octo/forecasting.md"
-      - "octo/channel-management.md"
-      - "octo/alerts-management.md"
-      - "octo/preferences.md"
-      - "octo/user-management.md"
-      - "octo/samlsso.md"
+      - "Cost Allocation":
+          - "octo/costallocation.md"
+      - "Financial Planning":
+          - "octo/budget.md"
+          - "octo/forecasting.md"
+      - "Alerts":
+          - "octo/channel-management.md"
+          - "octo/alerts-management.md"
+      - "General Settings":
+          - "octo/preferences.md"
+          - "octo/user-management.md"
+          - "octo/samlsso.md"
   - "Blue API":
       - "blueapi/overview.md"
       - "blueapi/authentication.md"
