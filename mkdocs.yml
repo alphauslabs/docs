@@ -88,6 +88,8 @@ nav:
           - "octo/preferences.md"
           - "octo/user-management.md"
           - "octo/samlsso.md"
+      - "Troubleshooting and FAQs":
+          - "FAQs": "octo/troubleshooting/faq.md"
   - "Blue API":
       - "blueapi/overview.md"
       - "blueapi/authentication.md"
