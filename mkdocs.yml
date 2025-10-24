@@ -7,7 +7,7 @@ theme:
   favicon: assets/alphaus.png
   features:
     - navigation.tabs
-    # - navigation.sections
+    - navigation.sections
 
 nav:
   - "General":
@@ -43,7 +43,7 @@ nav:
           - "ripple/apiref/export.md"
           - "ripple/apiref/project.md"
   - "Octo":
-      - "octo/index.md"
+      - "Getting Started": "octo/index.md"
       - "Account Registration":
           - "Overview": "octo/accountregistration/account-registration.md"
           - "AWS":
@@ -54,17 +54,10 @@ nav:
           - "Microsoft Azure CSP": "octo/accountregistration/account-registration-azure.md"
           - "Google Cloud": "octo/accountregistration/account-registration-gcp.md"
       - "octo/account-registration-gcpbigquery.md"
-      - "octo/samlsso.md"
-      - "octo/costallocation.md"
-      - "octo/costgroup.md"
-      - "octo/container-cost.md"
-      - "octo/channel-management.md"
-      - "octo/alerts-management.md"
-      - "octo/aicost.md"
-      - "octo/preferences.md"
-      - "octo/user-management.md"
-      - "octo/budget.md"
-      - "octo/forecasting.md"
+      - "Cost Groups":
+          - "Overview": "octo/costgroup.md"
+          - "AI Cost": "octo/aicost.md"
+          - "Container Cost": "octo/container-cost.md"
       - "Reports":
           - "Overview": "octo/reports/overview.md"
           - "Fixed Report": "octo/reports/fixed-report.md"
@@ -80,9 +73,23 @@ nav:
           - "OCTO Generated Recommendations":
               - "octo/recommendations/octo/aws.md"
           - "octo/recommendations/executerecommendation.md"
-      - "octo/unitcost.md"
+      # - "octo/unitcost.md"
       - "Unit Economics":
           - "octo/uniteconomics/unitmetrics.md"
+      - "Cost Allocation":
+          - "octo/costallocation.md"
+      - "Financial Planning":
+          - "octo/budget.md"
+          - "octo/forecasting.md"
+      - "Alerts":
+          - "octo/channel-management.md"
+          - "octo/alerts-management.md"
+      - "General Settings":
+          - "octo/preferences.md"
+          - "octo/user-management.md"
+          - "octo/samlsso.md"
+      - "Troubleshooting and FAQs":
+          - "FAQs": "octo/troubleshooting/faq.md"
   - "Blue API":
       - "blueapi/overview.md"
       - "blueapi/authentication.md"
