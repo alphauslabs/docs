@@ -181,17 +181,17 @@ This step uses stackset to deploy API Access in all sub-accounts (linked account
 5. **Set deployment options**
     1. Deploying stacks across accounts can be done by targeting either the entire organization or specific accounts using organizational units (OUs) and account filter options.
 
-    a. To deploy to an organization, select `Deploy to organization`.
+        1. To deploy to an organization, select `Deploy to organization`.
 
-    ![Deployment](https://lh3.googleusercontent.com/d/1_raixipmHnOqt-0BN4kDVHF8P-opfypp)
+        ![Deployment](https://lh3.googleusercontent.com/d/1_raixipmHnOqt-0BN4kDVHF8P-opfypp)
 
-    b. To deploy to specific accounts using organizational units, select `Deploy to organizational units (OUs)`.
+        2. To deploy to specific accounts using organizational units, select `Deploy to organizational units (OUs)`.
 
-    - `AWS OU ID` - Input the id of the organizational unit to deploy
-    - `Account filter type` - Set deployment targets to specific individual accounts within OUs instead of targeting entire OUs. If you want to exclude an account, select `Difference`.
-    - `Account numbers` - List of accounts for deployment. If you previously selected `Difference`, this will list the accounts to be excluded from deployment.
+        - `AWS OU ID` - Input the id of the organizational unit to deploy
+        - `Account filter type` - Set deployment targets to specific individual accounts within OUs instead of targeting entire OUs. If you want to exclude an account, select `Difference`.
+        - `Account numbers` - List of accounts for deployment. If you previously selected `Difference`, this will list the accounts to be excluded from deployment.
 
-    ![Exclude Deployment](https://lh3.googleusercontent.com/d/1QmLalQLFPu7aZTZbtjSkqPdJj95oF6Xr)
+        ![Exclude Deployment](https://lh3.googleusercontent.com/d/1QmLalQLFPu7aZTZbtjSkqPdJj95oF6Xr)
 
     2. Scroll down to Specify regions and input `us-east-1`
 
