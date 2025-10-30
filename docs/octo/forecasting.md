@@ -12,7 +12,7 @@ Use this flow to add a new **Forecast** for an existing **Cost Group**—you’l
 - You already have a **Cost Group** (forecasts are always scoped to one).  
   **New to Cost Groups?** See the guide: <https://labs.alphaus.cloud/docs/octo/costgroup/>
 
-  You’ll see one of two entry views when opening **Cost Group → Forecast**:
+  You’ll see one of two entry views when opening **Forecast**:
 
 ### First-time (empty state)
 
