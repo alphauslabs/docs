@@ -25,29 +25,27 @@ To create a budget in Octo, follow these steps:
 ### Step 2: Set Name and Budget Amount:
 Give your budget a clear, descriptive name (e.g., *Q1 2026 – Prod*, *12-Month R&D Budget*).
 
- ![set budget name](https://lh3.googleusercontent.com/d/1TUVljZZXEo4PhKNB8lvfkHkkAjwqTEwq)
+ ![set budget name](https://lh3.googleusercontent.com/d/1Pq532GDYuPcqjOZvkGtf_JeV7Ia6B-VQ)
 
  Supply the amount of budget you want to set and take a look on the chart above as it simply provides a visual  representation of this data.
 
- ![set budget](https://lh3.googleusercontent.com/d/1LWKS5CJZnXMrBBZPIW1jostShAs2mvm-)
+ ![set budget](https://lh3.googleusercontent.com/d/1KUL3-SMsUGmVJJdUSgqcnZIKQsXFc3og)
 
 
    * **Forecast Data:** This is derived from historical usage patterns; more past data leads to more accurate forecasting. This helps to manage the amount of budget you want to allocate for that cost group. Refer to this [docs](forecasting.md) for more information.
-   * **Previous Period Spending:** This row displays spending data from the same period one year prior to help identify trends.
    * **Budget:** This is where you configure your budget.
-   * **Difference:** This shows the percentage difference between the previous period's spending and the current budget.
    * **Choose Budget Type:**
       * **Distributed Budget:** Enter a "Total Budget" amount, and it will be equally divided across all months in the selected period.
       * **Cumulative Budget:** Toggle this option to manually input a different budget amount for each month. **Warning:** Switching from a cumulative to a distributed budget will reset all manually entered monthly values to zero.
 
 
-![budget type](https://lh3.googleusercontent.com/d/1SGSTiBT0AFcGDDt5h2B7M96003joPRF6)
+![budget type](https://lh3.googleusercontent.com/d/19p_KMVQU6MhgWZi0Q8g0r-lk1G9Ju-tw)
    
    * Optionally, click "Export Data to CSV" to export and download the data you have entered.
 
    * **Save as Draft:** If you are not yet ready to activate the budget, click "Save as Draft." You can configure or delete drafts later from the main budget view list.
 
-![save as draft](https://lh3.googleusercontent.com/d/1StBxBSCf2bgOJ6buyXF34lJf7KC6qX0g)
+![save as draft](https://lh3.googleusercontent.com/d/1ii_XCavkXSNjXNSuxc5_4UGsvczIMNvM)
 
    * **Create Budget:** When you're satisfied with the allocated budget amount, click **Next**, then click the **Create Budget** button to complete the process.
 
