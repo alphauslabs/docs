@@ -1,0 +1,3955 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../costgroup/">
+      
+      
+        <link rel="next" href="../container-cost/">
+      
+      
+        
+          <link rel="alternate" href="/docs/" hreflang="en">
+        
+          <link rel="alternate" href="/docs-ja/" hreflang="ja">
+        
+      
+      
+      <link rel="icon" href="../../assets/alphaus.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>AI Cost - Alphaus Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ai-cost" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Alphaus Documentation" class="md-header__button md-logo" aria-label="Alphaus Documentation" data-md-component="logo">
+      
+  <img src="../../assets/alphaus.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Alphaus Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI Cost
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/docs/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs-ja/" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+  General
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../ripple/" class="md-tabs__link">
+          
+  
+  
+  Ripple
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  Octo
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../blueapi/overview/" class="md-tabs__link">
+          
+  
+  
+  Blue API
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../guides/" class="md-tabs__link">
+          
+  
+  
+  Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://labs.alphaus.cloud/blog/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Blog
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Alphaus Documentation" class="md-nav__button md-logo" aria-label="Alphaus Documentation" data-md-component="logo">
+      
+  <img src="../../assets/alphaus.png" alt="logo">
+
+    </a>
+    Alphaus Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    General
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Our products
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../iam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IAM overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://labs.alphaus.cloud/wavedocs-ja/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wave (Pro) ↗
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://status.alphaus.cloud/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System status ↗
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_6" id="__nav_1_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Reference (non-Blue)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    API Reference (non-Blue)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apiref/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apiref/endpoint-limits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Endpoint limits
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apiref/authentication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authentication
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apiref/users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Users
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apiref/api-clients/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API clients
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apiref/authorization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authorization (RBAC)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apiref/status/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Status
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ripple
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ripple
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts and terms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/trueunblended/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A primer on TrueUnblended
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://help.alphaus.cloud/en/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Knowledgebase ↗
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Reference (non-Blue)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    API Reference (non-Blue)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/user/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/exchangerate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ExchangeRate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/billinggroup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BillingGroup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/account/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Account
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/reseller/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wave for Reseller
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/original-cost/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OriginalCost
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/ri-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RI management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/recalculation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recalculation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/invoice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Invoice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/export/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Export
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ripple/apiref/project/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Octo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Octo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Account Registration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Account Registration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accountregistration/account-registration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AWS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accountregistration/AWS/account-registration-aws/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Registration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_2_2" id="__nav_3_2_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CloudFormation Templates
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_3_2_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CloudFormation Templates
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accountregistration/AWS/cloudformationtemplate/api-access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Access
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accountregistration/AWS/cloudformationtemplate/cur-s3-bucket-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CUR and S3 Bucket
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accountregistration/account-registration-azure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Microsoft Azure CSP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accountregistration/account-registration-gcp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Google Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../account-registration-gcpbigquery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Setup BigQuery to register GCP billing account in Octo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Groups
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cost Groups
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../costgroup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Cost
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI Cost
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-ai-cost-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create ai cost group
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewing-ai-cost-insights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viewing AI Cost Insights
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../container-cost/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Container Cost
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reports
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Reports
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/fixed-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fixed Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reports/custom-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Custom Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recommendation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recommendation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recommendations/about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About Recommendation Feature
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6_2" id="__nav_3_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Generated Recommendations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AWS Generated Recommendations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recommendations/costexplorer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Explorer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recommendations/costoptimizationhub/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Optimization Hub
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recommendations/trustedadvisor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trusted Advisor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6_3" id="__nav_3_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GCP Generated Recommendations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    GCP Generated Recommendations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recommendations/recommendationhub/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recommendation Hub
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6_4" id="__nav_3_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OCTO Generated Recommendations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    OCTO Generated Recommendations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recommendations/octo/aws/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recommendations/executerecommendation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Execute Recommendation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit Economics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Unit Economics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../uniteconomics/unitmetrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Allocation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cost Allocation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../costallocation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cost Allocation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Financial Planning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Financial Planning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../budget/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Budget
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forecasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forecasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alerts
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Alerts
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../channel-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Channel Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alerts-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alerts Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General Settings
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    General Settings
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preferences/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preferences
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../samlsso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAML SSO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_12" id="__nav_3_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Troubleshooting and FAQs
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Troubleshooting and FAQs
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blue API
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Blue API
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blueapi/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blueapi/authentication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authentication
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blueapi/bluectl/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CLI: bluectl
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blueapi/client-sdks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Client SDKs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/aws-register-payer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Registering AWS payer accounts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/aws-enable-api-access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enabling AWS payer API access
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/aws-query-costs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Querying AWS costs using bluectl
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/invoice-calc-sched/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scheduling invoice calculations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guides/aws-cost-mods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adding cost modifiers to the AWS calculator using bluectl
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://labs.alphaus.cloud/blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-ai-cost-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create ai cost group
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewing-ai-cost-insights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viewing AI Cost Insights
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ai-cost">AI Cost</h1>
+<p>AI Cost is a feature in Octo that allows organizations to gain detailed insights into their AI-related spending. It helps break down costs by AI services across multiple cloud providers, making it easier for teams to analyze usage and manage budgets effectively. By grouping services into AI cost groups, users can monitor consumption trends, identify key cost contributors, and support better financial planning. This feature provides clarity and control over AI investments, whether for individual projects or large-scale operations.</p>
+<p>AI Cost also enables stakeholders to align AI investments with business goals by offering visibility into service-level costs. Whether a team is focused on model training, inference workloads, or third-party AI APIs, AI Cost simplifies the process of tracking and attributing those expenses accurately.</p>
+<h2 id="create-ai-cost-group">Create ai cost group</h2>
+<p>Creating an AI cost group allows teams to organize and track AI spending in a more granular and meaningful way. Follow the steps below to create a new AI cost group using the New UI:</p>
+<ol>
+<li>
+<p><strong>Navigate to Cost group management and click Create cost group.</strong><br>
+<img alt="" src="https://lh3.googleusercontent.com/fife/ALs6j_GCHZOq2SrjEdA4arE667WzfVL9qnnJZfDLxe2VFllXPAvBgapj9TrBVEWRxDuzdMzrJKYQoaH1MGUUq3KTBAQ5Idp3op_VztbD1HgjUMq_4AsCEKO_AmlIZVJmTbvvN5sVl2rROGrdeDese54H1OxNqUsii3VW1W4s9-FiSfyEF0y1_1U-hWDUD-d-ANnezDBFmA2BQpz2_X_YMW4cZFA9cGEah1ZBB6V8nWLulKz7HE67LvTPyJ-SZ9bHMIHji7CQ6xJTAbMmcrOjqTLyx7ln_jTaSF5uvwf7Yw4FhrrqK-hfdebNjvlO5tR_U-5UvZKOB6xFEkoqazn2XD8H6TF3t9QF0sG0oWBaaEZUiIgbJQ53l2ME5aX2QmDJhuJ8zisnQWm5lmccDvHD0iiw6qkxo6pXjtFhbUjWAiSODx8zPdYHSQv0VxnF6NL_G7HqgPExf5brgut_3oQkw2fJbook_6Ism00lv_jx6RPSXJbHYX9wLNdr4Ex7SGZ4JoKCXrdZ6Zrbt7cosSsmbcgAtFNjCi_FEOLPF6beJycQt1aczGs9TekSK3lX8ypmce4uEa50RX1QASb2_aVJgHOwOCPn0eFjrSX72-LyX99XXgW2TKPHUVF3FC1rAEJhrZtPBolR3uwH0X2KlLxnZoEzf3-ccr55qyrtYGjSjhaoEkqE0XhXoDKapoRu8c_B2Z9LwRyuroloMea3VKe1NXtYyVdCh9OJE5VWNEUvlVaTVTAEqbGHMMGRXObMTdOMY4CZAtYJJqSLAxG2P8oDitn2q0kDAypFBNucQEw5CQISz5w1kF9Z2u6DDyLTNTvz_YO1CDRIw_0Dnn8J9KCH4Y3BqB4jvPvjNpmcD-lzKFyoTvyMhW4M-ncrr4RmXHymkxFwqvkshCoALuQeSkIxu9wzZt20YuS5iRw4ZYyoR_ZcAdjdvq6WhkaeOWdcqUwDIjpe60TP8C7kF3mAIFNnuqXxDFpfVyRzaskM-61-lG7pkAXfP1GdjXWT8bUDtI1CNKxFG4MyaHYwkL4WpKYLZmG-DZkhvRjR03_XjsFxy9wvIl4ozUx4XWUFWwRgZvzAd1I0ly4wiJUT8IiD6Q7MYhiP8R6P5NRy5a2FYDaBjJ2ANgnQJ_mngUV-VoOgw1aEFQifqb_mUTSGzLOEZ-AMUZKP6SVadViS_IzozIAkvPSRcAbdGk8arg1_PGQFjgW5icE0Y9ivmpHNckErcSHrzgbMb10AH_-Cm9fsSsuvo8Aq8UV3HoDLrWL69Ue1ELvdkYRPZFzaByYVEKhmGdwzFXtEo7LkPUrTxSB13Iir5aCeVR_tVYG5E-ajHg4uNi1f3voOBGJwg52ORbslksb2qNuJJbIzf7VsBrmo7_1fx0bdfn9rLk3MhJWwfOf6jTqL-e2IoDFpRL5csvdcVAOWnwln7GUkOPmFG7aSuh1PKDbW6iivH95tZP3F1wIq9-CAKOUZurPwBJfpwm7j6LmbyI1A_tJ4SVSmqxMxHwtQg76iNQmx8r4CRwzJALpOxa1kekc38qwChvTsSSO395AXm_-GZTlHULBE_MqgKAVRYhgK1_hbU7XQJjNdIAJDz-0mPtVeeinRx2ILr29uTzEEgjdrdqkxHcR-4HqP4mKZGKnlF-g3OCLfrKNHwZ0w8rWhbnVI6UvG2R6Znb9lR-SygYF80Ab9SVFrNRCfeVwOdHciEZKDJ9HC3Xc8XhtoAzfnlf-oyFMTkglEw8RQuFC0dzbyRUowpWyDUbMc6SBXeblpWUGIk6jOBqp_i8JGCg=w2940-h1514?auditContext=prefetch" width="500" /></p>
+</li>
+<li>
+<p><strong>Switch to the New UI</strong><br>
+Toggle the switch to enable the New UI, as AI cost group creation is only available in this interface.</p>
+</li>
+<li>
+<p><strong>Select AI cost and Continue</strong><br>
+Once in the New UI, select AI Cost from the list of cost types and click Next.
+<img alt="" src="https://lh3.googleusercontent.com/fife/ALs6j_G-gyHast9YTyKb2uXb6Kr1Biq81IU1XbKcvkO0V6pOkYzta9TX9O5CO4Ghzp_rEz85ydt73c24RVf_HM-wumEuRDyn5JeYXQeZLncJXU_-yYKBB-HR-WKTOH1JpiFUZ10ZrZQ1abvdJr3vjwrGEM-enKsRbJnFsnd7k7PEowujqRmXQPkvBTxkw4a8EKAN9mw8KGf0qSCPof4GFw2dhs7wFZ4aDWES6TlH_tWrBcA3VgS24eQo8OwrdVmmvNbCgmtL73SSWVQz9ygkbVY3NNr4pkWLxpHsx6gVW6FoUAS6xps_NzNAqH2_pZZmHJmEQDhYFlDQ8p-CkjWD47jouF6f4S3z7sScU4BMzr2JfvIWvY2vErNRwqS2mtYftg1AbRrQoSYZszeGy6GxLXxj4a0FmJMGV6B6Fa3ZBdLcbJ6yYPEDJZRe2_KapQVG80rTIPDSRdGmQ-NwWshT0ApmLDePh0AqaoVFMsB-LwrqsLzdjvjImMZ0A39472lNAW7ZWOO_W6P4LQzzyO9qMRpHpgVhH-dTrit30zpYUifSRo-KXsusn7YKXR9Aek6Sj0JlQF2b7EcHcOCYd9AY3tItztqoO8usq386gXlWIMZIqIogKQjwGAoms3egbTLVyRYhPUZdMD5kC1Tg_BAosnlzIrB-rZddIeL8zPPTsUqLHtZnPyLY-CXhrRunarzaTSIgDEc8Huv6xAxTjIO-7P11z-fc39idUDwRRbz6nav--G1MVxwCHvJvfHD3WEGUdn2RvQz5yJlH1UlFlUFwbOr9iiGCn8Qeh1lbQG0jnzNuHX3xrp6vUsTRo52f8yTlBF4VgP9UuxZZNoSfkltgKnCY1c5_frL4iGf9CMI-VJrfGkIrb1dZXOlkRpt9XD4Vu-qFr4i5B5MrBixjMdkakfrTWyL_gLog0mumk5ARS0aQ07rsOa4oIhhisNn9Wf_T1iORupP-9b4fPvOYMN5f_7G4uVL3AwCm7wnNEumlUTSeCiiibQSFH4rzbYJM-xxTHwSQ3gFY81yprrRXB830HcnrmUy-CPCjalMshiMG02ANrFeMqjtoR5F4f2ylnJwycUN7zqQRXVYAoCwulzReAyw6R5cTY76ASnYrYM4cN_qtjLL6VsqF9nXTiGYHBstRSSTcXDTb0kRkpRlhjkKaGuNjUZqN6LWa4_LSzx2FmWKOLIQiaADncWsmKIigzUPWg6buR156QT3ry-ToWWvIXIDl4RoNo2mTVWr6NHWs6Ny2t8XO4-unfGnGDY34-Op60vans4lUikeRaRLwELUE5eXMympsawkMIm-in4qtTVR4SyZEfVZA3dUBhEXw3eWw9nORrzIGkwSLdQjD8AQdWP-LlmtGjr9R3yc26aNi9aZkD4DfannqSXa5DOnLNSJZAav5sR4lJzzf8rvNkBEGgZSlAqcAaHJA9Am4aswKsf8nTZjmbC--wjl7lNKFdpbc_-c-lzqzv4XO3tV62hkPm4Psjzy5F0d2gU3GDGmG8LVcxRV3LSQ4QG7l03TQvgfwAlWNazmH9uRi2hyYoRtiA6CwMnNPJ0h2BX3TUYb-ZejFsDY4Drgzp56Zmhr2D_ybWAPnm8iSgvzyH1CaY4KV5MKSetSOtvt813HLV_YVHUCMJ9JfQzAFr8FumWbtrqNXklkdb5b_aN9eSoAgfviITRTMRZfvbyyn0lKKFxpKa6RFJLHLTnsR08pv88T9krybfBF76Jm8EWvMDPR7YHvrO3fS_W4KYjVXmPz7MWXQx6pXXpeyNmuywR05_ZsiE7U=w2940-h1514?auditContext=prefetch" width="500" /></p>
+</li>
+<li>
+<p><strong>Choose AI services</strong><br>
+Browse and select the AI services you want to include in the group. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As of now, only AWS-based AI services are supported by the platform. Integration with Google Cloud Platform (GCP) and Microsoft Azure is not yet available, but future versions will include support for these providers.</p>
+</div>
+<p><img alt="" src="https://lh3.googleusercontent.com/fife/ALs6j_G7UAvdMmWLP1QqUl2tp6wIahTH4rtIlB5b_Elkdw0Z8z-zy31s8sKluogedWkpdGuiBd7uMXqrOnODd95jqCsCPxBkmKDVx2UJyU5X7CvpvuavLRmPh9-gn9DK1R9TZcQiNQWNVt9Jq7vuP6XPtAkG8brTtUBbsiPMsjTZQcIGRsRPjstaBvCRXcNHBpln8aiBekMg7m_zZfY_xbTqEEzsTcvdYp17hWzuY8DhNQ1yl-lqn4vcrZMnxn7uymM5Gt1xYpW1XeMASw7Dk1um7taIp2nUcJwcAttniYioMzhxav79zqJubsMinx3NQR-c2WurHe5qplLIhMgvcYjX7EYCQMOpgMYrheRQw7PXYsYg7nATUi_SvXefstOVYNboI1l6pOCHxg2znbfrku9lKY2tw89zhhM439VAneXWjgqrg8MYfCRo_8sACKLhS1j-3qjkIgrPJCN4EVposoUnv98PMUoa0t1MeYAr_hig5gx-h-O7TyEmMfYdzQwqodhhE7c4pt7PlnZv1KspWWxSdU59dGX2rXE-X5IjOyjR3w9fj_bOdREyQ328Tnr4-SneGsc5cuym5AkrnOZ3UEjRtUjDvi9AJw1-P4WwUL1bU3kZqK3kXPKqPIZwbh9g-v9Lm1iB_vFM4U90Nbcz2QA7t5ylgF2PdP_abA2rbrH-OutCA_Dujb1t4YVGxiklKItEVsQ0IvG0Y84Hs4vBRKvN-Z1dD74yuLZhA45tm84_hWTlbMeMI54HT_au1ge93KAhBtc_aW0Tx72TeIqXn4XKizmonI3fcAFgXMlHbfbgN6Cy-GACob6_hFK2kzckItXRZNIBt8bKUB4jvXpwkISWRR13VBziQ4-H3BtN9Oukn-_Wiou_UAfg5aQX4lPQcKKktvAymjhlwPOG7aDInLLsa8EWBU2jhnZ4GCdNRqGDMfLMjXbtXp62NSE71S7hPVbuw2rN_9CIFaIGw54huto7rhfeucCOkyZHVeeAgvLZzXcB4jcGVOi83ZvpD-EsNLgyiA0lrFAixLtf9sX8C0gZuV0V0TXjcCX4NiAc4lRvDTvXk8s3wExk0QZJ8vIK1tQAvJqM6p82YyN5YpXFlHo5Osb0SgI2pUiVCAok9fMcwnDOf-JGXZYQuEVO1O5Mv0xShD5ih4bbzPIdDJoq00snK4KyWev6hjquraFqkmkjaWzvdvxbcON0tER-CGWE-k9nU0YyS9iGJTsNYGlyCIjnPIcqgNM_DddJJsLYqzXcWqijbFugAjBc2XxgBECZWzvjZgHYiT3dp6ofaL2nFwMuvTBYitdsH95XuqJKEbpelr9BrAEW3nxF6X5Q6dqlrNI5BGqeApa3hKtynFHQrNezOz4_u2i5GC0HOd9wUnrCXynAyZtf88iOFFwJBogVr_4-W9gI5--efvjMuitqT3ZhXNZb26dFmZ5CMvW6KoVxGn8Hct_Miz_J_N76ztGgcnpsCq2oJXD_dGX-4uZNovUZC_XEdw_60AmKi7vmQjWyfOgMSNMkrMcK0nbZtCOIczfcuKIsJveZrncgtpBZtwO_UyCAWUq6pn2NJgO_pLLpmacY0yxnUD96ztOOL8RGA_9QyGEopQqEVjlJLGHu7aTb-0dMVhZk4WFdX4HMzBWMqAzAQqfGOjvXw4SCsxV0TRV0_Pt_uk6QdNo6sr0wAFd2ONjTe6Rn5L_zBpHS82-x1iUuB2fVP-WzjlsB_T8Ld72XwFZktPLV2qCxufg6a9EW9_ND-WbYE_SZNr7Xo9oniawxPUCQkq1q0uxAyvc=w2940-h1514?auditContext=prefetch" width="500" /></p>
+</li>
+<li>
+<p><strong>Define Group Details</strong><br>
+    Provide the basic information for the cost group:</p>
+<ul>
+<li>Name: A descriptive title for the cost group.</li>
+<li>Description (optional): Any additional context or purpose for the group.</li>
+<li>Avatar and Theme: Customize the appearance of the group in your dashboard.</li>
+</ul>
+<p><img alt="" src="https://lh3.googleusercontent.com/fife/ALs6j_EHqslPNjqg1ZfD21DeI8pPJYTKeFhyhLBwtzTCMqRvhQVe95jtmIgQ4_4_tqiJuhqEghXU28485JQFZKJBdbgJX74OhrpTwlL-_6O1FTJd9esAUv0jeRBC_OmuT79v1UW_g9Kt4sto1yXAbqiLuyxGDkktnCCLj2MypxM-LNk5UY2dGb0Nmw-Jlr9mjFCsz3tR2Q54p7zpouZt5VOBEQ0figit6udxGMEHIKwrZcr7zmwFHL9eTE5JQqm4eNZZ8M55_tYB6TtCuIBxoQBuHpKCZCphCsjhPO7CYa5a4MR2UvA8BDxadEr0YbqeGuiFV238YWIeenFTbXrXmTpDWqP1tlLY_a4gCuzRAmNE2Tqgh_ONNCXQb3FWH0kr24-ilQ0Q51jUIHx7ZH_Os8a6KAqa7ffsKqiEcjF1ZyQcFtHh_aw0fqqA-3f4xCapyL8eL7IP1LpZJqm9L1J6nBPPyuDDI_wvzhZK8A83zWWutNSYWcz1RHEDasz2XB7C_R_YC9N4zwv4u4P-3jx0AomrB4iViUlSaEkW9UgwiyiPVUkalMv1lBvD8y3Ji9iH8TpGPYlyvA7KJWxDhyshymYNivReLjSx6azkAkiFfPeAmZmr8K_YbSqeKLov8FyTXb_kDqf_zZdxd25Mcx_iuWS5PI13hHb4VJBYFxgr_rgaK2zV5FB0-jHVdhRT-ZYWqO76QSqi2Po8Du2koNi7sxjU5X70SGhKTp9HaXvNIqiEUglh5A2PRaVzBzgs9c1xFrLD6q8rNfLsCdfQ3cn1U5nJOZR5wNfHCuN5fDr4G8GuokyRSVPyHAkcAeQ_V3tNTQBlhdI1llmgSvUxleCjMATiLyHxYL8DNirKVXL4SUzXsIjVUt3qG5SDk1T8I-4UmS6qr0APvdlNt2S9-kRDwGPvEa6bgX0ZnD5fdPbKevY9vxwN5X-dhr65J8jYj-ljBj9Jwr8T6GilKTjBShA3g7yxKLMI6H-8u9-JCr7FaD4mOJPpBeLwp5ejg0GzDHk7Fbf7urMLw7Zp9Ygbz4LyNorkE9uoP1FeKKlCrLf0sNBc9bO6fwOTz7KXWciVVBuwD-YJiaStK-6vMWmb58KAxgZBnS2gEsdhrUFiiqzMyjy78Bd9IoB70SoHaKAxsSJSVFGubzYt95r-Y2Dxp5k9B6xwOaBdy309_UFlvxkGT27c7Gffv33U1RZaORq7S8WllyOFVl2-9WQjCzruX-hI24zJIQr8s6waAQMtAow252Xq6ajTyN9uWkBUuXXFdqLNFP45i1DJVqBgcWVomDuKW_489z2rEjkaavVxRAx9_D2slCYHS_intX1ItPjas53OwAwz3rdogGy4o5swVJVMPK6Liz692PsQr2OHiUzmvvbXEFui2Arb50bYaiD5Lv-SSNHSFvrFELx4qIh5g2rVqb3zn04E4EscPAQfkfQnzzOVJa2SPP6tzLcxrwNXtIho65rrthM5f6-xECr1HOG9phs4ccPwetWBBvMyb_I3NNRnUxM_wridV80wbczsNeyoQRXdJcBeM3f9RaO8hMUWPl4brXQ7YPWVtTpJFXCp2D4ypT2ldU7eaWJKf10KJIlZVY2FpKy3xd7M1O2_mAx4axXnkGNdLMlNb2KHpKN4dzb32bJcW9Xd_kbKaavzvI2LZ2ybshOAxdcWfYxO75-Ikco9nqfR1DnicIrl_sQ5pb_N5DGp1yHq8Kwp8r2SJcuETQDp_4My0mVhZO1YYtuSaT_mc9bKptdwOmqgkCv9QCLpo3ZIvHqRjp09FOrM7eo=w2940-h1514?auditContext=forDisplay" width="500" /></p>
+</li>
+<li>
+<p><strong>Review and submit</strong><br>
+Review the cost group configuration, including the selected services and group details. If everything looks correct, click <code>Confirm and create</code> to finalize the setup.
+<img alt="" src="https://lh3.googleusercontent.com/fife/ALs6j_FgyEn-ub8-ZZSeBxRddsGMPuL6VCVP0J_DHg_8m3zzYm2eajdB1e85ulqpbAua3y8KK4iXLKvcxmDC6fYEE41Hgb4GPROBCotGhKUkka_Hp8v0RNBFKTEzZm1FmYxh1UDgeNMO3TSS8GXGtEE7edH6Nmeoe_f5zcw78-k2NKhQbPlvlTvY9vxrSPlWWHBptTX0vFUQRomJqSaQF_oiwWvn7gVr00fyiF9H18y5DgkCoPz-UhHL0V9zb5YNVhWq3KsR5rzEky0JFb8fa2ysT0GHxA_0UqX0IfsGuFe9naLJUpL1-iZ4ltUbwoftxJokAszayunPgredsNHiiX08w6aryP_cBJOP-u5NjYNDjGfKg5eAztDCLPHUyYkHje8AZJqZ2C2gpSASMsSfwN0NQJj5QvmQg9kjwTPZ55M2zS_n_7-dci9ZVe7t_hb8e3AZBSv1dDaQQyfslpVcGjW3kYMhjdC6VsOA_wEflfM5uj82q339Tb-F_zibqPZFrPOkCG3iPPalMdSSsh7Yw2hGOiHsaLeA2ZrzLUKSrW7vYEWHBgQsQCmQCYSVPFlJKkZHN4FzV3vBS9D8oYhmpC0fwW8zmbDGEjUSfOvwaLnUW9dJAjXl2tT9BLea8VCGkbQcAIufSurtQc6FZ9kaU4D2roHRyLXzMVHPFTeSDfERtJlkUjWGM0i4apYjTIoukGY4W0ng64_q6a-dREcnHxSELJyjwXcVTdk5HyeVGZ735ysmxD4sk7pObHlnOP6hqSiUYIIbNHmbCFd_r68B8skmXsQvJB4pLGONj8f22RIUqXJErBJXzasDcFRCnwsBic-kYA2KjVpPxsyIIODZSHKIddS_RPEg2Uvj14qJf2CRv8gHKwfq-Sg1ZvDs9g5d-KbWRGYugUrYh8tTAsI3-XXni3ojQH4udmNzyXx2JSOm9rNV0Jglz2RpPkxPRcfQp8yNeR4hD8tAxogDlW7qa43iPUN07jloKZWZONsXjJGB80YG8v4L4y08bPlAyuSd8omDU9CjHFMbEqh6kuZkV7I6rLi4FFsRI0YAiHYMFcklKa8IG6iTHBNG8PiYM9t74-NAugb8VLlvMfGKL5QxzJe_t4YiKdzSl_1aVEIOR-7LhHvhVSi_c7ahoQjUu1LDGUl7qqchIve8r56metSJkxNo0f6HDHpgMVLubHR_8v1JfkSk-peum6Fi4Yfz5nUJWE1nfG_hi5lURIRg8U5BW83kvDgaGclWb0WH9fIon9soojUYpxGyFhPmaWU2t363NEKSpNTgK9NExyFKh_Jf4O9-dtCvocelZAwxjj7-LIc92WPxOU3LLD6gjTOZnRqurmxY0KrF6d8hnKSMMMJlnppbwZch208Mrobbxu9gPjAxe9Qx57q1RQWLpbPbZs1jEkEi_lDuO1SLv5i-aUUQ7fsljhq9cxVEUf5fpr1XbwMUyws0IFBBwUkJGwHpDCSEJfJ7w6mA68UO8xGyIRfHJWrm_pSnRpJARTEsJ25ZRcJgDIkocvo4zWHseM-jM_4N-f4zV8ajz5p3PIxGwzVXKhwN1p3gVGB3h-juyxzbBPPUUHPmL_IvlsIR2-Ba6PAYHoCxsQe-xW944nC8b129OUY4rqwHKNtMXUsghcdHteJ8l55XcupikMxHMSLIbGjTMsSAfQKC60Wwmjp37vftj-UB7Tryrp6DMkPbaWfxVtUpC7NzArxwmbhAQmbsLspRRdsyVDiOkPBRsbR2toiMaWmI__oBR8kC1ZY9lV8NV72PBdKvwh_fdhtEPLjqwfc=w2940-h1514?auditContext=prefetch" width="500" /></p>
+</li>
+</ol>
+<h2 id="viewing-ai-cost-insights">Viewing AI Cost Insights</h2>
+<p>After an AI cost group has been created, users can monitor and analyze AI-related spending by following the steps below:</p>
+<ol>
+<li>
+<p><strong>Navigate to the AI cost group created </strong><br> 
+From the sidebar menu, users should click on Cost Group and locate the AI cost group they previously created.<br>
+<img alt="" src="https://lh3.googleusercontent.com/fife/ALs6j_EAm1_9b37WCb3Oot7PcZeFilsEcgarOmvq4HY_8F8wtk7sPRZz1CEXV_wbBaUDU3Z-7RCEotMV0YbM4X1kzHlgljfpm889t0gAvDQOW3U8mTgC4c52cUhfXxY5GHeYDYwUwWbsXPLCMj57zihw58A-xRCK3Rgj7mZHjP2ekfCdSdB9aBwrTMyBHuZpgza3JxTVNDVELCS4mTaiZn501tQgAXiEzv9fnlY7WJ6_u-Zz4khs1sedjyfY53G92X6LROJ0gqzSvPbEelKFWVzz7kHRbo7TjjL9xGrdaGi6tgoq5F6vHiQX-0dvlM-5gwXEj867e6EEJ21t6WXNEGI4zRuoRAIuu7KCs_CynHONUjTS6JPxg9nHvUO7X64pE6KVihub2AWMZ2yC-IoF1P_r30E30fQVomVQ1egxXBGyizDwsAtp_LgQJyCQZtcE9a5jrhFACbvazOdSDjWLQ4FHK2OJCi7QrppJJsP9w75jKE7gsTs9LfRlz2RHEI0OOK3PSVzE1xTyRbUclXFxBnwkv7MET1QkIED262egFeKsSZW2wmqyNRpqL6ZipGt15HDGQoMN2G9I0dsjbWawmOkw9eruTzDIAOXzZSVKmva2UQUBqvdizO9fPhs4WiuOLp-xnbhqUXOPq38-HhqbtcGPl5pz3sNt_rVYdb1VXE6QKFrtIIaaW6newb3x9AuB9RsrVTmn56gpdm2-zLAcodBliajt0PRlVZUan_wF3rlWHIkrJgl5fqKjKIUdB6JnZovbNP3JzVsOgJ1CSB1JJZgGeO4DBPq_3BF6oPfk5MROQyEvWDirnXuCA5AwALQ2J1toMoQoGJEicx1PChRnxo7vGuVF5qn2hm6u-WChpMm4dbA1kHBcvLmRBOOjWTRaW6fBffAzGGXpOv1S77VSWX2qK5YcUpaSG28wPtBqOWwqJRP4e0jTXwJLC99TjrkDKF4g-OTpQSlGqU10gUlXmVZxQsmUdsPwGkgVUGgpS_oGD1prXr_MsZgVlyxDohXIQgGfzhrV1KmpmW7vLBFWo_GVS-ddKvgAkvbBWXo4SjNiRKuelWAtMGilbzH5Fm-mZ5z4GEwt4E1jGeBy8mCaIy7j2gucgDxf6um5bytYyW1S92bhAwHZty7siez2VIb6YhFtyXzjDM4Xo2lRkPC97ImZDUOXHn65efbU72gpfmB1PCNc6jTx8pzP9DG1xcNfYcu9Jyg4m_kD0WjAHxSbSJuzQQTQIJR19g8i7d3AxcsRHTCJSjLkTuUWQc7R0jVi3JTs3rmgCtCA6CelaXxinihLSEj98Ams0aPzCODoFt8kg7FOPVel2cmhFAG4y8V9UKix_sT9HbNfvxWp0HHd3OL23Hx7TWFd-Ww3IBDJNztO13caPIOJHJpnk2fBceLZbZbME5PxzBTtcPpcOUGZGp5ovZ1h954xvBmvuSacZcCDjWr0WndaXFbHY_ZBciVKrOEYpb2JohdB4ZzHupKPat1TvCxpCHKWC2Lv9-dRC1acI7NqcbnlseMc3rDc1vTcW6zu2OHayuS91IR-3FAQ3BhWPlhHFR3iAX9G3225o2_L3dya5ak10MpYZ8IorLzXI6wYA-KvtNk01rWct3DsjqC_niUUE20IJbADr8ME7ZUxgRgHKiSD4pEFlmQXBTscCoqj120LsiY7taTwhXsuIh8uIAzoTaaSoROuU9kfjjEh87tToAcjFX0rx1zeF42axV3RAycRkQzOWDctWLzAYoFrIbBKcTYbalQylXZm7Wb1BORLG5W4VyW_LMfD_2w=w2940-h1514?auditContext=prefetch" width="300" /></p>
+</li>
+<li>
+<p><strong>Access the Insights tab</strong><br>
+Within the selected AI cost group, users can click the Insights tab to view detailed analytics on cost trends, usage breakdowns, and resource consumption.
+<img alt="" src="https://lh3.googleusercontent.com/fife/ALs6j_HEvg50X8lLCeB-b5Jughp0zjyIyVHy3BwTxcl8QFVMLczOMAy-VY9dAn5bFFfLA8iNZ5BJCMpYxsR0CKutZuIP5r7IVWp7QwwWJX_9ebqV44YV37THyUPPIsTzeJ-B_QgSujZBtQzcpaOfUyAAa_0UhOKPfuubKSV6C3ZME-WFueNb_2OLy8GZ1J6PZUKG-37xQdCuSrPF9NloFJVVef9yVor_IFiXK8BIsikdT5N2pPBGsOfHOBxG1it6KROxfTICnYaYKvz_yizNmnAAPsw_jLYrRgX08MYqSYzFc4xBUQMGtOC2FIoiEUwp2XerCXRPma6bv5UyrEy98EzP_IhtBK29-_k_ncNrqS9iOEvhTYxID98QjywY-aDNRykvCyOy3j1WbXxTrA_AhvwiBiCcI5KtttdYIujFKWGyC6tj0XVKIebbKu17MtLuemGfxwcrrSfBUeYnX4TxhZqPNdFWC1m_GNpiTGmwXGsaqtpzex-BfwWzmKvNbPJQzX_nI9_vTSTwyLtK_1-Kf5tJnFIDal8erIDh-QORROcQr-XmxTu-D1xdFzJR1R_ylPRc17FuJ8y79SpDq8cNGjYIOVS6xDVIROlp75Fv9UpZxB-o0OgsXqHXEIUkoCy8Czr3wouDlw9NtqeQ3BWYDIfQEHY5ER6e5MXzYJASQO_s9jiy1O-wrjJ8ao8ZOoIqvnragAQ53EeBwb_EDesSzShjzFXcGdhw-euBdW8waOpWf-elvSabW-hqdnsO0OyxRQ6dUuzVO6PCL8g9ZReTVPU0BuCsAWPW5FGir5MDT1B-qXsweV_xqKSTfBRj0kNpWzjMV08aO71ahxmVkAGtFtHw_e4dDa9SMRDVHXz3Gsm1VhlkEiFHE6yI1Ee4kxMPTG-wFAZwIg5w7p84c4FO5T92lhvPb1t1HAYE29caDvAMaEE_KVYY5zssNKeCYb5TnJyCBJ56rBLIaD8vpUa9lsrLt8dPdnFEt6oNNZDCIduzovWRs-vD4b2nE8BraAeRki_72-Ge3YAQGRryJHygnswa4LgblFLLPGAhPKUJkATcJMLOLVMZXsGe1u6JqcuAm_fDOaH62QP15oVLv1nzgpsnHwxiqk1Rw54NBlfOOe0A-KyaUBboWPlG-Lh8x66fMEC_mtViEa6EgIFzyuL1RKMl6SpzzxxHk9YDg5-lKQWQJulIE4FfKmUPJ3cBufCGAFzL75jmoXCYM6xo3AMXYk6R8UDBHcjpOF2-PLnQWHm820jdWPVd4ksaWWmX9ux5VSKXxl5NT9zu735ULbXSS4tQJn4ge47ybIBdno6zn67NKXk8RiFUbXBiqQWwmouI0usV5Rw8oqi6SLQDHA3U9ct6JdFBKZrfSTEz41QCeKctc7bWsowZWfB-JYPY-FZbYVEOm533aa3VMeVHckttp0KTGI5t2m5viZR7uatQGH0-boRjcwRzpjmlTY-gLpa4UDNkN-RGaAkhWD_bMI44ioC95G9l9LHjnrYYuIfMu4s6IgV_w_dU4ztQxm6NK8pQykK_UFxVSvt11AxXaoa-x9wx71X50ZsGoGv0GRAeu3Zi0DNkwFUTWloeOsSXQ9UrQbLJKROE0AcsBneiGMNjkrTXnaOIhTco_4BJoDDy4u3tOPb3gERZK7mHAliczLept4pca3BguGknCzsPGInyzn2FyNGxyRJl1hXSuj_UWzRpnvh_XLlqOkfRTP6uOB-9CPQ4aq_YwaM-gSSfZpqD_3M8kDR8Slf8WfH9HkOoghGhLgvBbs29Gf8YLC5TUvk=w2940-h1514?auditContext=prefetch" /><br>
+To view AI costs across other services, users can use the Services dropdown menu to filter insights by individual services. This allows for a more detailed and customized view of AI expenditures across the organization.<br>
+<img alt="" src="https://lh3.googleusercontent.com/fife/ALs6j_Grd1e1UAJTBitbrSaDp5Akh7HdXuHhVY-CS54G2vZRaPqPYGSVNlCFzIh3yWmcziHeDsFgcIbe5TrmrO2ojDAcR-pW3fSXZAAbTS2E4xJeUzDpQDn8RbtPnj-CwBrs-LM9Xubsm2b_lShnw6XVW_I0UBKKUeDnNFLZNc5_pVSBKMKxyi6Do8CRU80L2vVmftCDh9vXWNY2LbacyIzREqJqjFYEaIkfKGBhEcNbBZWSIgVQ-oRGwHsPAtJA8l7EtawBFqST21zlJd7mwUkdbSV6PDW2DOaWMpE2hSMtKsTn-4CWr1-nBNm8Gk4EUyQijwp8ggxFmjWce3on5_Z1LNK-ESWXuo25YCIebmd21rxz3kmocQUiXpfNsQ_E2BgWDSd0KZBmJbYHgdKlsebF-i5C11dbl9_Slx0w0knZgtq3sX25_trBxYlNCJhqve1EEbLra7owfFTyRsqw5JqXHlqJ7NiIMInI6w2X14iR6UnAmyD2T2H9Xis03C7MNva55GZBeG9XitNryOfm2WxnapsA2GAVVP6pu9vAgUSVhR3RrOPNKJ_9PCUjs5uIGA8TOg5xAMY7u7xDf-XVSvqxbglFxT7xwPCsdCkxqtGN57UceZWXQwggr3rffJ1JeMsaE7nvZpabLNWta8uDh7VWH2dyiJhYp64n_dRp6uJflWa6hAzyBeoYivwPIVKAVENf4iFmD2V6UvsokomwGmWVlpDc0ywUvpPn_TpxzvoYXZoTQqq3G50Mf_98BkjHl40jqMHIy9nQT2nbFGTB2WP7BlauhjoG4Of6kmaZa49tg4U9NMC_zgrZomATa8ZMKuEAYy1nYsiwD61DKskU8Fm7FR5gQderJgSzpqxHGO1AbYsfuiLsgqJjiYQR1j9drOwSBfiefHe86eEJjaydZKW4yf42ce0iatFSodmSR9amMbkG_b4s5GpGhwDLfagkzi9zHULBIwz1eYSBNyBMyIJP7srLAw1vkOqOytgEqeam-fg9aIyQaenvSuY2ptV3SIzbt5WUURDhQ_YhUlIAbGp69J-5haLCeV9mJnkY7fXvuE0l5idCw3OYa30EUyiNVypLR4AyLoQN7WjZbfDN3noOcVv9aG8RHU2QfvV-85pZxgseq21aAg_q_mohWg_3oOdxQD7PCn8pziW3YEjHYqOXGx6CBxe2qvyMfgUaEUDY508RdrwkRi7M4Ia-GbuERsna_O55MrMmld5RKbWNTCQ-zHuNlPB-RsDkg6oAWcnXWQwztuOq3DOxR14zWgVjARAlIhtcenWGlIwmjUrqNPrHwnxam7x1u8POknFvqhk7r6g7pbHXS0YakwUwy3Zcb08252_F9laDjled7Kh_F7J9wCVnO21ZKUhWRtatJS0GN_MV2yrdNdF6P8kewN2xCTwUwk5PvSJST6Nw0-_4U8iSmADPWyahMVqj0AqMhN3WP3M5ms5O-HR3s9ylniip5s--VC9ORvnYwSjgWjRdR1z1xqEiTIw2PHCW_dotPNrxmdU_3Vev4-e9kJNSJoS-3SwVuNYtmx5iNQjPrkipd4UiVq2zJ_k2lwdnqESiv1bIc8cxYq8M-7DZP-VxOIpx50wXnFqrRkv2iY1Ni0_kaodLoeksNpT95yCqcRlgeV1C319BZ37yzkw7bjUzPDQ1C7Mv94hEHOsFTpZ-_h8PHiXqd_YMRi0S4Glkt8Y8rNIxYMMZzJfq9OfhZE9IR7xJP3VXyyr3g2VRHEWzpgaNhKxw0nmjRgXOcNROCMAWnObbxBbv-vKwfH42EJNGkcA=w2940-h1514?auditContext=prefetch" width="300" /></p>
+</li>
+<li>
+<p><strong>Detailed Feature Overview</strong><br>
+To explore more information, simply click on the feature name or product family title displayed at the top of each card. This action will open a detailed view, providing in-depth insights, specifications, and related resources for the selected item.<br>
+<img alt="" src="https://lh3.googleusercontent.com/fife/ALs6j_GwsO05J7nMPkR79KOumaQKJX4I0rZgJFAMYXR102CQIBzGy3mVEXnc8TfWetp6ti7jkUHktYDwkcY8tTG-Hrha102HQdaE3Vd1k-6FPMVS5LSxs8JHo82GCR2nf_rDPuz1Ox5iN4APnmqN5cO5Mvkd6xFkS31syOZ7nEkrtFnPjFEVTu1Qe25EmGyU5GBkErVxtZCnpgBQnGCnIgAkUk1-duPr_knmJD0kGDmKKZU_AiqgpOQggJw-r3gzit1lo_rCZkDzc-z8Tkz3Ax7MXKndhXo98Y_Rpcbgi-kJAkmmnRixcuGk3M6ep2IvjtsOBR8Gvagriv3AUpIWJXDkZbMQspKloIjyI3Q2TUM5tt7jlXRrNTPEdzjEm_oMOVa-236xuW9F4MmLmlRUkoosoLAn-taIzsvUpAHugsnzwDMY_w3n0JXggZ78WY6epmdwH-0-gdXo8qDJWj2WsnQOoAxqBWIZQD4N1DLWiecF4wwhxh_mV-bWjT652bPhJcv4NYyG_O85Du27P3YKaSbjMNvsy-6mchREviUNL-X0x5rX7NIaA5W6KjCGSC2v8buaL6u5wLnnsmgHOoLXrLulvf_89P1TKaBTdk-PvyxApl-Td0n0gUqVaqgtYlyw1zhrgpQ__vaXqIlhTPQDsFo-u38YLzdpC0IMkOuSKBBELyTQ_CGfFPNXmQj28qdT0csXkvMF04f3KHpdPGC1ACJsR5ASD0Nrw8pfHCvOoPHfW5EOGzDF9aZEPNngL4zdOgxt2tNXz-6Ie7PWZ0wcoTy-2UkH38jw55H17H9ReoxLK7MSv2ghc-zglrgu_K4jpPJy0RKJD5EXii_sVPGcFsL4VuZ-m7ZSmYlo9ix3VC4MIsHCd71FawdSowG_t9a6UBFrP0PY8pM6v8YCTVU13aR05KfmCMykZfjcbaFrYAaTMY-l5flSXGXhmdteKYAfsp1xDSsKyib44gVXkNLWUVQhywR6c1KK2cLRP_EK9gy74SNEVt6P_DP6JG1jmL_6NSrxG3Zcd_UxQHGXzBdzBw3LQyRCKmrvnF-IB3dqte-yIOv6vfIipmMU5_MtwapWkatvUnKJMmsHfKKvhQIZ0fvRFPy9BijCW4ANdN_s5s7kVncW_x4dr7KfDuRwEueQRJ7vNtslSCxFzn_ielyyS9PSti2FpRnd2CsUH5wsHRZDQ8bhWGHx7pFI7alOFOxt1CUmbEFBjyPnPGDV0LIovtKRjuLu37LVkbCOX1_Ef6bdVUZCsS59S6VbzyP-YtAZhxQN9FfFcAwPsD4S1qGni1U7OcTlgx19b1imwKP-uNbB2vuS76WZgvs3n22t7v2DYFL6iQUxP8hLYVXszrbsHTcLJGcLQ-YgBfXWaZbUrsyGJJ9R2Vk3stGYnYtUvm5rD87pxoUi0teSEu70PxMU_y_G9DCPefDnx-Wk5dDoLwEsF6GGRjHHc3GG6Avca-4_rY7hY1o72oUKAoQ2DATBtVMDY7ASa-I0VqWrt_1DWSHRHZ_9Wki5rsyYixImcTwYUiF1HOADnu_smTvhZSU38T3eoYMi-B8WJQGbTNwM6RqRwSixfxvcqiIis6cQj-lsNG0nZDP3eqTRg3cSIK_vWNCPMxnfKDJNNv_NturW4fUwTPQAsmQy8hLGtKjNlLyK5ZQjn_dtmzlMLo9j56o8diN3Hq-jcu_ZdCt7wbilfO9RNdTMp3YJkBBL52uLJP-Ei4GVhp-e05cg2AFDKpF4ShL2DPL9q4FjjpSx6JP3Q_AlhRQv0lr0Gwru0P8rvzA=w2940-h1514?auditContext=prefetch" />
+<img alt="" src="https://lh3.googleusercontent.com/fife/ALs6j_HiIHT5VlAHYJxRMG_OI0Kl38rTQzgSrjPkRn3cLUbjYn-WPdd67464scCxCx2oEn6aFOIu1_rVZUoSJIgw7wp64kSisa35TRwPCr4xokamHHA8XDGVUJg2L4SCEEyUzH8hzImwIPPSVCiB2h4_kKBEcNmeq6snohXbHFdOibSrTStkB-Q7T96qRSyHr8wa93mHXfhXS87cPYc98bD8_YM7rWY8K12XHEgZXOyiDr5QY_fNlmngm-kZ49goHQsPkT3EHdvnyhX2ajv6EjQ7OfDeMGQoLpOQd2TuvDyCB2_0hbhCX8upufRDuya6rgkDfPkKdw1bFgBhYCCiw6xyDz38MLaPc2P-tunzchd1AT5yjr7qb7X0P0V-jYIf710O78838keYLp-NVuM6BupTCxwBqNq0_rubuSRHnLIFWY30eP-3ZH1fJ1hWnW-fkjGM8RJfwu1YCKVUi-czrcizcafTJTAzcjkVIc8rg8d2g_hvQcT84yS6KiL2GbJcn3TieePYDm8_T85DlzO6jwxVpqZxcYI8YRdzYyCHkcumY6AzDQ6BVzF02fRM8Mzv7cO-ncI0AEwam4tBZGFEHsepDh89JiV9sDTHJ3HmtSrFKQU4EbMQ7nIDWS-UqSNhHPxNAD2AuJOu4FlaNnXKbNJlranrbhaWb1Hak5YfsPuYhCgtPEXy02D8gVNLVbp_qc3UI-el7nBXoqGXz_brSMr39dNYeSVdRW0Q0cKwqNFuHO6oRnriyt8pSfxZ5YkxDsMZg91nI5wOg-fwcSKO58g-l-yr3B9A-_hxBCD_pQGtvNX1SG1lnE7-GxNdphG3HGArzBlBMOBfvBLcq_1gYYcjQjfnTveuGdSTisQ87R-A5d5O9SpymXfRrxvpJLRErGdVMvTSxXd3S9tIcP08oARhvGl8H06lOEWjSrRauv-vmM2lG0pLW4PJYeS4RbnkbWtGKSvCMfClUXdrfj_ypTVfer05viIR72cL0OV8OP5tYyu9MbixDhm55sKf5RcWHyBrXoV89FEVDca1jmbB2-XpeGVkQRSq93y15WwRP6mRIkYDW11TMAL0zsFKKbs9ouKW1b3xY6oIlN2Jmo_ex5ysYvDqKpozQl_90NfP9GajuoILGgRd8Vcfka7l7OHBqoFENxqLTNjXd0R7ktyb-XJzsiJT5Xv7KJNiahPif85KX_AhGxYgEd9Q0O8-vLEu_0KfnUFynbPXqbMGDVbCVJNRm2Uack5hI08DuShYL-O1QCypNe29InIE-ErJw6VIIfjfz11ddgka6CVE0Ex5MFo_k8JejFPUC4VmFqsEdcEd8g9laPdwzEh9q6_jp-2LAaTKCAHBI_mM6DrfiD-GAj2AmtNVYMDHwNL8DFUSdo8GKlV2rRHUa5mQsfBJSgklujHBHyP8ejJ6TV5SeGNKGCjX7gxoo0Or37CzjTt00VzSTVKFto38zspTAGT66mIs6hXm6ewbWkffXrtWzXDcvJtKrVsTN5IFRKSZVPGcuhvsoja12axdbyuvIFFGhx5A7Cqlf66rOIvLjW3pJD13qlGPQq3KuXcFxXIYXg6OoWJSr-HpT4HgDWKSEStSUqgjW6Q2_GJfZ0oSEvbtw5myNHZKsqxgP0lB5u0kpnki4Um0TC6Q3aaYxD729ntjLFq7aDoeOSAkRhBkUS2WSVcz9DjgIgsIdounTJZyV6iXWXUVHtzXL7cIMQq2sN1ACIguAOAyWvwH2Y5lArp07p4IK1ZMPMCR78_7MtsRlKeMQ1blrMY2gFn-K6DpX2HA9H4=w2940-h1514?auditContext=prefetch" />
+    Additionally, users have the flexibility to customize the data view using the <strong>Group By</strong> and <strong>Metrics</strong> dropdowns:</p>
+<ul>
+<li><strong>Group By</strong>: Organize data according to various categories such as account, region or other relevant dimensions.</li>
+<li><strong>Metrics Selection</strong>: Tailor the visual representation by switching between different metrics like Total Cost, Usage Volume, Unit Economics, and more—giving you deeper control and insight based on your priorities.</li>
+</ul>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Alphaus Cloud. All rights reserved.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/alphaus/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/alphauslabs" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
