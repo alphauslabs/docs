@@ -82,3 +82,103 @@ In the upper right corner, users can click the notification bell to create budge
 ![budget settings](https://lh3.googleusercontent.com/d/1umg3xYaqQo1XHkL-Jk7sHtUuuKgtjTWm)
 
 > **Note:** The "edit budget" and "delete budget" options are only visible to the budget creator or an admin. If a user is neither, these options are hidden.
+
+---
+
+## Budget Widgets in Dashboard Reports
+
+Octo allows you to visualize and monitor your budgets directly within dashboard reports. By adding budget widgets, you can track spending, compare multiple budgets, and gain insights into budget performance across different cost groups.
+
+### Types of Budget Widgets
+
+1. **Chart Widget**
+     - Provides a visual representation of budget versus actual spending over time. It displays the **Total Actual Cost**, **Total Budget**, and **Total Budget Remaining** for the selected budget within a specified cost group.
+
+     ![chart widget](https://lh3.googleusercontent.com/d/1Zx6VJZixwRHCTx3s9M5aW_Ex0TFaRBcs)
+
+2. **Single Metric Widget**
+
+     ![single metric widget](https://lh3.googleusercontent.com/d/1M5TBRCiOnDNF-8VdLAu6OGGMC_3scT9o)
+
+     - Summarizes budget performance using a budget health indicator.
+     - Shows **Budget usage percentage**, **Remaining budget**, **Time left**, and **Overall budget health** status
+     - Allows users to quickly assess whether spending is aligned with the budget timeline.
+
+         **Budget Health States:**
+      
+         - **Under pace (Good):** Spending is slower than expected.
+         - **On track (Normal):** Spending is aligned with the expected pace.
+         - **Warning (Monitor):** Spending is faster than expected and should be monitored.
+         - **Critical (Action needed):** Spending is significantly ahead of schedule and requires immediate attention.
+
+        **How Budget Health Is Determined:**
+         
+         Budget health is calculated using *variance*, which compares the percentage of budget used against the percentage of time elapsed for the selected budget period.
+
+        **Variance formula:**
+         ```
+         Variance = Budget Used (%) − Time Elapsed (%)
+         ```
+
+        **Example calculation:**
+
+            Time elapsed: 32% (29 of 92 days)
+            
+            Budget used: 10% ($10,000 of $82,000)
+            
+            Variance: 10% − 32% = **-22%**
+
+
+         A negative variance indicates spending is slower than expected (good), while a positive variance indicates spending is faster than expected (warning or critical).
+
+
+        **Variance Ranges:**
+          
+          Less than -10% → **Under pace (Good)**
+         
+          -10% to +5% → **On track (Normal)**
+         
+          +5% to +15% → **Warning (Monitor)**
+         
+          Greater than +15% → **Critical (Action needed)**
+
+3. **Table Widget**
+     - Displays a detailed, multi-budget comparison across cost groups. Can be configured to show budgets within a specific cost group or across multiple cost groups.
+
+     ![table widget](https://lh3.googleusercontent.com/d/11YVM13u0CGaPOR2JnYyoht-8JTDsjfWZ)
+
+---
+
+### Adding Budget Widgets to Reports
+
+Follow these steps to add budget widgets to your dashboard reports:
+
+1. **Create a New Report**
+     - Click **New Report** from the dashboard.
+     - Select **Build it from scratch** to create a custom report.
+
+     ![create new report](https://lh3.googleusercontent.com/d/1IKkdj9zuI7pfD19QMOZZmpcf8B6UGfCo)
+
+2. **Choose Report Type**
+    - Select one of the following report types:
+    ![report type](https://lh3.googleusercontent.com/d/1HtFMk1ZCw0XUREiSv7k0I4tXHTHYCLot)
+        - **Fixed Period Reports:** All widgets follow a single, fixed time period that cannot be changed individually. Budget widgets will display data based on each budget’s defined period.
+        - **Flexible Period Reports:** Each widget within the report can be customized with its own time period settings.
+     - Click **Next** to proceed.
+
+3. **Configure Report Settings**
+     - Review access and permissions (define who can view or edit the report).
+     ![access and permissions](https://lh3.googleusercontent.com/d/1DUj3bdeoCh6ySxOPz_o1MXIvQlrh2Ov3)
+     - Set the report name and description.
+     ![report name and description](https://lh3.googleusercontent.com/d/1qaSmizZ7R9iqyiYTEH8DV80_8y6a13bn)
+     - Click **Preview Report** to continue.
+
+4. **Add Budget Widgets** 
+     - Since a newly created report is empty, you will need to add widgets:
+         - Click **Add Widget** or the “+” button.
+         ![add widget](https://lh3.googleusercontent.com/d/1QL_mJst_CASUwuTd9PgBC5_3ZqTP112T)
+         - Select **Budget** as the Data Type.
+         ![select budget](https://lh3.googleusercontent.com/d/1izk7m_C7YRr_oUFVu68CkCSCZELKU08b)
+         - Choose your preferred Widget Type (Chart, Single Metric, or Table).
+         ![choose preferred widget](https://lh3.googleusercontent.com/d/1-CGTzDHGJUw-MyhPGRPgAEoaRe7vDWMh)
+     - Configure the widget as needed, then click **Add Report** to add it to the dashboard.
