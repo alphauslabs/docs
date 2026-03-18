@@ -90,7 +90,7 @@ nav:
           - "octo/samlsso.md"
       - "Troubleshooting and FAQs":
           - "FAQs": "octo/troubleshooting/faq.md"
-          - "Integrations": "octo/troubleshooting/updateintegrations.md"
+          - "Integrations": "octo/troubleshooting/integrations/updateintegrations.md"
   - "Blue API":
       - "blueapi/overview.md"
       - "blueapi/authentication.md"
