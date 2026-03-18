@@ -1,6 +1,6 @@
 # Updating Your AWS Account API Access
 
-This guide walks you through updating the **AlphausAccountAccess** CloudFormation stack for your AWS billing account. Follow the steps below, and refer to the [Troubleshooting](#troubleshooting) section if you encounter any issues. Contact customer support (by clicking Contact Support button in the Octo UI) if the error you are experiencing wasn't documented below. 
+This guide walks you through updating the **AlphausAccountAccess** CloudFormation stack for your AWS billing account. Follow the steps below, and refer to the [Troubleshooting](#troubleshooting) section if you encounter any issues. Contact customer support by clicking the **Contact Support** button in the Octo UI if the error you are experiencing isn’t documented here. 
 
 ---
 
