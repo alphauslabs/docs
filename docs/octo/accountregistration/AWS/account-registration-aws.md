@@ -10,11 +10,11 @@ These registreation methods enable Octo to retrieve usage and billing data, perf
 ## Via AWS Console
 ### Step 1: Select Registration Method  
    Choose Connect via AWS Console.
-   ![AWS Console](https://lh3.googleusercontent.com/d/1yFJbu44o1ue1nR6wZxGcr_IdHllZ6oL4)
+   [![Screenshot-2026-03-17-at-14-02-24.png](https://i.postimg.cc/y8sq8FvF/Screenshot-2026-03-17-at-14-02-24.png)](https://postimg.cc/LnCQyZdX)
 
 ### Step 2: Basic Details
 !!! note "Recommended to register billing account (AWS payer account)"
-    We recommend registering your AWS billing account (payer account) instead of the sub-accounts (linked accounts) as you can have the option to easily include the sub-accounts at the end of this process             
+    We recommend registering your AWS billing account (payer account) instead of the sub-accounts (linked accounts) to fully explore Octo's capabilities.             
 
 a. Input your AWS Account ID (12 digits)
 
@@ -23,68 +23,83 @@ b. Input Account Name
 c. Click Register Account  
    Octo will double check whether existing account has already existed in the system. If the account name or the AWS account ID exist in Octo it will prompt a error banner.
 
-d. If there is no error, then click Next
+<!-- d. If there is no error, then click Next -->
 
-![Basic details](https://lh3.googleusercontent.com/d/1dicts2_cUrwFxWZBx2dwa2Qvtr9Y2UQH)
+[![basic-details.png](https://i.postimg.cc/Vvt6mj47/basic-details.png)](https://postimg.cc/K3ZF536L)
 
 ### Step 3: Setup API Access  
-In this step it will deploy a stack in your AWS account, this will setup needed permission to allow Octo to perfome API Operation in your account. You can learn more about how this is done with CloudFormation template [here]
+In this step it will deploy a stack in your AWS account, this will setup needed permission to allow Octo to perfome API Operation in your account. You can learn more about how this is done with CloudFormation template [here](https://labs.alphaus.cloud/docs/octo/accountregistration/AWS/cloudformationtemplate/api-access/)
 
 a. *Click Open AWS create stack page*
    This will bring you create stack page in your currently signed-in AWS account, make sure you deploy the stack in your intended account, default region would be `us-east-1`.
 
-   ![Stack page](https://lh3.googleusercontent.com/d/1_z9qtqv9qWG7pWvtGVEt2Ucvin8jgDfM)
+[![api-access.png](https://i.postimg.cc/CM4DB04X/api-access.png)](https://postimg.cc/grnrQfQH)
 
 b. In the stack form page in AWS, please check default values when creating stack:
 
    - Stack name (You can retain the value or input your desired stack name.)
    - ExternalId (Do not change.)
    - Principal (Do not change.)
-   ![stack values](https://lh3.googleusercontent.com/d/17NcnsEjKvQX_tzNR_Uj9JbU6JPB5eRSx)
+   - TemplateVersion (Make sure that you are in the latest version)
+   ![stack values](https://lh3.googleusercontent.com/d/1ZzPpl0v50cGqHoHT9Wqm7r1eOluTty5j)
 
-c. Check the stack details and at the end of the page *Tick the checkbox to agree* that says "I acknowledge that AWS CloudFormation might create IAM resources with custom names. message."
+c. Fill in the TargetOrganizationId if you are registering a payer account and prefer to deploy the stack to the linked accounts. 
+    
+- Click search in the AWS Console and type AWS Organizations.
+- Click the service and find the Id in the AWS Organizations. 
+- Choose whether you want to have Octo permissions to a specific team or to the overall organization.
+- If you choose a specific team, then get the ou-id.
+- Else if you decided to connect the overall organization to Octo, then get the root id
+- Paste it to the TargetOrganizationId field in the CloudFormation setup.
 
-d. Click *Create stack button*. If create stack is success, go back to Octo.
+d. Check the stack details and at the end of the page *Tick the checkbox to agree* that says "I acknowledge that AWS CloudFormation might create IAM resources with custom names. message."
 
-   ![Agreement](https://lh3.googleusercontent.com/d/1kcZPqOxhzWpEyx2Z0OYRt_1ROmpMFgxB)
+   ![Agreement](https://lh3.googleusercontent.com/d/1CzMk5haKu35TQBSjuvN21WfnYIZ8uMwk)
 
-e. Back in Octo, *Click Check and Confirm* to verify the deployment.
+e. Click *Create stack button*. If create stack is success, go back to Octo.
 
-f. The verification will check whether your AWS account is a billing (payer account) or a sub-account (linked account)
+f. Back in Octo, *Click Check and Confirm API access* to verify the deployment.
+
+g. The verification will check whether your AWS account is a billing (payer account) or a sub-account (linked account)
 
    **Sub-account (Linked account)**  
    If the account is a sublinked, you can *click the Confirm and Finish* button to finish the registration. 
-   ![Linked Account](https://lh3.googleusercontent.com/d/1GCvA890E7KTwQje_2rOGs3AU9aDWNBM8)
+   ![Linked Account](https://lh3.googleusercontent.com/d/1a_SPz7AJMaftxR1TVPi97pYjl0oL5ETW)
 
    **Biling account (Payer Account)**  
-   If payer then *click Next* to proceed with additional steps for payer accounts.
-   ![Payer Acc](https://lh3.googleusercontent.com/d/10Vzj9ZFmfG_kAK7XxSNx9diO_E8cuWDF)
+   If payer then *click Check and confirm sub-account access* and then *click Next* to proceed with additional steps for payer accounts.
+   ![Payer Acc](https://lh3.googleusercontent.com/d/1yJ1uKgHhejFLxDURPfiiMDNNPZxWSQEO)
+
+   ![All confirm](https://lh3.googleusercontent.com/d/1J_86trESuwqwZuZ6c95ciZK0vS5jBC0-)
 
 ### Step 4: Setup CUR and S3 bucket (Payer account only)
-If you initially connected to Payer account in the previous step. You will see this step. To pull your AWS data to Octo, there is a need to setup the CUR and S3 bucket for payer accounts. You have two options to choose either **New CUR setup** or **Use existing CUR setup**.
+If you initially connected to Payer account in the previous step. You will see this step. To pull your AWS data to Octo, there is a need to setup the CUR and S3 bucket for payer accounts. 
+<!-- You have two options to choose either **New CUR setup** or **Use existing CUR setup**. -->
 
-![New or Existing](https://lh3.googleusercontent.com/d/1kMawyTJyjzPHtEAZI_lLG6901TV-za5Z)
+<!-- ![New or Existing](https://lh3.googleusercontent.com/d/1kMawyTJyjzPHtEAZI_lLG6901TV-za5Z) -->
 
-#### Setting up the CUR and S3 bucket using New CUR setup
+<!-- #### Setting up the CUR and S3 bucket using New CUR setup -->
 
-##### Setup CloudFormation using default configuration
+#### Setup CloudFormation using default configuration
 The CUR export settings and the target S3 bucket will be deployed to us-east-1 region.
 
-1. Select `Default configuration`
-![default](https://lh3.googleusercontent.com/d/16cDOmSnK0NHtiPz9FsEI_ldcQ4S5P7qi)
+<!-- 1. Select `Default configuration`
+![default](https://lh3.googleusercontent.com/d/16cDOmSnK0NHtiPz9FsEI_ldcQ4S5P7qi) -->
 
-2. Click `Open AWS Create Stack Page`
-![Stack page](https://lh3.googleusercontent.com/d/1an-wADEAFCia0CMUzVWJeSVzjFBIBTlS)
+1. Click `Open AWS Create Stack Page`
+![Stack page](https://lh3.googleusercontent.com/d/1EVu3IB6sFVEM-mUbVyXcECdS2c5kaB36)
 
-3. Clicking the button above will take you to your CloudFormation console
+2. Clicking the button above will take you to your CloudFormation console
 
-4. Please make sure that it is deployed on the default `us-east-1` region
+3. Please make sure that it is deployed on the default `us-east-1` region
 ![Default](https://lh3.googleusercontent.com/d/1bfW_M-ZyXeE8SMRIRAZoNY5zRbfhw2Bk)
 
-5. Once you're done, go back to Octo and click `Check and Confirm` to start the verification process
-![Verify New Setup](https://lh3.googleusercontent.com/d/11AfRVtOWofM4BmJCwUPaOwVRS5MFE8H2)
+4. Once you're done, go back to Octo and click `Check and Confirm` to start the verification process
+![Verify New Setup](https://lh3.googleusercontent.com/d/1iDrGxPNqtALBMjKRXSrjQDpQ_zRLO63W)
 
-6. If the verification is successful, you'll have the option to add a sub-account. You can either add and click `Check and Confirm` again to finish, or simply skip the sub-account step
+5. Once, successful, click *Finish*.
+
+<!-- 6. If the verification is successful, you'll have the option to add a sub-account. You can either add and click `Check and Confirm` again to finish, or simply skip the sub-account step
 ![Sub account](https://lh3.googleusercontent.com/d/1w9szAN4XWo0-8I-jdN5wXuCteX7gOkBY)
 
 ##### Setup target S3 bucket in a different region.
@@ -132,9 +147,9 @@ Note, do not change the `Principal`
 6. After that, you have an option to add a sub account, you can click the `Open AWS Create Stack Page` and then click the `Check and Confirm` button to finish
 ![sub account](https://lh3.googleusercontent.com/d/1AAMLWjX2RyVkKmH_EWBH5E5uswawSHo8)
 
-If you prefer not to add a sub-account, simply click `Skip and finish`
+If you prefer not to add a sub-account, simply click `Skip and finish` -->
 
-### Step 5: Adding sub-accounts (linked accounts)
+<!-- ### Step 5: Adding sub-accounts (linked accounts)
 
 !!! note "Optional to add sub-accounts immediately"
     You can skip this step and add the sub-accounts later in the billing account details page in Octo.
@@ -211,7 +226,7 @@ This step uses stackset to deploy API Access in all sub-accounts (linked account
 
     2. When you use a success message banner proceed to click `Finish` to complete the entire process
 
-    ![sub-account-connected-successfully](https://lh3.googleusercontent.com/d/1L2PXV8TH1zZShP2t6Mgm21B0NbsMUnRY)
+    ![sub-account-connected-successfully](https://lh3.googleusercontent.com/d/1L2PXV8TH1zZShP2t6Mgm21B0NbsMUnRY) -->
 
 ## Via Terraform
 
@@ -219,7 +234,7 @@ This step uses stackset to deploy API Access in all sub-accounts (linked account
 
 1. **Select Registration Method**  
    Click `Via other options`, choose Terraform
-    ![Terraform](https://lh3.googleusercontent.com/d/1BVuBUqy9Eju8IWnc3M1wQ7G8I2LlzZQ_)
+   [![Screenshot-2026-03-17-at-14-02-24.png](https://i.postimg.cc/y8sq8FvF/Screenshot-2026-03-17-at-14-02-24.png)](https://postimg.cc/LnCQyZdX)
 
 2. **Basic Details**   
    This step will save your account's Id and name if provided.
@@ -232,7 +247,7 @@ This step uses stackset to deploy API Access in all sub-accounts (linked account
 
     d. If there is no error, then click `Next`
 
-    ![Basic Details](https://lh3.googleusercontent.com/d/1w1wob0ikOhoK42oigOCWxkd6jbRFAUsw)
+[![basic-details.png](https://i.postimg.cc/Vvt6mj47/basic-details.png)](https://postimg.cc/K3ZF536L)
 
 3. Check this [terraform module](https://registry.terraform.io/modules/alphauslabs/octo/aws/latest), from there you can read it's README section for more detailed information about the module and the required inputs.
 
